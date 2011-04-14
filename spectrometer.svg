@@ -99,18 +99,18 @@
    borderopacity="1.0"
    inkscape:pageopacity="0.0"
    inkscape:pageshadow="2"
-   inkscape:zoom="0.70710678"
-   inkscape:cx="142.99605"
-   inkscape:cy="66.221329"
+   inkscape:zoom="2"
+   inkscape:cx="114.55273"
+   inkscape:cy="138.97836"
    inkscape:document-units="px"
    inkscape:current-layer="layer1"
    showgrid="false"
    units="cm"
-   inkscape:window-width="935"
-   inkscape:window-height="531"
-   inkscape:window-x="193"
-   inkscape:window-y="41"
-   inkscape:window-maximized="1" />
+   inkscape:window-width="1280"
+   inkscape:window-height="699"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="0" />
  <metadata
    id="metadata6110">
   <rdf:RDF>
@@ -119,7 +119,7 @@
     <dc:format>image/svg+xml</dc:format>
     <dc:type
       rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-    <dc:title></dc:title>
+    <dc:title />
    </cc:Work>
   </rdf:RDF>
  </metadata>
@@ -177,11 +177,11 @@
     sodipodi:cy="51.169849"
     sodipodi:rx="5.7142859"
     sodipodi:ry="20"
-    d="m 187.85714,51.169849 a 5.7142859,20 0 1 1 -11.42857,0 5.7142859,20 0 1 1 11.42857,0 z"
+    d="m 187.85714,51.169849 c 0,11.045695 -2.55837,20 -5.71429,20 -3.15591,0 -5.71428,-8.954305 -5.71428,-20 0,-11.045695 2.55837,-20 5.71428,-20 3.15592,0 5.71429,8.954305 5.71429,20 z"
     transform="translate(46.096811,847.95135)" />
   <path
     transform="matrix(1.095665,-0.6325825,1.0745242,1.8611306,-127.73356,943.68195)"
-    d="m 187.85714,51.169849 a 5.7142859,20 0 1 1 -11.42857,0 5.7142859,20 0 1 1 11.42857,0 z"
+    d="m 187.85714,51.169849 c 0,11.045695 -2.55837,20 -5.71429,20 -3.15591,0 -5.71428,-8.954305 -5.71428,-20 0,-11.045695 2.55837,-20 5.71428,-20 3.15592,0 5.71429,8.954305 5.71429,20 z"
     sodipodi:ry="20"
     sodipodi:rx="5.7142859"
     sodipodi:cy="51.169849"
@@ -284,7 +284,7 @@
     sodipodi:cy="61.348419"
     sodipodi:rx="3.75"
     sodipodi:ry="7.6785712"
-    d="m 211.96088,65.315062 a 3.75,7.6785712 0 1 1 0.037,-7.805014"
+    d="m 211.96088,65.315062 c -1.06988,3.631086 -3.37476,4.798737 -5.14808,2.608021 -1.77332,-2.190716 -2.34357,-6.91022 -1.27368,-10.541306 1.06988,-3.631087 3.37476,-4.798738 5.14808,-2.608022 0.54282,0.670585 0.99375,1.612009 1.31065,2.736293"
     transform="matrix(0.96592583,-0.25881905,0.29664933,1.1071104,-35.925588,863.71331)"
     sodipodi:start="0.54285891"
     sodipodi:end="5.759724"
@@ -322,27 +322,27 @@
     xml:space="preserve"
     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
     x="157.90579"
-    y="993.89026"
+    y="999.89026"
     id="text8757"
     sodipodi:linespacing="125%"><tspan
      sodipodi:role="line"
      x="157.90579"
-     y="993.89026"
+     y="999.89026"
      id="tspan8761">$\begin{array}{c}\text{Vertical horizontal}\\</tspan><tspan
      sodipodi:role="line"
      x="157.90579"
-     y="1008.8903"
+     y="1014.8903"
      id="tspan7836">\text{translation mount}\end{array}$</tspan></text>
   <text
     xml:space="preserve"
     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
-    x="44.781754"
+    x="36.781754"
     y="865.32397"
     id="text7848"
     sodipodi:linespacing="125%"><tspan
      sodipodi:role="line"
      id="tspan7850"
-     x="44.781754"
+     x="36.781754"
      y="865.32397">Rotation mount</tspan></text>
   <text
     xml:space="preserve"
@@ -369,13 +369,13 @@
   <text
     xml:space="preserve"
     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
-    x="10.167501"
+    x="4.1675014"
     y="902.10828"
     id="text7860"
     sodipodi:linespacing="125%"><tspan
      sodipodi:role="line"
      id="tspan7862"
-     x="10.167501"
+     x="4.1675014"
      y="902.10828">Focus lens</tspan></text>
   <path
     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Mend)"

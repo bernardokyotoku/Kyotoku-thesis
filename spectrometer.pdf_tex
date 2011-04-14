@@ -46,11 +46,11 @@
     \put(0,0){\includegraphics[width=\unitlength]{spectrometer.pdf}}%
     \put(0.54116362,0.33342355){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\begin{array}{c}\text{Diffraction}\\
 \text{grating}\end{array}$}}}%
-    \put(0.55705654,0.20627132){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\begin{array}{c}\text{Vertical horizontal}\\
+    \put(0.55705654,0.18510465){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\begin{array}{c}\text{Vertical horizontal}\\
 \text{translation mount}\end{array}$}}}%
-    \put(0.15798007,0.6598246){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Rotation mount}}}%
+    \put(0.12975785,0.6598246){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Rotation mount}}}%
     \put(0.70024612,0.69490083){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Colimation lens}}}%
     \put(0.02850869,0.05879927){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Linear CCD camera}}}%
-    \put(0.03586869,0.53005775){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Focus lens}}}%
+    \put(0.01470202,0.53005775){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Focus lens}}}%
   \end{picture}%
 \endgroup

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2010.8.31)  14 APR 2011 08:42
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2010.8.31)  14 APR 2011 10:29
 entering extended mode
  %&-line parsing enabled.
 **thesis
@@ -1366,14 +1366,14 @@ Chapter 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 99.
 (./interferometer.pdf_tex
-<interferometer.pdf, id=478, 227.62204pt x 170.71654pt>
+<interferometer.pdf, id=488, 227.62204pt x 170.71654pt>
 File: interferometer.pdf Graphic file (type pdf)
 
 <use interferometer.pdf>) [3
 
 ] [4 <./interferometer.pdf>]
 (./interferometerGraphics.pdf_tex
-<InterferometerGraphics.pdf, id=508, 483.69682pt x 170.71654pt>
+<InterferometerGraphics.pdf, id=518, 483.69682pt x 170.71654pt>
 File: InterferometerGraphics.pdf Graphic file (type pdf)
 
 <use InterferometerGraphics.pdf>) [5 <./InterferometerGraphics.pdf>]
@@ -1386,23 +1386,23 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 168.
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [6]
 (./interferometerSample.pdf_tex
-<interferometerSample.pdf, id=567, 214.0614pt x 112.62448pt>
+<interferometerSample.pdf, id=577, 214.0614pt x 112.62448pt>
 File: interferometerSample.pdf Graphic file (type pdf)
 
 <use interferometerSample.pdf>) (./interferogram-TD.pdf_tex
-<interferogram-TD.pdf, id=569, 227.62204pt x 170.71654pt>
+<interferogram-TD.pdf, id=579, 227.62204pt x 170.71654pt>
 File: interferogram-TD.pdf Graphic file (type pdf)
 
 <use interferogram-TD.pdf>) [7 <./interferometerSample.pdf> <./interferogram-TD
-.pdf>] (./fdl.pdf_tex <fdl.pdf, id=593, 227.62204pt x 170.71654pt>
+.pdf>] (./fdl.pdf_tex <fdl.pdf, id=603, 227.62204pt x 170.71654pt>
 File: fdl.pdf Graphic file (type pdf)
 
 <use fdl.pdf>) [8] [9 <./fdl.pdf>] (./FDL-whole-setup.pdf_tex
-<FDL-whole-setup.pdf, id=623, 227.62204pt x 170.71654pt>
+<FDL-whole-setup.pdf, id=633, 227.62204pt x 170.71654pt>
 File: FDL-whole-setup.pdf Graphic file (type pdf)
 
 <use FDL-whole-setup.pdf>) (./FDL-setup.pdf_tex
-<FDL-setup.pdf, id=625, 227.62204pt x 170.71654pt>
+<FDL-setup.pdf, id=635, 227.62204pt x 170.71654pt>
 File: FDL-setup.pdf Graphic file (type pdf)
  <use FDL-setup.pdf>)
 LaTeX Font Info:    Try loading font information for LGR+lmr on input line 368.
@@ -1421,11 +1421,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [13
 
 ] [14] (./freqInterferometerGraph.pdf_tex
-<freqInterferometerGraph.pdf, id=733, 227.62204pt x 170.71654pt>
+<freqInterferometerGraph.pdf, id=743, 227.62204pt x 170.71654pt>
 File: freqInterferometerGraph.pdf Graphic file (type pdf)
 
 <use freqInterferometerGraph.pdf>) (./BiLayerInterferometer.pdf_tex
-<BiLayerInterferometer.pdf, id=735, 227.62204pt x 170.71654pt>
+<BiLayerInterferometer.pdf, id=745, 227.62204pt x 170.71654pt>
 File: BiLayerInterferometer.pdf Graphic file (type pdf)
 
 <use BiLayerInterferometer.pdf>) [15 <./freqInterferometerGraph.pdf> <./BiLayer
@@ -1437,162 +1437,135 @@ Overfull \hbox (5.48586pt too wide) detected at line 433
  []
 
 (./graphInterferenceBiLayer.pdf_tex
-<graphInterferenceBiLayer.pdf, id=749, 227.62204pt x 170.71654pt>
+<graphInterferenceBiLayer.pdf, id=759, 227.62204pt x 170.71654pt>
 File: graphInterferenceBiLayer.pdf Graphic file (type pdf)
 
 <use graphInterferenceBiLayer.pdf>) (./graphInterferenceBiLayerFT.pdf_tex
-<graphInterferenceBiLayerFT.pdf, id=751, 227.62204pt x 170.71654pt>
+<graphInterferenceBiLayerFT.pdf, id=761, 227.62204pt x 170.71654pt>
 File: graphInterferenceBiLayerFT.pdf Graphic file (type pdf)
 
 <use graphInterferenceBiLayerFT.pdf>) [16 <./graphInterferenceBiLayer.pdf> <./g
-raphInterferenceBiLayerFT.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17]
-(./SROCT1.pdf_tex <SROCT1.pdf, id=782, 227.62204pt x 170.71654pt>
+raphInterferenceBiLayerFT.pdf>] [17] (./SROCT1.pdf_tex
+<SROCT1.pdf, id=794, 227.62204pt x 170.71654pt>
 File: SROCT1.pdf Graphic file (type pdf)
+ <use SROCT1.pdf>) [18 <./SROCT1.pdf>]
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 541.
 
-<use SROCT1.pdf>) [18 <./SROCT1.pdf>]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 539.
-
-
-(/usr/local/texlive/2009/texmf-dist/tex/latex/lm/ts1lmr.fd
+ (/usr/local/texlive/2009/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) (./SROCT.pdf_tex
-<SROCT.pdf, id=806, 227.62204pt x 170.71654pt>
-File: SROCT.pdf Graphic file (type pdf)
- <use SROCT.pdf>)
-(./spectrometer.pdf_tex <spectrometer.pdf, id=808, 227.62204pt x 170.71654pt>
+)
+(./spectrometer.pdf_tex <spectrometer.pdf, id=817, 227.62204pt x 170.71654pt>
 File: spectrometer.pdf Graphic file (type pdf)
 
-<use spectrometer.pdf>) [19 <./SROCT.pdf> <./spectrometer.pdf>]
+<use spectrometer.pdf>) (./SROCT.pdf_tex
+<SROCT.pdf, id=819, 227.62204pt x 170.71654pt>
+File: SROCT.pdf Graphic file (type pdf)
+ <use SROCT.pdf>)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 573.
+               Default added (so using `tbp') on input line 575.
 
-(./claudiafig3.pdf_tex <claudiaFig3.pdf, id=912, 484.7241pt x 115.41846pt>
+(./claudiafig3.pdf_tex <claudiaFig3.pdf, id=851, 484.7241pt x 115.41846pt>
 File: claudiaFig3.pdf Graphic file (type pdf)
 
-<use claudiaFig3.pdf>) [20] [21 <./claudiaFig3.pdf>] [22
+<use claudiaFig3.pdf>) [20 <./spectrometer.pdf> <./SROCT.pdf>] [21 <./claudiaFi
+g3.pdf>] [22
 
 ]
 Chapter 3.
-[23] <frc-1.png, id=989, 557.08125pt x 341.275pt>
+[23] <frc-1.png, id=1002, 557.08125pt x 341.275pt>
 File: frc-1.png Graphic file (type png)
  <use frc-1.png>
-<FRC-setup.pdf, id=990, 166.5913pt x 132.0935pt>
+<FRC-setup.pdf, id=1003, 166.5913pt x 132.0935pt>
 File: FRC-setup.pdf Graphic file (type pdf)
- <use FRC-setup.pdf>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<frc-2-a.png, id=995, 467.7475pt x 331.2375pt>
+ <use FRC-setup.pdf> [24]
+<frc-2-a.png, id=1025, 467.7475pt x 331.2375pt>
 File: frc-2-a.png Graphic file (type png)
  <use frc-2-a.png>
-<frc-2-b.png, id=996, 467.7475pt x 331.2375pt>
+<frc-2-b.png, id=1026, 467.7475pt x 331.2375pt>
 File: frc-2-b.png Graphic file (type png)
- <use frc-2-b.png> [24]
-Underfull \vbox (badness 1735) has occurred while \output is active []
-
- [25 <./frc-1.png (PNG copy)> <./FRC-setup.pdf> <./frc-2-a.png (PNG copy)> <./f
-rc-2-b.png (PNG copy)>] [26]
-Underfull \vbox (badness 1087) has occurred while \output is active []
-
- [27]
-(./debora-2.pdf_tex <debora-2.pdf, id=1082, 350.03632pt x 151.13295pt>
+ <use frc-2-b.png> [25 <./frc-1.png (PNG copy)> <./FRC-setup.pdf> <./frc-2-a.pn
+g (PNG copy)> <./frc-2-b.png (PNG copy)>] [26] [27] (./debora-2.pdf_tex
+<debora-2.pdf, id=1095, 350.03632pt x 151.13295pt>
 File: debora-2.pdf Graphic file (type pdf)
-
-<use debora-2.pdf>)
+ <use debora-2.pdf>)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(./debora-3.pdf_tex <debora-3.pdf, id=1090, 423.85213pt x 118.43416pt>
+(./debora-3.pdf_tex <debora-3.pdf, id=1103, 423.85213pt x 118.43416pt>
 File: debora-3.pdf Graphic file (type pdf)
 
-<use debora-3.pdf>)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(./debora-4.pdf_tex <debora-4.pdf, id=1103, 480.89713pt x 99.3701pt>
+<use debora-3.pdf>) [28] (./debora-4.pdf_tex
+<debora-4.pdf, id=1124, 480.89713pt x 99.3701pt>
 File: debora-4.pdf Graphic file (type pdf)
+ <use debora-4.pdf>) [29 <./debora-2.pdf> <./debora-3.pdf>] (./debora-5.pdf_tex
 
-<use debora-4.pdf>) [28]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(./debora-5.pdf_tex <debora-5.pdf, id=1116, 376.16496pt x 107.93811pt>
+<debora-5.pdf, id=1156, 376.16496pt x 107.93811pt>
 File: debora-5.pdf Graphic file (type pdf)
+ <use debora-5.pdf>) [30 <./debora-4.pdf> <./debora-5.pdf>] (./debora-6.pdf_tex
 
-<use debora-5.pdf>) [29 <./debora-2.pdf> <./debora-3.pdf>] (./debora-6.pdf_tex
-<debora-6.pdf, id=1154, 123.77232pt x 113.81175pt>
+<debora-6.pdf, id=1195, 123.77232pt x 113.81175pt>
 File: debora-6.pdf Graphic file (type pdf)
- <use debora-6.pdf>) [30 <./debora-4.pdf> <./debora-5.pdf>]
-Underfull \vbox (badness 6016) has occurred while \output is active []
-
- [31 <./debora-6.pdf>] <claudiaFig1.pdf, id=1200, 483.69682pt x 170.71654pt>
+ <use debora-6.pdf>) [31 <./debora-6.pdf>] <claudiaFig1.pdf, id=1213, 483.69682
+pt x 170.71654pt>
 File: claudiaFig1.pdf Graphic file (type pdf)
 
-<use claudiaFig1.pdf> [32]
-Overfull \hbox (13.23969pt too wide) has occurred while \output is active
-\T1/lmr/m/sl/12 3.3.  CLINICAL USE OF OCT TO EVALUATE INTEGRITY OF DENTAL RESTO
-RATIONS \T1/lmr/m/n/12 33
- []
-
-[33 <./claudiaFig1.pdf>]
-Underfull \hbox (badness 7944) in paragraph at lines 784--785
+<use claudiaFig1.pdf> [32] [33 <./claudiaFig1.pdf>]
+Underfull \hbox (badness 7944) in paragraph at lines 786--787
 []\T1/lmr/m/n/12 X-Ray exam
  []
 
 
-Overfull \hbox (16.94371pt too wide) in paragraph at lines 776--806
+Overfull \hbox (16.94371pt too wide) in paragraph at lines 778--808
   [] 
  []
 
-(./claudiaFig4.pdf_tex <claudiaFig4.pdf, id=1248, 389.62697pt x 283.47697pt>
+(./claudiaFig4.pdf_tex <claudiaFig4.pdf, id=1261, 389.62697pt x 283.47697pt>
 File: claudiaFig4.pdf Graphic file (type pdf)
 
 <use claudiaFig4.pdf>)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(./claudiaFig5.pdf_tex <claudiaFig5.pdf, id=1253, 412.62366pt x 284.52753pt>
+(./claudiaFig5.pdf_tex <claudiaFig5.pdf, id=1266, 412.62366pt x 284.52753pt>
 File: claudiaFig5.pdf Graphic file (type pdf)
 
 <use claudiaFig5.pdf>) [34]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(./claudiaFig6.pdf_tex <claudiaFig6.pdf, id=1266, 334.97379pt x 284.64987pt>
+(./claudiaFig6.pdf_tex <claudiaFig6.pdf, id=1279, 334.97379pt x 284.64987pt>
 File: claudiaFig6.pdf Graphic file (type pdf)
 
 <use claudiaFig6.pdf>)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(./claudiaFig7.pdf_tex <claudiaFig7.pdf, id=1273, 151.50722pt x 170.48326pt>
+(./claudiaFig7.pdf_tex <claudiaFig7.pdf, id=1286, 151.50722pt x 170.48326pt>
 File: claudiaFig7.pdf Graphic file (type pdf)
 
 <use claudiaFig7.pdf>) (./claudiaFig8.pdf_tex
-<claudiaFig8.pdf, id=1275, 193.63416pt x 169.84906pt>
+<claudiaFig8.pdf, id=1288, 193.63416pt x 169.84906pt>
 File: claudiaFig8.pdf Graphic file (type pdf)
  <use claudiaFig8.pdf>)
-Underfull \hbox (badness 2197) in paragraph at lines 843--843
+Underfull \hbox (badness 2197) in paragraph at lines 845--845
 []\T1/lmr/m/n/12 Figure 3.3.6: []Sequence of an in-cisal
  []
 
-(./claudiaFig9.pdf_tex <claudiaFig9.pdf, id=1281, 107.99536pt x 170.03525pt>
+(./claudiaFig9.pdf_tex <claudiaFig9.pdf, id=1294, 107.99536pt x 170.03525pt>
 File: claudiaFig9.pdf Graphic file (type pdf)
 
 <use claudiaFig9.pdf>)
 Underfull \vbox (badness 3049) has occurred while \output is active []
 
-
-Overfull \hbox (13.23969pt too wide) has occurred while \output is active
-\T1/lmr/m/sl/12 3.3.  CLINICAL USE OF OCT TO EVALUATE INTEGRITY OF DENTAL RESTO
-RATIONS \T1/lmr/m/n/12 35
- []
-
-[35 <./claudiaFig4.pdf>]
+ [35 <./claudiaFig4.pdf>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1605,29 +1578,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [36 <./claudiaFig5.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Overfull \hbox (13.23969pt too wide) has occurred while \output is active
-\T1/lmr/m/sl/12 3.3.  CLINICAL USE OF OCT TO EVALUATE INTEGRITY OF DENTAL RESTO
-RATIONS \T1/lmr/m/n/12 37
- []
-
-[37 <./claudiaFig6.pdf>] [38 <./claudiaFig7.pdf> <./claudiaFig8.pdf>]
-Overfull \hbox (13.23969pt too wide) has occurred while \output is active
-\T1/lmr/m/sl/12 3.3.  CLINICAL USE OF OCT TO EVALUATE INTEGRITY OF DENTAL RESTO
-RATIONS \T1/lmr/m/n/12 39
- []
-
-[39 <./claudiaFig9.pdf>] [40]
-Overfull \hbox (13.23969pt too wide) has occurred while \output is active
-\T1/lmr/m/sl/12 3.3.  CLINICAL USE OF OCT TO EVALUATE INTEGRITY OF DENTAL RESTO
-RATIONS \T1/lmr/m/n/12 41
- []
-
-[41] [42
+ [37 <./claudiaFig6.pdf>] [38 <./claudiaFig7.pdf> <./claudiaFig8.pdf>] [39 <./c
+laudiaFig9.pdf>] [40] [41] [42
 
 ]
 Chapter 4.
-[43] <figures/slab.pdf, id=1443, 354.1969pt x 154.54007pt>
+[43] <figures/slab.pdf, id=1456, 354.1969pt x 154.54007pt>
 File: figures/slab.pdf Graphic file (type pdf)
 
 <use figures/slab.pdf> [44 <./figures/slab.pdf>]
@@ -1638,7 +1594,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [46]
 [47] (./ring-schematics.pdf_tex
-<ring-schematics.pdf, id=1541, 227.62204pt x 170.71654pt>
+<ring-schematics.pdf, id=1554, 227.62204pt x 170.71654pt>
 File: ring-schematics.pdf Graphic file (type pdf)
 
 <use ring-schematics.pdf>)
@@ -1648,10 +1604,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [49]
-<exp_decay.pdf, id=1573, 518.53723pt x 157.18726pt>
+(./exp_decay.pdf_tex <exp_decay.pdf, id=1586, 518.53723pt x 157.18726pt>
 File: exp_decay.pdf Graphic file (type pdf)
- <use exp_decay.pdf>
-Overfull \hbox (34.8391pt too wide) in paragraph at lines 1163--1164
+
+<use exp_decay.pdf>)
+Overfull \hbox (32.90314pt too wide) in paragraph at lines 73--1166
  [][] 
  []
 
@@ -1660,24 +1617,24 @@ Overfull \hbox (34.8391pt too wide) in paragraph at lines 1163--1164
 ]
 Chapter 5.
 (./aperture_diffraction.pdf_tex
-<aperture_diffraction.pdf, id=1640, 227.62204pt x 170.71654pt>
+<aperture_diffraction.pdf, id=1674, 227.62204pt x 170.71654pt>
 File: aperture_diffraction.pdf Graphic file (type pdf)
 
 <use aperture_diffraction.pdf>) (./aperture_coord.pdf_tex
-<aperture_coord.pdf, id=1642, 227.62204pt x 170.71654pt>
+<aperture_coord.pdf, id=1676, 227.62204pt x 170.71654pt>
 File: aperture_coord.pdf Graphic file (type pdf)
 
 <use aperture_coord.pdf>) [53 <./aperture_diffraction.pdf> <./aperture_coord.pd
 f>] [54] (./grating-ex.pdf_tex
-<grating-ex.pdf, id=1670, 455.2441pt x 142.26376pt>
+<grating-ex.pdf, id=1704, 455.2441pt x 142.26376pt>
 File: grating-ex.pdf Graphic file (type pdf)
  <use grating-ex.pdf>)
 [55 <./grating-ex.pdf>] (./grating-ray.pdf_tex
-<grating-ray.pdf, id=1687, 227.62204pt x 170.71654pt>
+<grating-ray.pdf, id=1721, 227.62204pt x 170.71654pt>
 File: grating-ray.pdf Graphic file (type pdf)
  <use grating-ray.pdf>)
 [56] [57 <./grating-ray.pdf>]
-<diffraction-grating-basic.pdf, id=1714, 433.62pt x 578.16pt>
+<diffraction-grating-basic.pdf, id=1748, 433.62pt x 578.16pt>
 File: diffraction-grating-basic.pdf Graphic file (type pdf)
 
 <use diffraction-grating-basic.pdf>
@@ -1685,13 +1642,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [58]
 [59 <./diffraction-grating-basic.pdf>] [60] (./czerny-turner.pdf_tex
-<czerny-turner.pdf, id=1743, 307.8861pt x 144.32373pt>
+<czerny-turner.pdf, id=1777, 307.8861pt x 144.32373pt>
 File: czerny-turner.pdf Graphic file (type pdf)
  <use czerny-turner.pdf>)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(./slit_width.pdf_tex <slit_width.pdf, id=1746, 455.2441pt x 113.81102pt>
+(./slit_width.pdf_tex <slit_width.pdf, id=1780, 455.2441pt x 113.81102pt>
 File: slit_width.pdf Graphic file (type pdf)
 
 <use slit_width.pdf>)
@@ -1699,18 +1656,18 @@ File: slit_width.pdf Graphic file (type pdf)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [61] [62 <./czerny-turner.pdf> <./slit_width.pdf>] (./rowland-mounting.pdf_tex
-<rowland-mounting.pdf, id=1798, 455.2441pt x 113.81102pt>
+<rowland-mounting.pdf, id=1832, 455.2441pt x 113.81102pt>
 File: rowland-mounting.pdf Graphic file (type pdf)
 
 <use rowland-mounting.pdf>) (./awg.pdf_tex
-<awg.pdf, id=1803, 253.41573pt x 165.75896pt>
+<awg.pdf, id=1837, 253.41573pt x 165.75896pt>
 File: awg.pdf Graphic file (type pdf)
  <use awg.pdf>)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [63 <./rowland-mounting.pdf>] (./gaussian-beam.pdf_tex
-<gaussian-beam.pdf, id=1825, 455.2441pt x 142.26376pt>
+<gaussian-beam.pdf, id=1859, 455.2441pt x 142.26376pt>
 File: gaussian-beam.pdf Graphic file (type pdf)
  <use gaussian-beam.pdf>)
 
@@ -1720,26 +1677,26 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [65 <./gaussian-beam.pdf>] [66] (./aberration-free.pdf_tex
-<aberration-free.pdf, id=1877, 455.2441pt x 142.26376pt>
+<aberration-free.pdf, id=1911, 455.2441pt x 142.26376pt>
 File: aberration-free.pdf Graphic file (type pdf)
 
 <use aberration-free.pdf>) [67 <./aberration-free.pdf>] [68] (./KH.pdf_tex
-<KH.pdf, id=1935, 363.39632pt x 156.71466pt>
+<KH.pdf, id=1969, 363.39632pt x 156.71466pt>
 File: KH.pdf Graphic file (type pdf)
  <use KH.pdf>) [69 <./KH.pdf>]
-<random-offline-test.pdf, id=1948, 243.91125pt x 186.09525pt>
+<random-offline-test.pdf, id=1982, 243.91125pt x 186.09525pt>
 File: random-offline-test.pdf Graphic file (type pdf)
 
 <use random-offline-test.pdf>
-Overfull \hbox (11.73822pt too wide) in paragraph at lines 1682--1683
+Overfull \hbox (11.73822pt too wide) in paragraph at lines 1684--1685
 [][] 
  []
 
-<graphs/aberrationComp.pdf, id=1949, 243.91125pt x 186.09525pt>
+<graphs/aberrationComp.pdf, id=1983, 243.91125pt x 186.09525pt>
 File: graphs/aberrationComp.pdf Graphic file (type pdf)
 
 <use graphs/aberrationComp.pdf>
-Overfull \hbox (11.73822pt too wide) in paragraph at lines 1688--1689
+Overfull \hbox (11.73822pt too wide) in paragraph at lines 1690--1691
 [][] 
  []
 
@@ -1747,32 +1704,32 @@ Overfull \hbox (11.73822pt too wide) in paragraph at lines 1688--1689
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [70 <./random-offline-test.pdf> <./graphs/aberrationComp.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 1709--1709
+Underfull \hbox (badness 10000) in paragraph at lines 1711--1711
 [][][][]$\T1/lmtt/m/n/10 http : / / www . jeol . com / PRODUCTS / Semiconductor
 Equipment / ElectronBeamLithography / JBX9300FS /
  []
 
 (./linearDispersionSchematics.pdf_tex
-<linearDispersionSchematics.pdf, id=1988, 227.62204pt x 142.26376pt>
+<linearDispersionSchematics.pdf, id=2028, 227.62204pt x 142.26376pt>
 File: linearDispersionSchematics.pdf Graphic file (type pdf)
 
 <use linearDispersionSchematics.pdf>) (./output-shadow.pdf_tex
-<output-shadow.pdf, id=1990, 232.35577pt x 142.99806pt>
+<output-shadow.pdf, id=2030, 232.35577pt x 142.99806pt>
 File: output-shadow.pdf Graphic file (type pdf)
 
 <use output-shadow.pdf>) [71] [72 <./linearDispersionSchematics.pdf> <./output-
-shadow.pdf>] <./wdm.pdf, id=2017, 615.29875pt x 285.065pt>
+shadow.pdf>] <./wdm.pdf, id=2057, 615.29875pt x 285.065pt>
 File: ./wdm.pdf Graphic file (type pdf)
  <use ./wdm.pdf>
-<graphs/slabDispersion.pdf, id=2019, 245.718pt x 173.448pt>
+<graphs/slabDispersion.pdf, id=2059, 245.718pt x 173.448pt>
 File: graphs/slabDispersion.pdf Graphic file (type pdf)
 
 <use graphs/slabDispersion.pdf>
-<graphs/slabGroupDispersion.pdf, id=2020, 245.718pt x 173.448pt>
+<graphs/slabGroupDispersion.pdf, id=2060, 245.718pt x 173.448pt>
 File: graphs/slabGroupDispersion.pdf Graphic file (type pdf)
 
 <use graphs/slabGroupDispersion.pdf>
-Overfull \hbox (7.73792pt too wide) in paragraph at lines 1752--1753
+Overfull \hbox (7.73792pt too wide) in paragraph at lines 1754--1755
 [][][] 
  []
 
@@ -1780,29 +1737,29 @@ Overfull \hbox (7.73792pt too wide) in paragraph at lines 1752--1753
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [73 <./wdm.pdf>]
-Overfull \hbox (2.98521pt too wide) in paragraph at lines 1759--1760
+Overfull \hbox (2.98521pt too wide) in paragraph at lines 1761--1762
 \T1/lmr/m/n/12 The fab-ri-ca-tion was done in the []Cor-nell Nanoscale Fa-cil-i
 ty (CNF)[][][][]. A re-search micro-fabrication
  []
 
-(./fab.pdf_tex <fab.pdf, id=2040, 483.69682pt x 483.69682pt>
+(./fab.pdf_tex <fab.pdf, id=2080, 483.69682pt x 483.69682pt>
 File: fab.pdf Graphic file (type pdf)
  <use fab.pdf>)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [74 <./graphs/slabDispersion.pdf> <./graphs/slabGroupDispersion.pdf>] (./setup
 .pdf_tex
-<setup.pdf, id=2076, 433.45851pt x 290.17644pt>
+<setup.pdf, id=2118, 433.45851pt x 290.17644pt>
 File: setup.pdf Graphic file (type pdf)
  <use setup.pdf>)
-(./setup1.pdf_tex <setup1.pdf, id=2078, 455.2441pt x 142.26376pt>
+(./setup1.pdf_tex <setup1.pdf, id=2120, 455.2441pt x 142.26376pt>
 File: setup1.pdf Graphic file (type pdf)
 
 <use setup1.pdf>) [75 <./fab.pdf>]
-<graphs/gen5.pdf, id=2091, 505.89pt x 289.08pt>
+<graphs/gen5.pdf, id=2133, 505.89pt x 289.08pt>
 File: graphs/gen5.pdf Graphic file (type pdf)
  <use graphs/gen5.pdf>
-Overfull \hbox (22.19188pt too wide) in paragraph at lines 1788--1789
+Overfull \hbox (22.19188pt too wide) in paragraph at lines 1790--1791
 [][] 
  []
 
@@ -1811,15 +1768,15 @@ Overfull \hbox (22.19188pt too wide) in paragraph at lines 1788--1789
 ]
 Chapter 6.
 (./resonator-enhanced-sep.pdf_tex
-<resonator-enhanced-sep.pdf, id=2127, 227.62204pt x 170.71654pt>
+<resonator-enhanced-sep.pdf, id=2169, 227.62204pt x 170.71654pt>
 File: resonator-enhanced-sep.pdf Graphic file (type pdf)
 
 <use resonator-enhanced-sep.pdf>)
-<ring-enhaced-sep.pdf, id=2129, 243.91125pt x 186.09525pt>
+<ring-enhaced-sep.pdf, id=2171, 243.91125pt x 186.09525pt>
 File: ring-enhaced-sep.pdf Graphic file (type pdf)
 
 <use ring-enhaced-sep.pdf>
-Overfull \hbox (6.89653pt too wide) in paragraph at lines 1809--1810
+Overfull \hbox (6.89653pt too wide) in paragraph at lines 1811--1812
 [][] 
  []
 
@@ -1827,15 +1784,15 @@ Overfull \hbox (6.89653pt too wide) in paragraph at lines 1809--1810
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 (./resonator-enhanced-tog.pdf_tex
-<resonator-enhanced-tog.pdf, id=2132, 227.62204pt x 170.71654pt>
+<resonator-enhanced-tog.pdf, id=2174, 227.62204pt x 170.71654pt>
 File: resonator-enhanced-tog.pdf Graphic file (type pdf)
 
 <use resonator-enhanced-tog.pdf>)
-<ring-enhaced-tog.pdf, id=2134, 243.91125pt x 186.09525pt>
+<ring-enhaced-tog.pdf, id=2176, 243.91125pt x 186.09525pt>
 File: ring-enhaced-tog.pdf Graphic file (type pdf)
 
 <use ring-enhaced-tog.pdf>
-Overfull \hbox (6.89653pt too wide) in paragraph at lines 1822--1823
+Overfull \hbox (6.89653pt too wide) in paragraph at lines 1824--1825
 [][] 
  []
 
@@ -1843,24 +1800,24 @@ Overfull \hbox (6.89653pt too wide) in paragraph at lines 1822--1823
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [79] [80 <./resonator-enhanced-sep.pdf> <./ring-enhaced-sep.pdf>]
-(./fab2.pdf_tex <fab2.pdf, id=2176, 483.69682pt x 426.79132pt>
+(./fab2.pdf_tex <fab2.pdf, id=2218, 483.69682pt x 426.79132pt>
 File: fab2.pdf Graphic file (type pdf)
  <use fab2.pdf>)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(./chip2.pdf_tex <chip2.pdf, id=2178, 490.9285pt x 361.63571pt>
+(./chip2.pdf_tex <chip2.pdf, id=2220, 490.9285pt x 361.63571pt>
 File: chip2.pdf Graphic file (type pdf)
 
 <use chip2.pdf>)
-Overfull \hbox (5.39752pt too wide) in paragraph at lines 69--1854
+Overfull \hbox (5.39752pt too wide) in paragraph at lines 69--1856
  [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(./setup2.pdf_tex <setup2.pdf, id=2181, 455.2441pt x 142.26376pt>
+(./setup2.pdf_tex <setup2.pdf, id=2223, 455.2441pt x 142.26376pt>
 File: setup2.pdf Graphic file (type pdf)
 
 <use setup2.pdf>)
@@ -1870,18 +1827,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<ring-through.pdf, id=2206, 243.91125pt x 186.09525pt>
+<ring-through.pdf, id=2248, 243.91125pt x 186.09525pt>
 File: ring-through.pdf Graphic file (type pdf)
  <use ring-through.pdf>
-Overfull \hbox (6.89653pt too wide) in paragraph at lines 1870--1871
+Overfull \hbox (6.89653pt too wide) in paragraph at lines 1872--1873
 [][] 
  []
 
-<ring-through-zoom.pdf, id=2207, 243.91125pt x 186.09525pt>
+<ring-through-zoom.pdf, id=2249, 243.91125pt x 186.09525pt>
 File: ring-through-zoom.pdf Graphic file (type pdf)
 
 <use ring-through-zoom.pdf>
-Overfull \hbox (6.89653pt too wide) in paragraph at lines 1875--1876
+Overfull \hbox (6.89653pt too wide) in paragraph at lines 1877--1878
 [][] 
  []
 
@@ -1889,11 +1846,11 @@ Overfull \hbox (6.89653pt too wide) in paragraph at lines 1875--1876
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<graphs/low-density-ring-enhanced.pdf, id=2219, 518.53723pt x 229.45726pt>
+<graphs/low-density-ring-enhanced.pdf, id=2261, 518.53723pt x 229.45726pt>
 File: graphs/low-density-ring-enhanced.pdf Graphic file (type pdf)
 
 <use graphs/low-density-ring-enhanced.pdf>
-Overfull \hbox (37.45016pt too wide) in paragraph at lines 1882--1884
+Overfull \hbox (37.45016pt too wide) in paragraph at lines 1884--1886
   [] 
  []
 
@@ -1901,31 +1858,31 @@ Overfull \hbox (37.45016pt too wide) in paragraph at lines 1882--1884
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(./tandem.pdf_tex <tandem.pdf, id=2246, 227.62204pt x 170.71654pt>
+(./tandem.pdf_tex <tandem.pdf, id=2288, 227.62204pt x 170.71654pt>
 File: tandem.pdf Graphic file (type pdf)
 
 <use tandem.pdf>) (./serial-time.pdf_tex
-<serial-time.pdf, id=2248, 227.62204pt x 170.71654pt>
+<serial-time.pdf, id=2290, 227.62204pt x 170.71654pt>
 File: serial-time.pdf Graphic file (type pdf)
  <use serial-time.pdf>)
 [84 <./setup2.pdf> <./ring-through.pdf> <./ring-through-zoom.pdf>] [85 <./graph
 s/low-density-ring-enhanced.pdf> <./tandem.pdf> <./serial-time.pdf>]
-<resonance-tempshift.pdf, id=2303, 231.26399pt x 173.448pt>
+<resonance-tempshift.pdf, id=2345, 231.26399pt x 173.448pt>
 File: resonance-tempshift.pdf Graphic file (type pdf)
 
 <use resonance-tempshift.pdf>
-<tempshift-fit.pdf, id=2304, 243.91125pt x 186.09525pt>
+<tempshift-fit.pdf, id=2346, 243.91125pt x 186.09525pt>
 File: tempshift-fit.pdf Graphic file (type pdf)
 
 <use tempshift-fit.pdf>
-Overfull \hbox (6.89653pt too wide) in paragraph at lines 1920--1921
+Overfull \hbox (6.89653pt too wide) in paragraph at lines 1922--1923
 [][] 
  []
 
-<ring-cal-fit.pdf, id=2305, 243.91125pt x 186.09525pt>
+<ring-cal-fit.pdf, id=2347, 243.91125pt x 186.09525pt>
 File: ring-cal-fit.pdf Graphic file (type pdf)
  <use ring-cal-fit.pdf>
-Overfull \hbox (6.89653pt too wide) in paragraph at lines 1927--1928
+Overfull \hbox (6.89653pt too wide) in paragraph at lines 1929--1930
 [][] 
  []
 
@@ -1933,15 +1890,15 @@ Overfull \hbox (6.89653pt too wide) in paragraph at lines 1927--1928
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [86 <./resonance-tempshift.pdf> <./tempshift-fit.pdf>]
-<graphs/hundred.pdf, id=2340, 518.53723pt x 229.45726pt>
+<graphs/hundred.pdf, id=2384, 518.53723pt x 229.45726pt>
 File: graphs/hundred.pdf Graphic file (type pdf)
 
 <use graphs/hundred.pdf>
-Overfull \hbox (37.45016pt too wide) in paragraph at lines 1935--1937
+Overfull \hbox (37.45016pt too wide) in paragraph at lines 1937--1939
   [] 
  []
 
-<graphs/hundred_density.pdf, id=2342, 443.2164pt x 174.19307pt>
+<graphs/hundred_density.pdf, id=2386, 443.2164pt x 174.19307pt>
 File: graphs/hundred_density.pdf Graphic file (type pdf)
 
 <use graphs/hundred_density.pdf>
@@ -1952,32 +1909,32 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 pdf>] [89] [90
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2012--2012
+Underfull \hbox (badness 10000) in paragraph at lines 2014--2014
 [][]  \T1/lmr/m/n/12 D Chowd-hury   and C Inc.   ``  De-sign of low-loss and po
 larization-insensitive
  []
 
 
-Underfull \hbox (badness 2564) in paragraph at lines 2012--2012
+Underfull \hbox (badness 2564) in paragraph at lines 2014--2014
 \T1/lmr/m/n/12 reflectiongrating-based pla-nar de-mul-ti-plex-ers''.     In:   
   \T1/lmr/m/it/12 IEEE J. Sel.Top. Quant.   \T1/lmr/m/n/12 6.  2
  []
 
 [91] [92] [93]
-Underfull \hbox (badness 10000) in paragraph at lines 2012--2012
+Underfull \hbox (badness 10000) in paragraph at lines 2014--2014
 [][]  \T1/lmr/m/n/12 H Taka-hashi   et al.   ``  Arrayed-waveguide grat-ing for
  wave-length di-vi-sion
  []
 
 
-Underfull \hbox (badness 2564) in paragraph at lines 2012--2012
+Underfull \hbox (badness 2564) in paragraph at lines 2014--2014
 \T1/lmr/m/n/12 multi/demultiplexer with nanome-tre res-o-lu-tion''.     In:    
  \T1/lmr/m/it/12 Elec-tron. Lett   \T1/lmr/m/n/12 26.  2   (  1990),
  []
 
 [94]
 Appendix A.
-(./KHgeneral.pdf_tex <KHgeneral.pdf, id=2435, 455.2441pt x 142.26376pt>
+(./KHgeneral.pdf_tex <KHgeneral.pdf, id=2479, 455.2441pt x 142.26376pt>
 File: KHgeneral.pdf Graphic file (type pdf)
 
 <use KHgeneral.pdf>)
@@ -1986,11 +1943,11 @@ Underfull \vbox (badness 5696) has occurred while \output is active []
  [95
 
  <./KHgeneral.pdf>] (./validation-geometry.pdf_tex
-<validation-geometry.pdf, id=2448, 227.62204pt x 170.71654pt>
+<validation-geometry.pdf, id=2492, 227.62204pt x 170.71654pt>
 File: validation-geometry.pdf Graphic file (type pdf)
 
 <use validation-geometry.pdf>)
-<compare-analytic.pdf, id=2450, 231.26399pt x 173.448pt>
+<compare-analytic.pdf, id=2494, 231.26399pt x 173.448pt>
 File: compare-analytic.pdf Graphic file (type pdf)
 
 <use compare-analytic.pdf>
@@ -2002,7 +1959,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ]
 Appendix B.
 
-Overfull \hbox (1.63469pt too wide) in paragraph at lines 2166--2198
+Overfull \hbox (1.63469pt too wide) in paragraph at lines 2168--2200
  [][] 
  []
 
@@ -2021,10 +1978,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16145 strings out of 493848
- 247989 string characters out of 3149207
- 526815 words of memory out of 3000000
- 18334 multiletter control sequences out of 15000+200000
+ 16152 strings out of 493848
+ 248092 string characters out of 3149207
+ 525815 words of memory out of 3000000
+ 18336 multiletter control sequences out of 15000+200000
  125332 words of font info for 103 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  42i,21n,65p,1880b,2838s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2057,11 +2014,10 @@ xlive/2009/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2009/
 texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2009/texmf-dist/
 fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2009/texmf-dist/fonts/type
 1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2009/texmf-dist/fonts/
-type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/u
-rw/ncntrsbk/uncr8a.pfb>
-Output written on thesis.pdf (111 pages, 16012001 bytes).
+type1/urw/ncntrsbk/uncr8a.pfb>
+Output written on thesis.pdf (111 pages, 15965869 bytes).
 PDF statistics:
- 2734 PDF objects out of 2984 (max. 8388607)
- 549 named destinations out of 1000 (max. 500000)
- 1042 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2779 PDF objects out of 2984 (max. 8388607)
+ 552 named destinations out of 1000 (max. 500000)
+ 1058 words of extra memory for PDF output out of 10000 (max. 10000000)
 

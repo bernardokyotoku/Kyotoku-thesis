@@ -457,6 +457,8 @@ G\left(\nu\right)=G_{0}\left(\nu\right)\left[\left(K_{r}+\sum_{i}K_{i}\right)+2\
 \label{eq:FDOCT output spectrum}
 \end{equation}
 where $G_{0}$ is the light source \gls{PSD}. We see that the interferometer output \gls{PSD} is composed of interference fringes whose frequencies grows with the delays $\Delta\tau_{a,b}$, and is modulated by a envelope equal to the input light \gls{PSD}.
+\section{Spectral and swept-source OCT}
+Last section we assumed that the light spectrum of the interferometer output was measured by sweeping the wavelength while measuring the output light power. This mode of operation is called \gls{SSOCT}. It is also possible to obtain the same spectrum by using a broadband instead of a monochromatic light source and discriminate the contribution of each wavelength using a spectrometer. This mode of operation is called \gls{SROCT}.
 
 \section{Full range complex imaging reconstruction}
 \label{section:quadrature}
@@ -529,7 +531,7 @@ Two \gls{SROCT} setups were built. The first version was built only with compone
 
 \begin{figure}[h]
 \small
-\input{SROCT1.pdf_tex}
+\centering\input{SROCT1.pdf_tex}
 \caption{First spectral radar setup.}
 \label{fig:SROCT setup 1}
 \end{figure}
@@ -548,15 +550,15 @@ This setup was used in the study of crack propagation in fiber reinforced polyme
 \begin{figure}[h]
 \small
 \begin{minipage}[t]{0.48\textwidth}
-\input{SROCT.pdf_tex}
-\caption{Spectral radar setup.}
-\label{fig:SROCT setup 2}
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.48\textwidth}
 \input{spectrometer.pdf_tex}
 \caption{Spectrometer schematics.}
 \label{fig:spectrometer}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\input{SROCT.pdf_tex}
+\caption{Spectral radar setup.}
+\label{fig:SROCT setup 2}
 \end{minipage}
 \end{figure}
 The schematic setup of the second version of SROCT is shown in figure \ref{fig:SROCT setup 2}.  The broadband source is a superluminescent diode Broadband SLD Light source (S840, SUPERLUM) with central wavelength 850 nm and delivering up to 25 mW and with a 49.9-nm bandwidth, which gives an axial resolution of 6 \textgreek{m}m. After traveling through the all-fiber beam splitter, the reflected beams from the sample and mirror are recombined and sent through a purpose-designed spectrometer, subsection \ref{sub:spectrometer}. The maximum incident power on the sample was 5 mW. The output is sent to a personal computer with a LabView-based imaging program. 
@@ -573,7 +575,7 @@ To test the setup, OCT images were obtained from slices of a tooth. Figures \ref
 \begin{figure}[]
 \noindent \begin{centering}
 \input{claudiafig3.pdf_tex}
-\caption{Images of transversal section of teeth. (a),(c),(e) and (g) are OCT images. (b),(d),(f) and (h) are are micrographs of the respective OCT images}
+\caption{Images of transversal section of teeth. (a),(c),(e) and (g) are OCT images. (b),(d),(f) and (h) are are micrographs of the respective OCT images. Red bars are 1 mm.}
 \label{fig:SROCT2 test}
 \par\end{centering}
 \end{figure}
@@ -643,7 +645,7 @@ We used an \gls{OCT} system to image the sites of fracture initiation and slow c
 In the oral cavity, prosthetic reconstructions usually suffer from variable temperature and load conditions. Such thermal and loading cycling may cause fractures during long-term clinical use\footcite{Rantala:2003p2481,Lassila:2004p2512}. Fatigue fracture after years in clinical use was found to be a common failure reason. The longevity of restorations is dependent upon many factors, including operator skill, the materials and techniques used, the criteria for replacement, patient compliance with oral hygiene advice, the oral environment and its contribution to the patient\textquoteright{}s susceptibility to caries. Relatively few studies have investigated these factors\footcite{Burke:2001p2517}. Fatigue in dental restoratives is also influenced by corrosive water attack at a certain temperature (37\textdegree{}) and by cycling masticatory forces. The naturally occurring loading of a filling was estimated\footcite{Braem:1994p2520} at between 5 and 20 MPa. Contemporary approaches to fatigue principles consider a fracture process in three phases: crack initiation, slow crack growth, and fast fracture. The latter phase is very short in duration and thus the time of crack initiation and of slow crack growth account for the useful fatigue resistance of a material. Crack initiation nucleates at heterogeneities like surface and subsurface microcracks, porosities, filler particles, crazes, etc. within the materials. 
 
 Cycling loading is able to drive a crack, called slow crack growth. Additional water exposure causes a variety of weakening effects on resin composites: degradation of the filler-matrix interface, elation, and swelling or a viscoelastic effect on the matrix which all accelerate slow crack growth\footcite{Soderholm:1990p2521}. 
-
+\subsection{Methods}
 To assess the possibility of fracture initiation and crack evolution analysis, sample bars of dimensions $2\times3\times25$ mm were prepared. Using a split mold, 1 mm layer of particulate filler CR (Suprafill 3M/ESPE) was placed into the split mold, then a dental fiber DF (Interlig, Angelus) was placed. Another layer of CR was applied immediately after polymerization of DF on the top of the \gls{FRC} substructure, leaving the thickness of the specimen at 2.00 mm. The light polymerization was performed with a halogen light. figure \ref{fig:FRC photo}.a shows a photograph of a section of the FRC where we can see the fiber. The OCT image, figure \ref{fig:FRC photo}.b, confirms the ability to see the substructure of the composite. Because of the refractive index of the resin, the vertical dimensions inside sample needs to be corrected by a factor of 1.5. 
 
 Before the load test, all the specimens were thermally cycled in 1000 cycles between 5 and 55 \textdegree{}C. The thermal cycling consisted of a 5 s transfer between temperature baths. From the OCT images, no difference in the samples were detected by analyzing the images before and after the thermal cycles\footcite{Kyotoku:2007p788}.
@@ -738,7 +740,7 @@ As a final example, figure \ref{fig:image composition} shows a composition of th
 
 The OCT clearly demonstrate the capacity of quantitative assessment and penetration of the radiation on the pulp chamber and the remaining dentin, compared to the scan in i-CAT CBVT. In accordance with the results presented for the OCTs with a wavelength of 1280 and 850 nm, the two techniques presented effectiveness. Furthermore, our experiment corroborated the depth of penetration almost two times bigger for 1280 nm OCT. OCT is a non-invasive and non-destructive technique; as a consequence, it possesses great potential for use routinely in clinical practice for the diagnosis of the complex dentin pulp, preventing accidental exposure of the pulp and promoting preventive restoration treatment. For practical use, a hand piece or an appropriate head for the imaging acquisition is required, which is a technologically solvable issue.
 
-\section[Clinical use of OCT to evaluate integrity of dental restorations]{Clinical use of optical coherence tomography to evaluate the integrity of dental restorations}
+\section[Clinical use of OCT to evaluate dental restorations]{Clinical use of optical coherence tomography to evaluate the integrity of dental restorations}
 
 We have applied Optical Coherence Tomography (OCT) clinically to assess dental restorations in humans. Twenty patients with resin composite restorations in anterior teeth were selected and evaluated using a conventional radiographic examination, visual inspection and OCT. Images were obtained using a home built OCT system operating in the spectral domain, with an 850 nm superluminescent diode light source. The results were analyzed with respect to the integrity and marginal adaptation of the restoration. Using appropriate software failed and failing restorations, including those with lesioned regions, could be located prior to the placement of a new restoration. Lesions and failed restorations were identified with the OCT system that could not be seen by conventional visual and X-ray examinations and these were found to be present on surgical intervention. This in vivo study demonstrates that the OCT technique has a great potential to be used in clinical practice to assess dental restorations and prevent recurrent caries. 
 
@@ -1160,7 +1162,7 @@ the cavity optical path-length is equal to a integer number of wavelength. The d
 \end{equation}
  
 \begin{figure}
-\centering \includegraphics{exp_decay}
+\centering \input{exp_decay.pdf_tex}
 \caption{\label{fig:exp decay}}
 \end{figure}
 Another important equation that can be derived from \ref{eq:drop efficiency} is the Q factor

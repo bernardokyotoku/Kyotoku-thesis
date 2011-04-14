@@ -16,7 +16,7 @@
   id="svg2"
   version="1.1"
   inkscape:version="0.48.0 r9654"
-  sodipodi:docname="SPOCT.svg">
+  sodipodi:docname="SROCT.svg">
  <defs
    id="defs4">
   <pattern
@@ -297,9 +297,9 @@
    borderopacity="1.0"
    inkscape:pageopacity="0.0"
    inkscape:pageshadow="2"
-   inkscape:zoom="2.8"
-   inkscape:cx="119.20575"
-   inkscape:cy="88.40222"
+   inkscape:zoom="1.979899"
+   inkscape:cx="117.36133"
+   inkscape:cy="114.66469"
    inkscape:document-units="px"
    inkscape:current-layer="layer1"
    showgrid="false"
@@ -308,7 +308,7 @@
    inkscape:window-height="699"
    inkscape:window-x="0"
    inkscape:window-y="0"
-   inkscape:window-maximized="1" />
+   inkscape:window-maximized="0" />
  <metadata
    id="metadata7">
   <rdf:RDF>
@@ -328,7 +328,7 @@
    transform="translate(0,-839.76245)">
   <path
     style="fill:none;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-    d="m 230.17857,52.419849 c 0,0 0,8.485235 0,14.464285 0,5.97905 -5.6733,13.022576 -10.92594,17.687098 -5.25264,4.664522 -19.96692,8.562902 -19.96692,8.562902"
+    d="m 213.76359,52.419849 c 0,0 0,8.485235 0,14.464285 0,5.97905 0.13508,13.022576 -5.11756,17.687098 -5.25264,4.664522 -9.36032,8.562902 -9.36032,8.562902"
     id="path3209"
     inkscape:connector-curvature="0"
     transform="translate(0,839.76245)"
@@ -399,28 +399,28 @@
   <text
     xml:space="preserve"
     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
-    x="137.60023"
-    y="957.96973"
+    x="173.60023"
+    y="961.96973"
     id="text8757"
     sodipodi:linespacing="125%"><tspan
      sodipodi:role="line"
-     x="137.60023"
-     y="957.96973"
+     x="173.60023"
+     y="961.96973"
      id="tspan8759">$\begin{array}{c}\text{50/50}\\</tspan><tspan
      sodipodi:role="line"
-     x="137.60023"
-     y="972.96973"
+     x="173.60023"
+     y="976.96973"
      id="tspan8761">\text{coupler}\end{array}$</tspan></text>
   <text
     sodipodi:linespacing="125%"
     id="text8993"
-    y="836.79321"
-    x="254.37804"
+    y="897.86713"
+    x="225.60727"
     style="font-size:12.89053249px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
     xml:space="preserve"
     transform="scale(0.98309046,1.0172004)"><tspan
-     y="836.79321"
-     x="254.37804"
+     y="897.86713"
+     x="225.60727"
      id="tspan8995"
      sodipodi:role="line">probe</tspan></text>
   <rect
@@ -524,9 +524,9 @@
       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.88200492px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
       id="rect9477"
       width="92.428955"
-      height="61.294792"
+      height="71.752815"
       x="11.616755"
-      y="913.46997" />
+      y="903.01196" />
     <g
       id="g7906"
       transform="matrix(-0.35242671,0,0,-0.35242671,133.2504,1250.0369)">
@@ -841,20 +841,20 @@
   <rect
     style="fill:#00ff00;fill-rule:evenodd;stroke:#000000;stroke-width:0.92826468px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
     id="rect25028"
-    width="76.217751"
-    height="15.714294"
-    x="35.33942"
-    y="881.51483" />
+    width="77.110619"
+    height="19.999983"
+    x="34.982277"
+    y="880.08624" />
   <text
     xml:space="preserve"
     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
-    x="42.238731"
+    x="36.238731"
     y="893.94116"
     id="text25030"
     sodipodi:linespacing="125%"><tspan
      sodipodi:role="line"
      id="tspan25032"
-     x="42.238731"
+     x="36.238731"
      y="893.94116">CameraLink</tspan></text>
   <path
     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -863,17 +863,17 @@
     inkscape:connector-curvature="0"
     transform="translate(0,839.76245)" />
   <rect
-    y="848.48639"
-    x="35.37714"
-    height="31.964233"
-    width="76.504456"
+    y="845.27209"
+    x="35.019997"
+    height="35.17852"
+    width="76.861595"
     id="rect25439"
     style="fill:#00ff00;fill-rule:evenodd;stroke:#000000;stroke-width:1.00953972px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   <rect
     style="fill:#0000ff;fill-rule:evenodd;stroke:#000000;stroke-width:1.09482849px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
     id="rect3268"
-    width="54.486839"
-    height="37.375645"
+    width="61.272552"
+    height="37.375671"
     x="124.81524"
     y="849.32019" />
   <text
@@ -894,13 +894,34 @@
   <text
     xml:space="preserve"
     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
-    x="44.951786"
-    y="976.09436"
+    x="43.880356"
+    y="962.52295"
     id="text3360"
     sodipodi:linespacing="125%"><tspan
      sodipodi:role="line"
      id="tspan3362"
-     x="44.951786"
-     y="976.09436">Spectrometer</tspan></text>
+     x="43.880356"
+     y="962.52295">Spectrometer</tspan></text>
+  <text
+    sodipodi:linespacing="125%"
+    id="text3161"
+    y="995.74884"
+    x="175.62054"
+    style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+    xml:space="preserve"><tspan
+     id="tspan3163"
+     y="995.74884"
+     x="175.62054"
+     sodipodi:role="line">$\begin{array}{c}\text{Reference}\\</tspan><tspan
+     id="tspan3165"
+     y="1010.7488"
+     x="175.62054"
+     sodipodi:role="line">\text{arm}\end{array}$</tspan></text>
+  <path
+    style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker9206)"
+    d="m 232.33509,164.1111 13.63705,2.52538"
+    id="path3186"
+    inkscape:connector-curvature="0"
+    transform="translate(0,839.76245)" />
  </g>
 </svg>

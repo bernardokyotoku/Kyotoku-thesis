@@ -30,15 +30,17 @@
 \defcounter {refsection}{0}
 \contentsline {section}{\numberline {2.2}Frequency domain OCT}{15}{section.2.2}
 \defcounter {refsection}{0}
-\contentsline {section}{\numberline {2.3}Full range complex imaging reconstruction}{17}{section.2.3}
+\contentsline {section}{\numberline {2.3}Spectral and swept-source OCT}{17}{section.2.3}
 \defcounter {refsection}{0}
-\contentsline {section}{\numberline {2.4}First spectral radar implementation}{18}{section.2.4}
+\contentsline {section}{\numberline {2.4}Full range complex imaging reconstruction}{17}{section.2.4}
 \defcounter {refsection}{0}
-\contentsline {section}{\numberline {2.5}Second spectral radar implementation}{19}{section.2.5}
+\contentsline {section}{\numberline {2.5}First spectral radar implementation}{18}{section.2.5}
 \defcounter {refsection}{0}
-\contentsline {subsection}{\numberline {2.5.1}Spectrometer}{20}{subsection.2.5.1}
+\contentsline {section}{\numberline {2.6}Second spectral radar implementation}{19}{section.2.6}
 \defcounter {refsection}{0}
-\contentsline {subsection}{\numberline {2.5.2}Testing}{20}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.6.1}Spectrometer}{20}{subsection.2.6.1}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {2.6.2}Testing}{20}{subsection.2.6.2}
 \defcounter {refsection}{0}
 \contentsline {chapter}{\numberline {3}Applications in Optical Coherence Tomography}{23}{chapter.3}
 \defcounter {refsection}{0}
@@ -46,7 +48,9 @@
 \defcounter {refsection}{0}
 \contentsline {subsection}{\numberline {3.1.1}Motivation}{23}{subsection.3.1.1}
 \defcounter {refsection}{0}
-\contentsline {subsection}{\numberline {3.1.2}Conclusions}{26}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.2}Methods}{24}{subsection.3.1.2}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {3.1.3}Conclusions}{26}{subsection.3.1.3}
 \defcounter {refsection}{0}
 \contentsline {section}{\numberline {3.2}Imaging of dentin and pulp chamber by OCT}{26}{section.3.2}
 \defcounter {refsection}{0}
@@ -56,7 +60,7 @@
 \defcounter {refsection}{0}
 \contentsline {subsection}{\numberline {3.2.3}Conclusion}{31}{subsection.3.2.3}
 \defcounter {refsection}{0}
-\contentsline {section}{\numberline {3.3}Clinical use of OCT to evaluate integrity of dental restorations}{32}{section.3.3}
+\contentsline {section}{\numberline {3.3}Clinical use of OCT to evaluate dental restorations}{32}{section.3.3}
 \defcounter {refsection}{0}
 \contentsline {subsection}{\numberline {3.3.1}Introduction}{32}{subsection.3.3.1}
 \defcounter {refsection}{0}

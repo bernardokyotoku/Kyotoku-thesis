@@ -47,15 +47,15 @@
     \put(0.04472399,0.03694839){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ti:Saphire}}}%
     \put(0.46022588,0.54959658){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Spectrometer}}}%
     \put(0.05167211,0.62006539){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{PC}}}%
-    \put(0.75453259,0.26127679){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\begin{array}{c}\text{motorized XYZ}\\
+    \put(0.75315455,0.1496557){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\begin{array}{c}\text{motorized XYZ}\\
 \text{linear}\\
 \text{stage translator}\end{array}$}}}%
     \put(0.1620258,0.66120608){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\begin{array}{c}\text{servo}\\
 \text{controller}\end{array}$}}}%
     \put(0.7219345,0.4762501){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{sample}}}%
-    \put(0.53345042,0.220486){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{PG}}}%
-    \put(0.53093055,0.27844241){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{VA}}}%
-    \put(0.55562505,0.45231142){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{BS}}}%
+    \put(0.0739278,0.17882252){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{piece of glass}}}%
+    \put(0.08642792,0.34339452){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{variable attenuator}}}%
+    \put(0.29904629,0.45011216){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{beamsplitter}}}%
     \put(0.55436506,0.3288392){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{lens}}}%
   \end{picture}%
 \endgroup

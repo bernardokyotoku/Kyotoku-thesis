@@ -44,6 +44,6 @@
   \makeatother
   \begin{picture}(1,0.689557)%
     \put(0,0){\includegraphics[width=\unitlength]{claudiaFig5.pdf}}%
-    \put(0.2737947,0.04788594){\color[rgb]{1,0,0}\makebox(0,0)[lb]{\smash{1 mm}}}%
+    \put(0.2737947,0.04788594){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1 mm}}}%
   \end{picture}%
 \endgroup

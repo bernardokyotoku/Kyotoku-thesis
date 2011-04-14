@@ -46,14 +46,16 @@
     \put(0,0){\includegraphics[width=\unitlength]{SROCT.pdf}}%
     \put(0.0463534,0.61942202){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{PC}}}%
     \put(0.55917006,0.08539365){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{SLD}}}%
-    \put(0.48542305,0.33299097){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\begin{array}{c}\text{50/50}\\
+    \put(0.61242305,0.31887986){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\begin{array}{c}\text{50/50}\\
 \text{coupler}\end{array}$}}}%
-    \put(0.88221474,0.70969885){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{probe}}}%
+    \put(0.78243413,0.49053774){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{probe}}}%
     \put(0.43040229,0.64145685){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\begin{array}{c}\text{Galvo}\\
 \text{controler}\end{array}$}}}%
-    \put(0.14900886,0.55886952){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{CameraLink}}}%
+    \put(0.12784219,0.55886952){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{CameraLink}}}%
     \put(0.15311793,0.6537145){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\begin{array}{c}\text{Signal}\\
 \text{generator}\end{array}$}}}%
-    \put(0.15857991,0.26905129){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Spectrometer}}}%
+    \put(0.15480014,0.31692822){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Spectrometer}}}%
+    \put(0.61955025,0.19971466){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\begin{array}{c}\text{Reference}\\
+\text{arm}\end{array}$}}}%
   \end{picture}%
 \endgroup
