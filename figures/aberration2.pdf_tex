@@ -1,0 +1,59 @@
+%% Creator: Inkscape inkscape 0.48.0, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'aberration2.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+
+\begingroup
+  \makeatletter
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}
+    \renewcommand\color[2][]{}%
+  }
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}
+    \renewcommand\transparent[1]{}%
+  }
+  \providecommand\rotatebox[2]{#2}
+  \ifx\svgwidth\undefined
+    \setlength{\unitlength}{403.3pt}
+  \else
+    \setlength{\unitlength}{\svgwidth}
+  \fi
+  \global\let\svgwidth\undefined
+  \makeatother
+  \begin{picture}(1,0.82023308)%
+    \put(0,0){\includegraphics[width=\unitlength]{aberration2}}%
+    \put(0.6243062,0.31024141){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{n}}}%
+    \put(0.52020398,0.30037905){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{n+1}}}%
+    \put(0.4829463,0.36284043){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{n+2}}}%
+    \put(0.41062262,0.43954744){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(n+N)}}}%
+    \put(0.48140342,0.07850299){\color[rgb]{1,1,1}\makebox(0,0)[lb]{\smash{${G_1}$}}}%
+    \put(0.40391768,0.12305729){\color[rgb]{1,1,1}\makebox(0,0)[lb]{\smash{${G_2}$}}}%
+    \put(0.34309137,0.16877388){\color[rgb]{1,1,1}\makebox(0,0)[lb]{\smash{${G_{\dots}}$}}}%
+    \put(0.21431594,0.36109894){\color[rgb]{1,1,1}\makebox(0,0)[lb]{\smash{${G_N}$}}}%
+    \put(0.73400694,0.21022875){\color[rgb]{1,1,1}\makebox(0,0)[lb]{\smash{$O_{\lambda}$}}}%
+    \put(0.70456236,0.56821288){\color[rgb]{1,1,1}\makebox(0,0)[lb]{\smash{$I$}}}%
+    \put(0.75374361,0.59808905){\color[rgb]{1,1,1}\rotatebox{45}{\makebox(0,0)[lb]{\smash{$I$}}}}%
+  \end{picture}%
+\endgroup

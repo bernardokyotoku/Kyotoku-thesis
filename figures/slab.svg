@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="slab.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;">
+      <path
+         id="path4134"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mstart"
+       style="overflow:visible">
+      <path
+         id="path4131"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.4) translate(10,0)" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="384.2655"
+     inkscape:cy="764.72204"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="954"
+     inkscape:window-height="672"
+     inkscape:window-x="230"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="object"
+     sodipodi:insensitive="true"
+     style="display:inline">
+    <g
+       id="g4998">
+      <rect
+         y="338.18433"
+         x="190.91882"
+         height="48.08326"
+         width="272.94321"
+         id="rect4114"
+         style="fill:#cccccc;stroke:none" />
+      <rect
+         style="fill:#666666;stroke:none"
+         id="rect4116"
+         width="272.94321"
+         height="48.08326"
+         x="190.91882"
+         y="290.10107" />
+      <rect
+         y="242.01782"
+         x="190.91882"
+         height="48.08326"
+         width="272.94321"
+         id="rect4118"
+         style="fill:#b3b3b3;stroke:none" />
+      <rect
+         transform="matrix(1,0,-0.96121821,0.27578898,0,0)"
+         style="fill:#b3b3b3;stroke:none"
+         id="rect4990"
+         width="272.94321"
+         height="174.34801"
+         x="1034.4366"
+         y="703.05139" />
+      <rect
+         transform="matrix(0.96128026,-0.27557261,0,1,0,0)"
+         style="fill:#b3b3b3;stroke:none"
+         id="rect4992"
+         width="174.92174"
+         height="48.08326"
+         x="482.54611"
+         y="374.99432" />
+      <rect
+         y="471.16077"
+         x="482.54611"
+         height="48.08326"
+         width="174.92174"
+         id="rect4994"
+         style="fill:#cccccc;fill-opacity:1;stroke:none"
+         transform="matrix(0.96128026,-0.27557261,0,1,0,0)" />
+      <rect
+         transform="matrix(0.96128026,-0.27557261,0,1,0,0)"
+         style="fill:#666666;fill-opacity:1;stroke:none"
+         id="rect4996"
+         width="174.92174"
+         height="48.08326"
+         x="482.54611"
+         y="423.07831" />
+    </g>
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+       x="569.69836"
+       y="328.12335"
+       id="text4772"
+       inkscape:export-filename="/Users/bernardo/Documents/thesis/figures/slab.eps.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4774"
+         x="569.69836"
+         y="328.12335"
+         style="font-size:16">substrate</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+       x="576.19568"
+       y="285.78583"
+       id="text4776"
+       inkscape:export-filename="/Users/bernardo/Documents/thesis/figures/slab.eps.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4778"
+         x="576.19568"
+         y="285.78583"
+         style="font-size:16">film</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+       x="556.4538"
+       y="239.12817"
+       id="text4780"
+       inkscape:export-filename="/Users/bernardo/Documents/thesis/figures/slab.eps.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4782"
+         x="556.4538"
+         y="239.12817"
+         style="font-size:16">cladding</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend)"
+       d="m 472.86003,289.47503 0,44.33535"
+       id="path4120"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/Users/bernardo/Documents/thesis/figures/slab.eps.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:18.42965508px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="478.31436"
+       y="314.72549"
+       id="text4760"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0009496,0.9990513)"
+       inkscape:export-filename="/Users/bernardo/Documents/thesis/figures/slab.eps.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4762"
+         x="478.31436"
+         y="314.72549"
+         style="font-size:16px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'">h</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="492.80908"
+       y="383.79129"
+       id="text4764"><tspan
+         sodipodi:role="line"
+         id="tspan4766"
+         x="492.80908"
+         y="383.79129" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+       x="490.10507"
+       y="364.18707"
+       id="text4768"><tspan
+         sodipodi:role="line"
+         id="tspan4770"
+         x="490.10507"
+         y="364.18707" /></text>
+    <path
+       sodipodi:nodetypes="cc"
+       id="path4784"
+       d="m 463.91233,264.50804 0,73.64218"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:none"
+       inkscape:export-filename="/Users/bernardo/Documents/thesis/figures/slab.eps.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:none"
+       d="m 390.19836,338.10926 73.64218,0"
+       id="path4972"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/Users/bernardo/Documents/thesis/figures/slab.eps.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+       x="450.47452"
+       y="269.17862"
+       id="text4974"
+       inkscape:export-filename="/Users/bernardo/Documents/thesis/figures/slab.eps.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4976"
+         x="450.47452"
+         y="269.17862"
+         style="font-size:16px">z</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+       x="531.43066"
+       y="330.36197"
+       id="text4978"
+       inkscape:export-filename="/Users/bernardo/Documents/thesis/figures/slab.eps.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4980"
+         x="531.43066"
+         y="330.36197"
+         style="font-size:16px">x</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+       x="393.95709"
+       y="329.19467"
+       id="text4982"
+       inkscape:export-filename="/Users/bernardo/Documents/thesis/figures/slab.eps.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4984"
+         x="393.95709"
+         y="329.19467"
+         style="font-size:16">y</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+       x="452.60599"
+       y="334.29272"
+       id="text4986"
+       inkscape:export-filename="/Users/bernardo/Documents/thesis/figures/slab.eps.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4988"
+         x="452.60599"
+         y="334.29272"
+         style="font-size:16px">0</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       id="path5016"
+       d="m 537.09054,317.21171 -73.64218,20.75662"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:none"
+       inkscape:export-filename="/Users/bernardo/Documents/thesis/figures/slab.eps.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g5144">
+      <text
+         id="text5110"
+         y="265.36218"
+         x="207.5"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+         xml:space="preserve"><tspan
+           style="font-style:italic;-inkscape-font-specification:Bitstream Vera Sans Oblique"
+           y="265.36218"
+           x="207.5"
+           id="tspan5112"
+           sodipodi:role="line">n</tspan></text>
+      <text
+         id="text5126"
+         y="267.86218"
+         x="214.5"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:italic;-inkscape-font-specification:Bitstream Vera Sans Oblique"
+           y="267.86218"
+           x="214.5"
+           id="tspan5128"
+           sodipodi:role="line">c</tspan></text>
+    </g>
+    <g
+       id="g5138">
+      <text
+         xml:space="preserve"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+         x="207.5"
+         y="318.36218"
+         id="text5114"><tspan
+           sodipodi:role="line"
+           id="tspan5116"
+           x="207.5"
+           y="318.36218"
+           style="font-style:italic;-inkscape-font-specification:Bitstream Vera Sans Oblique">n</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+         x="216"
+         y="320.86218"
+         id="text5130"><tspan
+           sodipodi:role="line"
+           id="tspan5132"
+           x="216"
+           y="320.86218"
+           style="font-size:10px;font-style:italic;-inkscape-font-specification:Bitstream Vera Sans Oblique">f</tspan></text>
+    </g>
+    <g
+       id="g5150">
+      <text
+         id="text5118"
+         y="365.36218"
+         x="207.5"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+         xml:space="preserve"><tspan
+           style="font-style:italic;-inkscape-font-specification:Bitstream Vera Sans Oblique"
+           y="365.36218"
+           x="207.5"
+           id="tspan5120"
+           sodipodi:role="line">n</tspan></text>
+      <text
+         id="text5134"
+         y="366.86218"
+         x="215"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:italic;-inkscape-font-specification:Bitstream Vera Sans Oblique"
+           y="366.86218"
+           x="215"
+           id="tspan5136"
+           sodipodi:role="line">s</tspan></text>
+    </g>
+  </g>
+</svg>

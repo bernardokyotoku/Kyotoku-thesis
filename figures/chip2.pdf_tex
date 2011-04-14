@@ -1,0 +1,76 @@
+%% Creator: Inkscape inkscape 0.48.0, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'chip2.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+
+\begingroup
+  \makeatletter
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}
+    \renewcommand\color[2][]{}%
+  }
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}
+    \renewcommand\transparent[1]{}%
+  }
+  \providecommand\rotatebox[2]{#2}
+  \ifx\svgwidth\undefined
+    \setlength{\unitlength}{552pt}
+  \else
+    \setlength{\unitlength}{\svgwidth}
+  \fi
+  \global\let\svgwidth\undefined
+  \makeatother
+  \begin{picture}(1,0.74456522)%
+    \put(0,0){\includegraphics[width=\unitlength]{chip2.pdf}}%
+    \put(0.66887844,0.36655851){\makebox(0,0)[lb]{\smash{Output waveguides }}}%
+    \put(0.03078214,0.45293714){\makebox(0,0)[lb]{\smash{Heater contact }}}%
+    \put(0.08575447,0.42214004){\makebox(0,0)[lb]{\smash{pads }}}%
+    \put(0.03905774,0.64230647){\makebox(0,0)[lb]{\smash{Device input }}}%
+    \put(0.45325891,0.04778158){\makebox(0,0)[lb]{\smash{Grating }}}%
+    \put(0.46101127,0.01698447){\makebox(0,0)[lb]{\smash{facets }}}%
+    \put(0.61506467,0.62827736){\makebox(0,0)[lb]{\smash{Diffraction grating input }}}%
+    \put(0.69839855,0.67218043){\makebox(0,0)[lb]{\smash{Through port }}}%
+    \put(0.39323385,0.46335996){\makebox(0,0)[lb]{\smash{Diffraction grating }}}%
+    \put(0.35135888,0.60803333){\makebox(0,0)[lb]{\smash{b}}}%
+    \put(0.36546419,0.60803333){\makebox(0,0)[lb]{\smash{) }}}%
+    \put(0.30215145,0.25484547){\makebox(0,0)[lb]{\smash{c}}}%
+    \put(0.31483261,0.25484547){\makebox(0,0)[lb]{\smash{) }}}%
+    \put(0.02527188,0.24933768){\makebox(0,0)[lb]{\smash{b}}}%
+    \put(0.0393772,0.24933768){\makebox(0,0)[lb]{\smash{) }}}%
+    \put(0.32678913,0.47759855){\makebox(0,0)[lb]{\smash{c}}}%
+    \put(0.33947029,0.47759855){\makebox(0,0)[lb]{\smash{) }}}%
+    \put(0.09881989,0.02730931){\makebox(0,0)[lb]{\smash{Drop port }}}%
+    \put(0.5876587,0.24933768){\makebox(0,0)[lb]{\smash{d}}}%
+    \put(0.60176401,0.24933768){\makebox(0,0)[lb]{\smash{) }}}%
+    \put(0.84051232,0.30991793){\makebox(0,0)[lb]{\smash{400 }}}%
+    \put(0.88987473,0.30991793){\makebox(0,0)[lb]{\smash{µm}}}%
+    \put(0.33634701,0.10339627){\makebox(0,0)[lb]{\smash{4 }}}%
+    \put(0.35749879,0.10339627){\makebox(0,0)[lb]{\smash{µm}}}%
+    \put(0.02527188,0.29281594){\makebox(0,0)[lb]{\smash{a) }}}%
+    \put(0.91374565,0.41195652){\makebox(0,0)[lb]{\smash{d}}}%
+    \put(0.92785097,0.41195652){\makebox(0,0)[lb]{\smash{) }}}%
+    \put(0.58551169,0.30426822){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Light path}}}%
+  \end{picture}%
+\endgroup
