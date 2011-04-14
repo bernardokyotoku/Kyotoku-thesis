@@ -1,0 +1,59 @@
+%% Creator: Inkscape inkscape 0.48.0, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'KHgeneral.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+
+\begingroup
+  \makeatletter
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}
+    \renewcommand\color[2][]{}%
+  }
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}
+    \renewcommand\transparent[1]{}%
+  }
+  \providecommand\rotatebox[2]{#2}
+  \ifx\svgwidth\undefined
+    \setlength{\unitlength}{453.54331055pt}
+  \else
+    \setlength{\unitlength}{\svgwidth}
+  \fi
+  \global\let\svgwidth\undefined
+  \makeatother
+  \begin{picture}(1,0.31249998)%
+    \put(0,0){\includegraphics[width=\unitlength]{KHgeneral.pdf}}%
+    \put(0.09988373,0.06676404){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$S$}}}%
+    \put(0.20703585,0.24974684){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$Q$}}}%
+    \put(0.5787713,0.14177055){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$P$}}}%
+    \put(0.85901539,0.16484946){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$T$}}}%
+    \put(0.15922951,0.18133435){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$s$}}}%
+    \put(0.70866922,0.2098072){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$t$}}}%
+    \put(0.41639464,0.22254673){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$r$}}}%
+    \put(0.2779211,0.2530439){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\hat{n}$}}}%
+    \put(0.5672319,0.19040109){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\hat{m}$}}}%
+    \put(0.27159913,0.20981904){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathbb{Q}$}}}%
+    \put(0.53154168,0.14920463){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\mathbb{P}$}}}%
+  \end{picture}%
+\endgroup

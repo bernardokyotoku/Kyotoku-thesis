@@ -1,0 +1,1009 @@
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass book
+\begin_preamble
+\usepackage{bm}
+\usepackage{soul}
+\usepackage{color}
+\usepackage{graphics}
+\end_preamble
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Ring enhanced spectrometer
+\end_layout
+
+\begin_layout Verse
+"tous pour un, un pour tous"
+\end_layout
+
+\begin_layout Verse
+-Alexandre Dumas
+\end_layout
+
+\begin_layout Standard
+How can we use resonators to make spectrometer.
+ An array of resonators can be used.
+ But fabrication limits prevent its use without requiring individually tuning
+ each resonator.
+ Grating spectrometers uses a lot of space.
+ Is there a middle way.
+ Yes! we can use small free spectral range resonators and a grating spectrometer.
+ The device described in this chapter was published on optics express and
+ presented on the Conference of Lasers and Electro-Optics 2010 (CLEO) as
+ a invited paper and received and honorable mention in the Maiman Student
+ Paper Competition.
+\end_layout
+
+\begin_layout Section
+Device Theory
+\end_layout
+
+\begin_layout Standard
+The principle of operation consists of using a resonator to pre-filter the
+ light to be analyzed by a diffraction grating spectrometer as shown in
+ figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Fig:resonator-enhanced-principle"
+
+\end_inset
+
+.
+ The resonator transmits only the resonant wavelengths.
+ A diffraction grating spectrometer is then used to route light from different
+ resonances into distinct output channels.
+ The net effect is that the final resonator and diffraction grating spectrometer
+ line width will be equal to the resonator line width.
+ On silicon ring resonators cladded with silicon dioxide, line width as
+ narrow as 30 pm are routinely achieved[ref].
+ Therefore, enabling the possibility of creating 30 pm resolution spectrometers.
+\end_layout
+
+\begin_layout Standard
+To achieve this, the resonator and the spectrometer must be designed so
+ that the channel spacing of the diffraction grating spectrometer matches
+ the ring resonator FSR.
+\end_layout
+
+\begin_layout Standard
+The spectrometer must be designed so that each output channel only allows
+ to transmit a single resonance.
+ Therefore the spectrometer channel spacing must be equal to the resonator
+ FSR.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename /Users/bernardo/Dropbox/thesis/figures/resonator-enhanced-principle.pdf
+	rotateOrigin center
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Fig:resonator-enhanced-principle"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The spectral resolution of the composed resonator and spectrometer can be
+ estimated as follows.
+\end_layout
+
+\begin_layout Standard
+The transmission spectrum of the composed resonator and spectrometer is
+ the product of the resonator and spectrometer transmission spectrum, as
+ shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Fig:combination-spectrum-demo"
+
+\end_inset
+
+.a.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename /Users/bernardo/Dropbox/thesis/figures/fig-2a.pdf
+	width 45text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/bernardo/Dropbox/thesis/figures/fig-2b.pdf
+	width 45text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Fig:combination-spectrum-demo"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In the described configuration 
+\end_layout
+
+\begin_layout Subsection
+Crosstalk
+\end_layout
+
+\begin_layout Section
+Design
+\end_layout
+
+\begin_layout Standard
+For DG spectrometer the same design as in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:implementation"
+
+\end_inset
+
+ was used.
+ A ring resonator with a drop port was designed to have 1 nm FSR in order
+ to match the DG spectroemter channel spacing.
+ Metal heaters are added above the silicon layer to align the resonator
+ and spectrometer transmission combs using the thermo-optic effect in silicon.
+ The diffraction grating spectrometer contains 25 channels.
+ To match the ring resonator FSR to the DG spectrometer channel spacing
+ we use an 83.5 μm radius ring with waveguide cross-section of 450 x 250
+ nm.
+ The FSR changes with wavelength according to 
+\begin_inset Formula $2\lambda/n_{g}L$
+\end_inset
+
+, but considering a slight positive group velocity dispersion (
+\begin_inset Formula $\partial n_{g}/\partial\lambda\approx3.6\times10^{-3}\text{nm}^{-1}$
+\end_inset
+
+) this change is extremely small: the total change in FSR across the range
+ of operation (25 nm) is approximately 1% for light polarized in the plane
+ of the device (TE polarization).
+\end_layout
+
+\begin_layout Section
+Fabrication
+\end_layout
+
+\begin_layout Standard
+The fabrication was done in the Cornell Nanoscale Facility (CNF), http://www.cnf.c
+ornell.edu.
+ A research micro-fabrication laboratory, funded in part by the National
+ Science Foundation (NSF) and by its users.
+ The research facility counts with state of the art electron beam lithography
+ writer.
+\end_layout
+
+\begin_layout Standard
+We fabricate the device using a CMOS compatible process.
+ We start with a silicon-on- insulator (SOI), manufactured by Soitec (http://www.
+soitec.com) wafer with a 250 nm top silicon layer and a 3 
+\begin_inset Formula $\mu$
+\end_inset
+
+m buried oxide layer.
+ A 60 nm layer of SiO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ is deposited using high-temperature low-pressure chemical vapor deposition
+ (HTO) to be used as a hard mask.
+ The grating, ring and waveguides are defined by e-beam lithography on a
+ PMMA resist mask.
+ The pattern is transferred to the oxide layer using a CHF
+\begin_inset Formula $_{3}$
+\end_inset
+
+/O
+\begin_inset Formula $_{2}$
+\end_inset
+
+ reactive ion etch (RIE).
+ The silicon layer is etched using chlorine RIE.
+ A layer of 160 nm of SiO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ is deposited using HTO to conformally fill the 100 nm gaps in the waveguide
+ to ring coupling, then 1 
+\begin_inset Formula $\mu$
+\end_inset
+
+m of SiO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ is deposited using plasma enhanced chemical vapor deposition to clad the
+ device.
+ We define the heaters using photolithography (using SPR955CM and LOR5A
+ resists) and then deposit a NiCr film.
+ After lift-off, t plahe wafer is diced and polished for optical testing.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/bernardo/Dropbox/thesis/figures/fab-1.pdf
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Testing
+\end_layout
+
+\begin_layout Standard
+We measure the device transmission spectrum by coupling laser light from
+ a tunable laser into the input waveguide using a lensed fiber and measuring
+ the transmitted power as a function of wavelength.
+ The input light is TE polarized and the output light is collected using
+ a microscope objective and filtered for the TE polarization before detection.
+ We achieve a channel FWHM of 0.05 nm across 10 different channels of the
+ composed ring and EDG spectrometer, which represents a decrease in the
+ channel width by 10 times compared with the DG spectrometer alone.
+ This channel width corresponds to a quality factor of Q = 
+\begin_inset Formula $\lambda/\Delta\lambda$
+\end_inset
+
+= 30000.
+\end_layout
+
+\begin_layout Standard
+Figure 3(b) shows the device transmission.
+ The transmission is normalized to the ring through port power level to
+ eliminate coupling losses.
+ The device insertion loss varies between -18 and -23 dB, where -10 dB is
+ due to the Fresnel reflection of the diffraction grating and can be eliminated
+ by coating it with a metal or using Bragg reflectors 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Brouckaert:2008p108"
+
+\end_inset
+
+.
+ Other losses are attributed to stitching in the waveguide definition during
+ e-beam lithography.
+ A small mismatch between the resonator FSR (0.97 nm) and the DG spectrometer
+ channel spacing (1 nm) cause a misalignment between the resonance and the
+ DG spectrometer channel that builds up from one channel to the next in
+ a Vernier effect.
+ The outcome is a misalignment between the 11th spectrometer channel and
+ the 11th ring resonance.
+ Therefore only 10 of the 25 channels on the DG spectrometer are used.
+ This issue can be eliminated by more detailed characterization of fabrication.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename /Users/bernardo/Dropbox/thesis/figures/fig-3b.pdf
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Increasing Channel Density
+\end_layout
+
+\begin_layout Standard
+change of refractive index with temperature
+\end_layout
+
+\begin_layout Standard
+Ring tunning calibration
+\end_layout
+
+\begin_layout Standard
+- ring tuning
+\end_layout
+
+\begin_layout Standard
+-spectrometer tuning
+\end_layout
+
+\begin_layout Standard
+Serializing devices either spatially or in time can increase the spectrometer
+ channel density.
+ The space serialization approach consists of using multiple combined ring-DG
+ spectrometers, so that the input of a spectrometer is connected to the
+ through port of the previous device, as shown in Fig.
+ 4(a).
+ The peak wavelength of each spectrometer is shifted relative to the others.
+ The number of devices needed in order to achieve the a spectral density
+ where the channels are separated by 
+\begin_inset Formula $\Delta\lambda_{FWHM}$
+\end_inset
+
+, is equal to the DG spectrometer channel width divided by 
+\begin_inset Formula $\Delta\lambda_{FWHM}$
+\end_inset
+
+.
+ In spite of the area increase, this approach is still more compact than
+ using a traditional diffraction grating spectrometer since in this proposed
+ approach the area increases linearly with resolution as opposed to quadratic
+ in traditional DGs.
+\end_layout
+
+\begin_layout Standard
+In time serialization, Fig.
+ 4(b), only a single combined spectrometer is used and the output spectrum
+ is measured several times.
+ In each measurement the device transmission spectrum is shifted.
+ Notice that this approach also requires active tuning of the ring and the
+ EDG spectrometer.
+ By applying the time serialization technique we were able to reduce the
+ channel spacing from 0.97 nm to 0.097 nm, and were able to measure 100 channels
+ using the device.
+\end_layout
+
+\begin_layout Standard
+A zoom in on the series of channels is depicted in Fig.
+ 6 (a).
+ Figure 6 (b) shows a density plot where each horizontal line corresponds
+ to the transmission spectrum of each channel.
+ Notice that the overlap of the residual transmission from the DG spectrometer
+ with the neighboring resonances can be seen in the side diagonal lines,
+ and their transmissions are at least 10 dB lower than the peak (main diagonal
+ line).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename /Users/bernardo/Dropbox/thesis/graphs/hundred.pdf
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Cross talk from neighboring channels
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename /Users/bernardo/Dropbox/thesis/graphs/hundred_density.pdf
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+dfsdfasd
+\end_layout
+
+\begin_layout Section
+Effect of transmission spectrum lineshape
+\end_layout
+
+\begin_layout Standard
+The effect that the transmission lineshape causes on the output spectrum
+ is that the final measured spectrum is the convolution of the real spectrum
+ with the channel transmission spectrum.
+ The basic consquence is the limitation of the spectroemter resolution.
+ For systems where the desired data is the Fourier transform of the output,
+ such as optical coherence tomography and ultra fast osciloscope, the transmissi
+on spectrum linshape will cause a roll of as the frequency increases in
+ the Fourier transmorm graph.
+ This is due to the 
+\begin_inset CommandInset href
+LatexCommand href
+name "convolution theorem"
+target "http://en.wikipedia.org/wiki/Convolution_theorem"
+
+\end_inset
+
+ that states that the Fourier transform of a convolution is the pointwise
+ product of Fourier transforms of the convoluted functions.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Shi:2003p121"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+Appendix I
+\end_layout
+
+\begin_layout Standard
+For numerical computations some further simplifications can be done to the
+ model described on section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Rayleigh-Huygens-model"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+input{KHapendix1.pdf_tex}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\begin{cases}
+P_{x}=I_{x}-y\sin\iota\\
+P_{y}=I_{y}+y\cos\iota\end{cases}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\begin{cases}
+P'_{x}=I_{x}+r\cos\left(\iota+\alpha\right)\\
+P'{}_{y}=I_{y}+r\sin\left(\iota+\alpha\right)\end{cases}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\begin{cases}
+P'_{x}=P_{x}+r'\cos\left(\iota+\alpha'\right)\\
+P'{}_{y}=P_{y}+r'\sin\left(\iota+\alpha'\right)\end{cases}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\begin{cases}
+P'_{x}=I_{x}-y\sin\iota+r'\cos\alpha'\\
+P'{}_{y}=I_{y}+y\cos\iota+r'\sin\alpha'\end{cases}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+r_{1}=\left|P'-I\right|\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+r'_{1}=\left|P'-P\right|\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+r'^{2}=\left(P'_{y}-P_{y}\right)^{2}+P'_{x}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+r'=\sqrt{\left(r\sin\alpha-P_{y}\right)^{2}+r\cos^{2}\alpha}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+r'=\sqrt{r^{2}-2P_{y}r\sin\alpha+P_{y}^{2}}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+r'=r\sqrt{1-2\frac{P_{y}}{r}\sin\alpha+\left(\frac{P_{y}}{r}\right)^{2}}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+r'=r\left[1-\frac{P_{y}}{r}\sin\alpha+O\left(2\right)\right]\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+for
+\begin_inset Formula \[
+\cos\alpha'=\sqrt{1-\sin^{2}\alpha'}=\sqrt{1-\left(\frac{P'_{y}-P_{y}}{r'}\right)^{2}}=\sqrt{1-\left[\frac{r\left(\sin\alpha-\frac{P_{y}}{r}\right)}{r\left(1-\frac{P_{y}}{r}\sin\alpha\right)}\right]^{2}}\approx\cos\alpha+\frac{P_{y}}{r}\sin\alpha\cos\alpha\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\frac{1}{\sqrt{r'}}=\frac{1}{\sqrt{r}}\frac{1}{1-\frac{P_{y}}{r}\sin\alpha+O\left(2\right)}\approx\frac{1}{\sqrt{r}}\left(1+\frac{P_{y}}{2r}\sin\alpha\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Putting all together:
+\begin_inset Formula \[
+E_{inc}=\frac{1}{2}\sqrt{\frac{n_{eff}}{\lambda}}\int E_{wg}\left(y\right)\frac{e^{-ikr'}}{\sqrt{r'}}\left(1+\cos\alpha'\right)dP_{y}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+dsd 
+\begin_inset Formula $E_{wg}\left(y\right)=E\exp\left[-4\ln2\left(\frac{P_{y}}{w}\right)^{2}\right]$
+\end_inset
+
+
+\begin_inset Formula \[
+E_{inc}=\frac{1}{2}\sqrt{\frac{n_{eff}}{\lambda}}\int E_{wg}\left(y\right)\frac{e^{-ikr+ikP_{y}\sin\alpha}}{\sqrt{r}}\left(1+\frac{P_{y}}{2r}\sin\alpha\right)\left(1+\cos\alpha+\frac{P_{y}}{r}\sin\alpha\cos\alpha\right)dP_{y}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+E_{inc}=\frac{1}{2}\sqrt{\frac{n_{eff}}{\lambda}}\int E\exp\left[-4\ln2\left(\frac{P_{y}}{w}\right)^{2}\right]\frac{e^{-ikr+ikP_{y}\sin\alpha}}{\sqrt{r}}\left(1+\frac{P_{y}}{2r}\sin\alpha\right)\left(1+\cos\alpha+\frac{P_{y}}{r}\sin\alpha\cos\alpha\right)dP_{y}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+E_{inc}=\frac{1}{2}\sqrt{\frac{n_{eff}}{\lambda}}\frac{E}{\sqrt{r}}\int\exp\left[-4\ln2\left(\frac{P_{y}}{w}\right)^{2}\right]e^{-ikr}e^{-ikP_{y}\sin\alpha}\left(1+\cos\alpha+\frac{P_{y}}{r}\left(\frac{1}{2}+\frac{3}{2}\sin\alpha\cos\alpha\right)+\frac{1}{2}\left(\frac{P_{y}}{r}\right)^{2}\sin^{2}\alpha\cos\alpha\right)dP_{y}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+E_{inc}=\frac{1}{2}\sqrt{\frac{n_{eff}}{\lambda}}\frac{E}{\sqrt{r}}e^{-ikr}\left\{ \left(1+\cos\alpha\right)\int\exp\left[-4\ln2\left(\frac{P_{y}}{w}\right)^{2}\right]e^{-ikP_{y}\sin\alpha}dP_{y}+\frac{1}{r}\left(\frac{1}{2}+\frac{3}{2}\sin\alpha\cos\alpha\right)\int\exp\left[-4\ln2\left(\frac{P_{y}}{w}\right)^{2}\right]e^{-ikP_{y}\sin\alpha}P_{y}dP_{y}\right\} \]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+Appendix II
+\end_layout
+
+\begin_layout Section
+Numerical calculation
+\end_layout
+
+\begin_layout Standard
+The simulatior is divided in two main files.
+ The spectrometer.py and WavePropagation.py.
+\end_layout
+
+\begin_layout Standard
+spectrometer.py contains the classes necessary to build the spectrometer.
+\end_layout
+
+\begin_layout Standard
+WavePropagation.py contains the implementation of the Kirchhoff-Huygens integrals
+ that are going to be applied over the spectrometer build using spectrometer.py
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+center{
+\backslash
+input{KHgeneral.pdf_tex}}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+U\left(P\right)=\int_{\mathbb{Q}}\frac{e^{\text{i}kr}}{\sqrt{kr}}\left[\frac{ikU\left(Q\right)}{2}\cos\left(r,n\right)-\frac{\partial U\left(Q\right)}{\partial n}\right]dS\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\begin_inset Formula \[
+\frac{\partial U\left(P\right)}{\partial m}=\frac{ik}{2}\int_{\mathbb{Q}}\frac{e^{\text{i}kr}}{\sqrt{kr}}\left[U\left(Q\right)\frac{ik}{2}\cos\left(r,n\right)-\frac{\partial U\left(Q\right)}{\partial n}\right]\cos\left(r,m\right)dS\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Approximations
+\end_layout
+
+\begin_layout Standard
+If the aperture 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+ is much smaller than 
+\begin_inset Formula $r$
+\end_inset
+
+, then we can consider that 
+\begin_inset Formula $\cos\left(r,m\right)$
+\end_inset
+
+ does not vary a lot in the integral, therefore we can pull it outside the
+ integral, which convert the integral to 
+\begin_inset Formula $U\left(P\right)$
+\end_inset
+
+.
+ We therefore can simplify the equations to
+\begin_inset Formula \[
+\begin{cases}
+U\left(P\right)=\int_{\mathbb{Q}}\frac{e^{\text{i}kr}}{\sqrt{kr}}\left[\frac{ikU\left(Q\right)}{2}\cos\left(r,n\right)-\frac{\partial U\left(Q\right)}{\partial n}\right]dS\\
+\frac{\partial U\left(P\right)}{\partial m}=\frac{ik}{2}\cos\left(r,m\right)U\left(P\right)\end{cases}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\frac{\partial U\left(P\right)}{\partial m}=\frac{ik}{2}\cos\left(r,m\right)\int_{\mathbb{Q}}\frac{e^{\text{i}kr}}{\sqrt{kr}}\left[U\left(Q\right)\frac{ik}{2}\cos\left(r,n\right)-\frac{\partial U\left(Q\right)}{\partial n}\right]dS=\frac{ik}{2}\cos\left(r,m\right)U\left(P\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+Appendix III
+\end_layout
+
+\begin_layout Section*
+Cossine does not vary much
+\end_layout
+
+\begin_layout Standard
+We can enclose 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+ by a circule of radius 
+\begin_inset Formula $q$
+\end_inset
+
+ centered at 
+\begin_inset Formula $Q_{C}$
+\end_inset
+
+, we therefore can write any point of Q by 
+\begin_inset Formula $Q=Q_{C}+v$
+\end_inset
+
+ where 
+\begin_inset Formula $\left|v\right|<q$
+\end_inset
+
+.
+ And we define 
+\begin_inset Formula $\vec{r}'=P-Q_{C}$
+\end_inset
+
+
+\begin_inset Formula \[
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\cos\left(r,m\right)=\frac{\vec{r}\cdot\hat{m}}{r}=\frac{\left(P-Q\right)\cdot\hat{m}}{\left|P-Q\right|}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\cos\left(r,m\right)=\frac{\vec{r}\cdot\hat{m}}{r}=\frac{\left(P-Q_{C}-v\right)\cdot\hat{m}}{\left|P-Q_{C}-v\right|}=\frac{\vec{r}'\cdot\hat{m}-\vec{v}\cdot\hat{m}}{\left|\vec{r}'-\vec{v}\right|}=\frac{\vec{r'}\cdot\hat{m}}{\left|\vec{r}'-\vec{v}\right|}-\frac{\vec{v}\cdot\hat{m}}{\left|\vec{r}'-\vec{v}\right|}=\frac{r'\cos\left(r',m\right)}{\left|\vec{r'}-\vec{v}\right|}-\frac{v\cos\left(v,m\right)}{\left|\vec{r'}-\vec{v}\right|}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\left|\vec{r'}-\vec{v}\right|=\sqrt{r'^{2}+v^{2}+r'v\cos\left(r,v\right)}=r'\sqrt{1+\frac{v^{2}}{r'^{2}}+\frac{v}{r'}\cos\left(r,v\right)}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\cos\left(r,m\right)=\frac{\cos\left(r',m\right)}{\sqrt{1+\frac{v^{2}}{r'^{2}}+\frac{v}{r'}\cos\left(r,v\right)}}-\frac{v}{r'}\frac{\cos\left(v,m\right)}{\sqrt{1+\frac{v^{2}}{r'^{2}}+\frac{v}{r'}\cos\left(r,v\right)}}\]
+
+\end_inset
+
+since 
+\begin_inset Formula $v<q\ll r'$
+\end_inset
+
+, then at first approximation 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+
+\begin_inset Formula $\cos\left(r,m\right)=\cos\left(r',m\right)+O\left(\frac{q}{r'}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

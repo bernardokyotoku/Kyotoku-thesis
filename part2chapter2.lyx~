@@ -1,0 +1,2952 @@
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass book
+\begin_preamble
+\usepackage{bm}
+\usepackage{soul}
+\usepackage{color}
+\usepackage{graphics}
+\end_preamble
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Kirchhoff's diffraction theory
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{equation}
+U\left(P\right)=-\frac{iA}{2\lambda}\iint_{A}\frac{e^{ik\left(r+s\right)}}{rs}\left[\cos\left(n,r\right)-\cos\left(n,s\right)\right]dS\label{eq:Fresnel-Kirchhoff diffraction integral}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For aperture much smaller then 
+\begin_inset Formula $r$
+\end_inset
+
+ and 
+\begin_inset Formula $s$
+\end_inset
+
+ then, putting the origin somewhere in the aperture
+\begin_inset Formula \begin{equation}
+U\left(P\right)\sim-\frac{Ai}{\lambda}\frac{\cos\delta}{r's'}\iint_{A}e^{ik\left(r+s\right)},\label{eq:small aperture approximation integral}\end{equation}
+
+\end_inset
+
+where
+\begin_inset Formula \[
+U\left(p,q\right)=\iint G\left(\xi,\eta\right)\exp\left[-\frac{2\pi}{\lambda}\left(p\xi+q\eta\right)\right]d\xi d\eta,\]
+
+\end_inset
+
+where 
+\begin_inset Formula $G$
+\end_inset
+
+ is the pupil function.
+\begin_inset Formula \[
+U\left(p,q\right)=C\sum_{n}\iint_{A}e^{-ik\left[\left(\xi_{n}+\xi'\right)p+\left(\eta_{n}+\eta'\right)q\right]}d\xi'd\eta'\]
+
+\end_inset
+
+or
+\begin_inset Formula \[
+U\left(p,q\right)=C\sum_{n}e^{-ik\left(\xi_{n}p+\eta_{n}q\right)}\iint_{A}e^{-ik\left(\xi'p+\eta'q\right)}d\xi'd\eta'\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Diffraction grating
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Diffraction-grating"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+center{
+\backslash
+input{grating-theory.pdf_tex}}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diffraction grating cross section.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A diffraction grating may be defined as any arrangement which imposes on
+ an incident wave a periodic variation of amplitude of phase, or both.
+ We may characterize any particular grating by its 
+\emph on
+transmission function
+\emph default
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Born:2000p1607"
+
+\end_inset
+
+, defined as follows:
+\end_layout
+
+\begin_layout Standard
+Let a transparent or semitransparent object (not necessarily periodic) cover
+ a portion of a fictitious reference plane 
+\begin_inset Formula $\xi\eta$
+\end_inset
+
+, and let it be illuminated by a plane monochromatic wave incident in a
+ direction specified by the direction cosines 
+\begin_inset Formula $l_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $m_{0}$
+\end_inset
+
+.
+ Fig illustrates the arrangement, the 
+\begin_inset Formula $\eta$
+\end_inset
+
+-axis being perpendicular to the plane of he drawing.
+ If no object were present, the disturbance in the 
+\begin_inset Formula $\xi,\eta$
+\end_inset
+
+-plane would be represented by the function 
+\begin_inset Formula $V_{0}\left(\xi,\eta\right)=A\exp\left[ik\left(l_{0}\xi+m_{0}\eta\right)\right]$
+\end_inset
+
+, the factor 
+\begin_inset Formula $\exp\left(-i\omega t\right)$
+\end_inset
+
+ being, as usual, omitted.
+ Because of the presence of the object disturbance will be modified and
+ may be represented by some other function, which we denote by 
+\begin_inset Formula $V\left(\xi,\eta\right)$
+\end_inset
+
+.
+ The 
+\emph on
+transmission function
+\emph default
+ of the object is then defined as
+\begin_inset Formula \[
+F\left(\xi,\eta\right)=\frac{V\left(\xi,\eta\right)}{V_{0}\left(\xi,\eta\right)}.\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In general 
+\begin_inset Formula $F$
+\end_inset
+
+ depends, not only on 
+\begin_inset Formula $\xi$
+\end_inset
+
+ and 
+\begin_inset Formula $\eta$
+\end_inset
+
+ but also on the direction 
+\begin_inset Formula $\left(l_{0},m_{0}\right)$
+\end_inset
+
+ of illumination.
+ The transmission function is in general complex, since both the amplitude
+ and the phase of the light may be altered on the passing through the object.
+ In the special case when the object alters the amplitude but no the phase
+ of the incident wave (i.e.
+ if arg 
+\begin_inset Formula $F\equiv0$
+\end_inset
+
+), we speak of an 
+\emph on
+amplitude object
+\emph default
+; if it alters the phase but not the amplitude (i.
+ e.
+ 
+\begin_inset Formula $\left|F\right|=1$
+\end_inset
+
+) we speak of a 
+\emph on
+phase object
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+If we are concerned with reflected light rather than with light that is
+ transmitted by an object, it is more appropriate to speak of a 
+\emph on
+reflection function
+\emph default
+, defined in a similar way, the only difference being that the reference
+ plane is on the same side of the object as the incident light.
+\end_layout
+
+\begin_layout Standard
+The ratio 
+\begin_inset Formula $\left|V/V_{0}\right|$
+\end_inset
+
+ is practically unity for points outside the geometrical shadow (whose boundary
+ is represented by points A and B in Figure) cast by the object.
+ If the portion outside the shadow region is covered by an opaque screen,
+ the arrangements act as a diffracting aperture A with a nonuniform pupil
+ function.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+st{
+\end_layout
+
+\end_inset
+
+If the linear dimensions of A are large compared to the wavelength and if
+ F remains sensibly constant over regions whose dimensions are of the same
+ order as the wavelength, the diffraction formula remain valid under the
+ same conditions as before, provided that the integrand of the diffraction
+ integral is multiplied by F.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/bernardo/Dropbox/thesis/graphs/diffraction grating basic.eps
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Let us now consider a one-dimensional grating consisting of 
+\begin_inset Formula $n$
+\end_inset
+
+ parallel grooves of arbitrary profile, ruled on one surface of a plan-parallel
+ glass plate.
+ Let the 
+\begin_inset Formula $\xi,\eta$
+\end_inset
+
+-plane coincide with the plane face of the plate, 
+\begin_inset Formula $\eta$
+\end_inset
+
+ being the direction of the grooves and let 
+\begin_inset Formula $d$
+\end_inset
+
+ be the period in the 
+\begin_inset Formula $\xi$
+\end_inset
+
+ direction.
+\end_layout
+
+\begin_layout Standard
+Assume that the direction of propagation of the wave incident upon the grating
+ is in the plane of the figure, making an angle 
+\begin_inset Formula $\theta_{0}$
+\end_inset
+
+ with 
+\begin_inset Formula $O\zeta$
+\end_inset
+
+, and let 
+\begin_inset Formula $\theta$
+\end_inset
+
+ denote the angle which 
+\begin_inset Formula $O\zeta$
+\end_inset
+
+ makes with the line joining a very distant point of observation P with
+ the grating.
+\end_layout
+
+\begin_layout Standard
+As before we set 
+\begin_inset Formula $l_{o}=\sin\theta_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $l=\sin\theta$
+\end_inset
+
+, 
+\begin_inset Formula $p=l-l_{0}=\sin\theta-\sin\theta_{0}$
+\end_inset
+
+.
+ The complex amplitude at 
+\begin_inset Formula $P$
+\end_inset
+
+ is then immediately obtained from, where the integrand must be multiplied
+ by the transmission function 
+\begin_inset Formula $F$
+\end_inset
+
+ of one periodic element.
+ We may set 
+\begin_inset Formula $q=0$
+\end_inset
+
+ and
+\begin_inset Formula \[
+\begin{array}{ccc}
+\xi_{n}=nd, & \eta_{n}=0 & \left(n=0,1,\ldots,N-1\right)\end{array}.\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We the obtain
+\begin_inset Formula \begin{equation}
+U\left(p\right)=U^{\left(0\right)}\left(p\right)\sum_{n=0}^{N-1}e^{-ikndp}=U^{\left(0\right)}\left(p\right)\frac{1-e^{-iNkdp}}{1-e^{-kdp}},\label{eq: Up}\end{equation}
+
+\end_inset
+
+where
+\begin_inset Formula \begin{equation}
+U^{\left(0\right)}\left(p\right)=C\int_{A}\! F\left(\xi\right)e^{-ikp\xi}\, d\xi.\label{eq: diffraction envelope}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hence
+\begin_inset Formula \[
+I\left(p\right)=\left|U\left(p\right)\right|^{2}=\frac{\left(1-e^{-Nkdp}\right)}{\left(1-e^{-kdp}\right)}\cdot\frac{\left(1-e^{Nkdp}\right)}{\left(1-e^{kdp}\right)}\left|U^{\left(0\right)}\left(p\right)\right|^{2}=\frac{1-\cos Nkdp}{1-\cos kdp}I^{\left(0\right)}\left(p\right),\]
+
+\end_inset
+
+ where 
+\begin_inset Formula $I^{\left(0\right)}\left(p\right)=\left|U^{\left(0\right)}\left(p\right)\right|^{2}$
+\end_inset
+
+.
+ If we introduce the function
+\begin_inset Formula \[
+H\left(N,x\right)=\left(\frac{\sin Nx}{\sin x}\right)^{2},\]
+
+\end_inset
+
+ the formula 5 for the intensity may be written as
+\begin_inset Formula \[
+I\left(p\right)=H\left(N,\frac{kdp}{2}\right)I^{\left(0\right)}\left(p\right).\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Before discussing the implications of this basic formula we note that according
+ to 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Up"
+
+\end_inset
+
+.
+ The light distribution is the same as that due to a set of coherent secondary
+ sources each characterized by the same amplitude function 
+\begin_inset Formula $\left|U^{\left(0\right)}\left(p\right)\right|$
+\end_inset
+
+ and with phases that differ form each other by integral multiples of 
+\begin_inset Formula $kdp$
+\end_inset
+
+.
+ To see the significance of this phase difference consider two corresponding
+ points 
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $B$
+\end_inset
+
+ in the neighboring grooves of the grating.
+ Since the effect of the grating is to impress a periodic variation onto
+ the incident wave, it follows that the path difference between the light
+ arriving a 
+\begin_inset Formula $A$
+\end_inset
+
+ and at 
+\begin_inset Formula $B$
+\end_inset
+
+ is the same as in the absence of the grating, i.e.
+ it is equal to 
+\begin_inset Formula $AK=d\sin\theta_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $K$
+\end_inset
+
+ denoting the foot of the perpendicular from 
+\begin_inset Formula $B$
+\end_inset
+
+ on to the ray incident at 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ Further, the light path from 
+\begin_inset Formula $B$
+\end_inset
+
+ in the direction 
+\begin_inset Formula $\theta$
+\end_inset
+
+ exceeds the light path from 
+\begin_inset Formula $A$
+\end_inset
+
+ by 
+\begin_inset Formula $BL=d\sin\theta$
+\end_inset
+
+, 
+\begin_inset Formula $L$
+\end_inset
+
+ being the foot of the perpendicular from 
+\begin_inset Formula $A$
+\end_inset
+
+ on to the ray diffracted at 
+\begin_inset Formula $B$
+\end_inset
+
+ in the direction 
+\begin_inset Formula $\theta.$
+\end_inset
+
+ Hence the total path difference between light arriving at the distant point
+ of observation form corresponding points in two neighboring grooves is
+\begin_inset Formula \begin{equation}
+BL-AK=d\left(\sin\theta-\sin\theta_{0}\right)=dp,\label{eq: path difference}\end{equation}
+
+\end_inset
+
+ and the corresponding phase difference is 
+\begin_inset Formula $2\pi dp/\lambda=kdp$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Formula expresses 
+\begin_inset Formula $I\left(p\right)$
+\end_inset
+
+ as the product of two functions: one of them, 
+\begin_inset Formula $I^{\left(0\right)}$
+\end_inset
+
+, represents the effect of a single period of the grating; the other, 
+\begin_inset Formula $H\left(N,x\right)$
+\end_inset
+
+ has maxima, each of height 
+\begin_inset Formula $N^{2}$
+\end_inset
+
+ when
+\begin_inset Formula \begin{equation}
+p\equiv\sin\theta-\sin\theta_{0}=\frac{m\lambda}{Nd}\left(m=0,\pm1,\pm2,\ldots\right),\label{eq:grating equation}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The integer 
+\begin_inset Formula $m$
+\end_inset
+
+ represents, according to 7, the path difference in wavelengths between
+ light diffracted in the direction of the maximum, from corresponding points
+ in two neighboring grooves.
+ In agreement with our earlier definition,7.3.1, we call 
+\begin_inset Formula $m$
+\end_inset
+
+ the 
+\emph on
+order of interference
+\emph default
+.
+ Between theses principal maxima there are weak secondary maxima (see fig
+ 8.19a), the first secondary maximum being only a few percent of the principal
+ maximum when 
+\begin_inset Formula $N$
+\end_inset
+
+ is large.
+ The maxima are separated by points of zero intensity at 
+\begin_inset Formula $x=kdp/2=\pm n\pi/N$
+\end_inset
+
+, i.e.
+ in directions given by
+\begin_inset Formula \begin{equation}
+p\equiv\sin\theta-\sin\theta_{0}=\frac{n\lambda}{Nd}\left(n=0,\pm1,\pm2,\ldots\right)\label{eq: grating secondary maxima}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+the case where 
+\begin_inset Formula $n/N$
+\end_inset
+
+ is an integer being excluded.
+\end_layout
+
+\begin_layout Standard
+The function 
+\begin_inset Formula $I^{\left(0\right)}\left(p\right)$
+\end_inset
+
+ depends on the form of the grooves.
+ Suppose that it has principal maximum for some direction 
+\begin_inset Formula $p=p'$
+\end_inset
+
+ and that on both sides of the maximum if falls off slowly in comparison
+ with 
+\begin_inset Formula $H$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $I\left(p\right)$
+\end_inset
+
+ will have the general form o the sharp maxima near the directions 
+\begin_inset Formula $p=m\lambda/d$
+\end_inset
+
+.
+ Since these directions (except for 
+\begin_inset Formula $m=0$
+\end_inset
+
+) depend on the wavelength, we see that the grating will decompose a beam
+ of non-monochromatic light into 
+\emph on
+spectral orders
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+To illustrate these remarks let us consider a grating consisting of a succession
+ of long equidistant slits, each of width 
+\begin_inset Formula $s$
+\end_inset
+
+ and length 
+\begin_inset Formula $L$
+\end_inset
+
+, in an opaque screen.
+ If the grating is illuminated from a very distant line source parallel
+ to the slits, the intensity 
+\begin_inset Formula $I^{\left(0\right)}$
+\end_inset
+
+ is given by the expression 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: diffraction envelope"
+
+\end_inset
+
+ (with 
+\begin_inset Formula $2a=s$
+\end_inset
+
+, 
+\begin_inset Formula $2b=L$
+\end_inset
+
+) and we obtain
+\begin_inset Formula \begin{equation}
+I\left(p\right)=\frac{sE}{\lambda R^{2}}\left(\frac{\sin\frac{Nkdp}{2}}{\sin\frac{kdp}{2}}\right)^{2}\left(\frac{\sin\frac{kdp}{2}}{\frac{kdp}{2}}\right)^{2}.\label{eq: diffraction intensity}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Curves representing the two factors in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: diffraction intensity"
+
+\end_inset
+
+ and their product are shown in fig X.
+ The last factor in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: diffraction intensity"
+
+\end_inset
+
+, which represents the effect of a single slit, has a principal maximum
+ at 
+\begin_inset Formula $p=0$
+\end_inset
+
+ and minima given by 
+\begin_inset Formula $ksp/2=n\pi$
+\end_inset
+
+, i.e.
+ at
+\begin_inset Formula \[
+p=\frac{n\lambda}{s},\left(n=0,\pm1,\pm2,\ldots\right)\]
+
+\end_inset
+
+ separated by weak secondary maxima.
+ We see that if 
+\begin_inset Formula $\lambda/s\gg\lambda/d$
+\end_inset
+
+, i.e.
+ if the width of each slit is small compared to 
+\begin_inset Formula $d$
+\end_inset
+
+, the intensity 
+\begin_inset Formula $I\left(p\right)$
+\end_inset
+
+ has in addition to a principal maximum at 
+\begin_inset Formula $p=0$
+\end_inset
+
+ a series of sharp, but progressively decreasing, maxima on either side
+ of it, near direction given by 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:grating equation"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Returning to the general case, it is evident that if the width of each groove
+ is very small, of the order of a wavelength (as is often the case in practice)
+ the formula derived on the basis of Kirchhoff's approximation, can evidently
+ no longer be expected to hold.
+ In such cases more refined considerations must be make to determine the
+ detailed distribution of the intensity.
+ We may, however, expect that the main qualitative features indicated by
+ our elementary theory, namely the existence of sharp maxima whose positions
+ are substantially determined by the interference function 
+\begin_inset Formula $H$
+\end_inset
+
+, remain even when the grooves are very narrow, provided, that the intensity
+ function of a single period varies slowly in an interval of the order 
+\begin_inset Formula $\Delta p=\lambda/d$
+\end_inset
+
+.
+ Let us now consider the resolution that may be attained with a grating.
+ The separation between a primary maximum of order 
+\begin_inset Formula $m$
+\end_inset
+
+ and a neighbouring minimum is, according to 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: grating secondary maxima"
+
+\end_inset
+
+, given by
+\begin_inset Formula \[
+\Delta p=\frac{\lambda}{Nd}.\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If the wavelength is changed by an amount 
+\begin_inset Formula $\Delta\lambda$
+\end_inset
+
+, the 
+\begin_inset Formula $m$
+\end_inset
+
+th-order maximum is according to 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:grating equation"
+
+\end_inset
+
+, displaced by an amount
+\begin_inset Formula \[
+\Delta'p=\frac{\left|m\right|}{d}\Delta\lambda.\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Assuming that the lines of wavelength 
+\begin_inset Formula $\lambda\pm\frac{1}{2}\Delta\lambda$
+\end_inset
+
+ will just be resolved when the maximum of the one wavelength coincides
+ with the first minimum of the other we have on he limit of resolution in
+ the 
+\begin_inset Formula $m$
+\end_inset
+
+th order, 
+\begin_inset Formula $\Delta p=\Delta'p$
+\end_inset
+
+, i.e.
+\begin_inset Formula \begin{equation}
+\frac{\lambda}{\Delta\lambda}=\left|m\right|N.\label{eq: resolving power}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus, 
+\emph on
+the resolving power is equal to the product of the order number m and the
+ number N of the grooves
+\emph default
+.
+ For the 
+\begin_inset Formula $m$
+\end_inset
+
+th order we have, according to, that 
+\begin_inset Formula $d\left(\sin\theta-\sin\theta_{0}\right)=m\lambda$
+\end_inset
+
+, so that we may also express the resolving power in the form
+\begin_inset Formula \[
+\frac{\lambda}{\Delta\lambda}=\frac{Nd\left|\sin\theta-\sin\theta_{0}\right|}{\lambda}.\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Because of 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: path difference"
+
+\end_inset
+
+ this implies that 
+\emph on
+the resolving power is equal to the number of wavelengths in the path difference
+ between rays that are diffracted in the direction 
+\begin_inset Formula $\theta$
+\end_inset
+
+ from the two extreme ends (separated by distance Nd) of the grating
+\emph default
+.
+ It is to be noted that since 
+\begin_inset Formula $\left|\sin\theta-\sin\theta_{0}\right|$
+\end_inset
+
+ cannot exceed 2, the resolving power that can be attained with a grating
+ of overall with 
+\begin_inset Formula $w$
+\end_inset
+
+ can never exceed the value 
+\begin_inset Formula $2w/\lambda$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Free spectral range
+\end_layout
+
+\begin_layout Standard
+From the resolving power equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: resolving power"
+
+\end_inset
+
+, we conclude that spectrometer should be operated on high diffraction order
+ so as to minimize the device size for a given resolution.
+ Unfortunatelly, the grating equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:grating equation"
+
+\end_inset
+
+, 
+\begin_inset Formula $p\equiv\sin\theta-\sin\theta_{0}=\frac{m\lambda}{Nd}$
+\end_inset
+
+, we see that it is possible for light from to different wavelength in different
+e diffraction orders to be diffracted to the same angle 
+\begin_inset Formula $\theta$
+\end_inset
+
+, sufficing that 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+m_{i}\lambda_{i}=m_{j}\lambda_{j}\]
+
+\end_inset
+
+for 
+\begin_inset Formula $i\neq j$
+\end_inset
+
+, so for example light diffracted in order 1 at wavelength 1500 nm is diffracted
+ in the same direction as light diffracted from order 2 wavelength 750 nm.
+ To avoid this ambiguity, it is of interest to know when this condition
+ happens.
+ From the grating equation we see that 
+\begin_inset Formula $p$
+\end_inset
+
+ does not make sense outside the interval [0,1], therefore, 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+
+\begin_inset Formula $0\le\frac{m\lambda_{m}}{Nd}\le1$
+\end_inset
+
+ we then that for the diffraction order 
+\begin_inset Formula $m$
+\end_inset
+
+ the wavelength range that is going to be diffracted is:
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+ 
+\begin_inset Formula \[
+0\le\lambda_{m}\le\frac{Nd}{m}.\]
+
+\end_inset
+
+So for the first order the wavelength range that exists is every wavelength
+ below 
+\begin_inset Formula $Nd$
+\end_inset
+
+ , for order 2 every wavelength below 
+\begin_inset Formula $Nd/2$
+\end_inset
+
+ and so on.
+ We see then, that for order 1 the range 
+\begin_inset Formula $[Nd,Nd/2]$
+\end_inset
+
+ is occupied solely by order one.
+ For order 2 the range 
+\begin_inset Formula $[Nd/2,Nd/3]$
+\end_inset
+
+, for order 
+\begin_inset Formula $m$
+\end_inset
+
+, 
+\begin_inset Formula $[Nd/m,Nd/(m+1)]$
+\end_inset
+
+.
+ We see that the range width 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+
+\begin_inset Formula $\Delta\lambda_{m}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+ which there is no overlaping diffraction, called 
+\emph on
+free spectral range
+\emph default
+, can be computed as 
+\begin_inset Formula \[
+\Delta\lambda_{m}=\frac{Nd}{m}-\frac{Nd}{m+1}=\frac{Nd}{m(m+1)},\]
+
+\end_inset
+
+we can replace the substitute the dependancy on 
+\begin_inset Formula $Nd$
+\end_inset
+
+ for the wavelength in the center of the free spectral range 
+\begin_inset Formula $\lambda_{Cm}$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\lambda_{Cm}=\frac{Nd}{m}-\frac{\Delta\lambda_{m}}{2}=\frac{Nd}{m(m+1)}(m+0.5),\]
+
+\end_inset
+
+It is worth noting that althought 
+\begin_inset Formula $\lambda_{Cm}$
+\end_inset
+
+ is in the middle of the spectral range 
+\begin_inset Formula $\Delta\lambda_{m}$
+\end_inset
+
+ the wavelenths are not linearly distributed along the angle range that
+ it is diffracted to, and therefore 
+\begin_inset Formula $\lambda_{Cm}$
+\end_inset
+
+ is not located at the center of the angle range of the 
+\begin_inset Formula $m$
+\end_inset
+
+th order free spectral range.
+ [Graph]We see then that the free spectral range depends inverselly with
+ the diffraction order used, 
+\begin_inset Formula \begin{equation}
+\Delta\lambda_{m}=\frac{\lambda_{Cm}}{m+0.5}.\label{eq:FSR}\end{equation}
+
+\end_inset
+
+This fact, ties to use the a maximum operating diffraction order to the
+ wavelength range and central wavelength we want the diffraction grating
+ to operate.
+\end_layout
+
+\begin_layout Section
+Planar devices
+\end_layout
+
+\begin_layout Standard
+The previous exposition on diffraction grating does not change on the medium
+ in which the device is built on.
+ But since we are interested in spectrometeres integrated on chips, it worth
+ lifting the characteristics of this device.
+ From this point two features stand out as very different from regular free
+ space spectrometer.
+ First is that light is always guided in a slab waveguide, the confinement
+ of light in one dimension change the nature of the system from a 3 dimensional
+ to bi-dimensional one.
+ As this fact causes the light power to decay with the inverse of the distance
+ as it moves away from the source.
+ The other diference is the change of the dispersion due to both the material
+ and the confinement effect.
+ The outcome of this is that for all the results in the previous section,
+ the wavelength variable that needs to be considered is the effective wavelenght
+ in the medium.
+\begin_inset Formula \[
+\lambda_{\text{eff}}=\frac{\lambda}{n_{\text{eff}}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Spectrometer Architectures
+\end_layout
+
+\begin_layout Standard
+Several architecture to build diffraction grating spectrometer exists.
+ Due to lowest size resolution of the Rowland design, it was chosen to build
+ the spectrometer.
+ The Czerny-Turner is presented here to introduce spectrometer because its
+ design is easily understandable.
+ Arrayed waveguide grating has been the most used planar (on chip) version
+ of spectrometer.
+ Marketed as wavelength de-multiplexer (WDM) this layout is show because
+ its role in the telecommunication industry it is of interest to understand
+ why it is not fit for role high resolution on chip spectrometer.
+\end_layout
+
+\begin_layout Subsection
+Czerny-Turner
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Czerny-Turner"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Due to its modularity this architecture is probably the best to introduce
+ spectrometers.
+ It is composed of two slits, two concave mirrors and a diffraction grating.
+ As shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Czerny-Turner-architecture"
+
+\end_inset
+
+, the light to be analyzed is shined through the entrance slit.
+ Due to diffraction, the light fan out as it propagates to the collimating
+ concave mirror where light is collimated and reflected in the direction
+ of the diffraction grating.
+ The diffraction grating then, deviates light from each different wavelength
+ (optical frequencies) into different angles following the equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:grating equation"
+
+\end_inset
+
+.
+ A focusing concave mirror focus the light coming from the diffraction grating
+ and deflect it to the detector slit.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+center{
+\backslash
+input{czerny-turner.pdf_tex}}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Czerny-Turner 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Czerny-Turner-architecture"
+
+\end_inset
+
+architecture
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The function of the entrance slit is to filter spatial optical modes that
+ are inputed into the system.
+ For best filtering the slit has to transmit only a single spatial mode.
+ This is achieved by making the slit width of the order of the light wavelength.
+ Decreasing slit width will increase the beam spread angle, as depicted
+ in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:different slits"
+
+\end_inset
+
+, for a chosen final beam width this will allow the collimating concave
+ mirror to placed nearer to the slit decreasing the device size.
+ However, decrease the slit width will also decrease the fraction of transmitted
+ light.
+ and therefore, lowering the device sensitivity.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+center{
+\backslash
+input{slit_width.pdf_tex}}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Different effects of slit width
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:different slits"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As described by its name the collimating concave mirror collimates the light
+ coming from the entrance mirror and redirect it to the diffraction grating.
+ In order to 
+\begin_inset CommandInset href
+LatexCommand href
+name "collimate"
+target "http://en.wikipedia.org/wiki/Collimated_light"
+
+\end_inset
+
+ the input light, the curvature radius should be equal twice the distance
+ from the entrance slit to the center of the collimating concave mirror.
+ The mirror diameter must be bigger than the beam width at the when it arrives
+ at it to avoid losing light power.
+\end_layout
+
+\begin_layout Standard
+The diffraction grating deviates light from each different wavelength into
+ different angles, as described by equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:grating equation"
+
+\end_inset
+
+.
+ Details on how the light is diffracted are explained in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Diffraction-grating"
+
+\end_inset
+
+.
+ Roughly, the number of illuminated grooves, which is equal to the beam
+ diameter divided by the groove pitch, will determine the resolving power
+ of the spectrometer, as shown in equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: resolving power"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+To quantify the amount of light deviated to each different direction, we
+ use a focusing concave mirror, which will map light with different direction
+ and focus them each into a distinct point in a plane.
+ Alternatively we can say that light in different k in the k space into
+ different points in the coordinate space.
+ Clearly, the size of the focusing mirror must be such that it collects
+ most of the light coming from the diffraction grating.
+ This means that it must be bigger than the beam size plus account for the
+ spread of different wavelengths.
+\end_layout
+
+\begin_layout Standard
+A detector is placed at a point in the focus plan to measure the light power.
+ Optimum detector size is of the order of the entrance slit width, limited
+ also by the resolving power of the diffraction grating.
+ Placing a exit slit in the focus plane followed by a detector, can be used
+ as an alternative for the slit size detector.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Detector array and slit and detector options
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Size analise
+\end_layout
+
+\begin_layout Subsection
+Rowland
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Rowland"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In year, Rowland 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Rowland:1883p38"
+
+\end_inset
+
+ found a way to incorporate the collimating and focusing elements into the
+ diffraction grating.
+ This layout not only decreased the final device size, but also eliminate
+ spherical and astigmatism aberrations due to the auxiliary concave mirrors.
+\end_layout
+
+\begin_layout Standard
+The design consists in the use of a concave diffraction grating of radius
+ 2R.
+ The entrance and exit slits positions are located in a circle of radius
+ R tangent to the diffraction grating sphere.
+ Or more precisely tangent to one of the equator of the diffraction grating
+ sphere.
+ For optimum area usage, the equator should be perpendicular to the diffraction
+ grating grooves and passing through the grating center.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+center{
+\backslash
+input{rowland-mounting.pdf_tex}}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Rowland design.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Arrayed Waveguide Grating (AWG)
+\end_layout
+
+\begin_layout Standard
+The resolving power of a diffraction grating is proportional to the number
+ of grooves and diffraction order, as shown in equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: resolving power"
+
+\end_inset
+
+.
+ Diffraction grating based on ruled surfaces can not achieve diffraction
+ order greater than 20.
+ Introduced by Takahashi et.
+ al.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Takahashi:1990p122"
+
+\end_inset
+
+, this limitation can be overcome by replacing the grating grooves by an
+ array of waveguides.
+ To understand how the introduction of waveguide help it is necessary to
+ understand more generally what diffraction order is.
+ We say that certain diffraction peak is of order 
+\begin_inset Formula $m$
+\end_inset
+
+ if each wave from the set that was constructively interfered to form the
+ interference peak is delayed from one another of 
+\begin_inset Formula $m$
+\end_inset
+
+ periods.
+ On traditional ruled surface diffraction gratings, wavefront from different
+ period are made to interfere by making the wave travel different path lengths
+ by taking path that deviates from the equal angle reflection.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+center{
+\backslash
+input{awg.pdf_tex}}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Traditional diffraction grating generate different path length by straying
+ away from equal angle reflection.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+By guiding light through waveguide it is possible to increase the difference
+ of path length among different waveguides, achieved by only changing the
+ waveguides lengths.
+ Each waveguide of the waveguide array would function like a groove in the
+ diffraction grating, but since waveguide length is only limited by its
+ intrinsic loss, the difference of path length can be on the order of hundreds
+ of wavelength, giving raise to grating that operate of diffraction order
+ of also hundreds.
+\end_layout
+
+\begin_layout Standard
+Unfortunately there is a drawback of increasing diffraction order, the free
+ spectral range as described in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:FSR"
+
+\end_inset
+
+, decreases with the inverse of the of the diffraction order.
+ For instance, an arrayed waveguide grating working on diffraction order
+ 100 at wavelength 1500 nm would have a FSR of only 15 nm.
+ Although this range is useful for fiber optics telecommunications, this
+ bandwidth is too small for most spectroscopy application, optical coherence
+ tomography or ultra-fast oscilloscope[refs].
+ Since we want to achieve a wide spectrum range, this architecture is not
+ fit for us.
+\end_layout
+
+\begin_layout Section
+Grating illuminated by a Gaussian Beam
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Grating gaussian beam"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+center{
+\backslash
+input{gaussian-beam.pdf_tex}}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:square-gaussian"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+On section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Diffraction-grating"
+
+\end_inset
+
+, it was assumed that the whole grating was uniformly illuminated.
+ In practice, this case not always occurs.
+ Light source is normally a collimated light from a slit, pin hole or fiber
+ optics, where for best resolution, single mode output should pass through.
+ In those cases the tranversal power profile is better modeled by a gaussian
+ than by a square profile, see figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:square-gaussian"
+
+\end_inset
+
+.
+ To ajust the resolving power equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: resolving power"
+
+\end_inset
+
+ to account for the Gaussian profile illumination we have to alter the squared
+ illumination assumption in equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Up"
+
+\end_inset
+
+.
+ Using the relation we can equate 
+\begin_inset Formula \[
+U\left(p\right)=U^{\left(0\right)}\left(p\right)\int\sum_{n=-\infty}^{\infty}\delta\left(x-n\right)\text{rect}\left[\frac{x}{2\left(N-1\right)}\right]e^{-ikxdp}dx\]
+
+\end_inset
+
+where
+\begin_inset Formula \[
+\text{rect}\left(x\right)=\begin{cases}
+0 & \mbox{if }\left|x\right|>\frac{1}{2}\\
+\frac{1}{2} & \mbox{if }\left|x\right|=\frac{1}{2}\\
+1 & \mbox{if }\left|x\right|<\frac{1}{2}.\end{cases}\]
+
+\end_inset
+
+the rect
+\begin_inset Formula $\left(x\right)$
+\end_inset
+
+ function correspond to the squared illumination assumption, for a Gaussian
+ illumination we simply replace tha function by a Gaussian function
+\begin_inset Formula \[
+\text{gauss}\mbox{\left(x\right)}=\exp\left[-4\ln2\left(\frac{x}{w/d}\right)^{2}\right]\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $d$
+\end_inset
+
+ is the grating pitch, and 
+\begin_inset Formula $w$
+\end_inset
+
+ is the Full Width at Half Maximum field amplitude of the illuminating beam
+ at the grating.
+ Replacing the Dirac delta comb by its Fourier series 
+\begin_inset Formula \[
+\sum_{k=-\infty}^{\infty}\delta\left(x-k\right)=\sum_{m=-\infty}^{\infty}e^{i2\pi mx},\]
+
+\end_inset
+
+we get
+\begin_inset Formula \[
+U\left(p\right)=U^{\left(0\right)}\left(p\right)\sum_{m=-\infty}^{\infty}\int\exp\left[-4\ln2\left(\frac{x}{w/d}\right)^{2}\right]e^{-i2\pi x\left(kdp/2\pi-m\right)}dx\]
+
+\end_inset
+
+performing the integral we obtain a comb of Gaussian 
+\begin_inset Formula \begin{equation}
+U\left(p\right)=U^{\left(0\right)}\left(p\right)\frac{w}{\sqrt{2}}\sum_{m=-\infty}^{\infty}\exp\left[-\frac{1}{4}\left(\frac{kdp}{2\pi}-m\right)^{2}\frac{\left(w/d\right)^{2}}{4\ln2}\right],\label{eq:gaussian comb}\end{equation}
+
+\end_inset
+
+where each Gaussian is centered on the diffraction order 
+\begin_inset Formula $m$
+\end_inset
+
+.
+ From it we get
+\begin_inset Formula \begin{equation}
+\frac{kdp}{2\pi}=m\mbox{ or }p=\frac{\lambda m}{d}.\label{eq:grating equation 2}\end{equation}
+
+\end_inset
+
+From equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:gaussian comb"
+
+\end_inset
+
+ we can define the wavelength width 
+\begin_inset Formula $\Delta\lambda$
+\end_inset
+
+ such that the power of wavelength 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ at diffraction order 
+\begin_inset Formula $m$
+\end_inset
+
+, is halven as a been
+\begin_inset Formula \[
+\Delta p=2\ln2\frac{\lambda}{w},\]
+
+\end_inset
+
+or using the grating equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:grating equation 2"
+
+\end_inset
+
+ e define the resolving power for a gaussian beam illuminated diffraction
+ grating as
+\begin_inset Formula \begin{equation}
+\frac{\lambda}{\Delta\lambda}=4\sqrt{2}\ln2\frac{wm}{d}\label{eq:resolving power gaussian}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It is worth noting that the relationship between the electric field amplitude
+ FWHM 
+\begin_inset Formula $w$
+\end_inset
+
+ at the grating and the power FWHM 
+\begin_inset Formula $W$
+\end_inset
+
+ is
+\begin_inset Formula \[
+W=\frac{w}{\sqrt{2}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\frac{\lambda}{\Delta\lambda}=8\ln2\frac{Wm}{d}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Size
+\end_layout
+
+\begin_layout Standard
+For a given wavelength 
+\begin_inset Formula $\lambda$
+\end_inset
+
+, resolution 
+\begin_inset Formula $\Delta\lambda$
+\end_inset
+
+ and free spectral range 
+\begin_inset Formula $\delta\lambda$
+\end_inset
+
+, one would like to minimize the device size.
+ Since the device size is basically defined by the grating size 
+\begin_inset Formula $W$
+\end_inset
+
+.
+ We have 
+\begin_inset Formula $W=a\frac{\lambda^{2}}{\Delta\lambda}$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $Nm=\frac{\lambda}{\Delta\lambda}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $W=a\frac{\lambda m}{\Delta\lambda}d$
+\end_inset
+
+, 
+\begin_inset Formula $\delta\lambda=\frac{\lambda}{m}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $W=a\frac{\lambda^{2}}{\delta\lambda\Delta\lambda}d$
+\end_inset
+
+
+\begin_inset Formula $ $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Spectral defects
+\end_layout
+
+\begin_layout Subsection
+Rowland Ghosts
+\end_layout
+
+\begin_layout Standard
+Rowland ghosts are spurious lines seen in some grating spectra that result
+ from periodic errors in the spacing of the grooves.
+ These are usually located symmetrically with respect to each strong spectral
+ line at a spectral distance from it, which depends on the period of the
+ error, and with an intensity that depends on the amplitude of this error.
+\end_layout
+
+\begin_layout Subsection
+Lyman Ghosts
+\end_layout
+
+\begin_layout Section
+Aberrations
+\end_layout
+
+\begin_layout Standard
+The resolving power equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: resolving power"
+
+\end_inset
+
+ states that the resolution of a diffraction grating depends linearly with
+ the wavelength.
+ Unfortunatelly, that relation is only valid for plane waves.
+ To use segregation capability of the diffraction grating, it is necessary
+ to have a source of plane waves and to measure the light power that go
+ to different direction after diffraction from the grating.
+ Sources and detector are space localized endpoints.
+ But employing lenses, it is possible to convert a space localized mode
+ to a angle localized mode., as discussed on the Czerny-Turner configuration
+ in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Czerny-Turner"
+
+\end_inset
+
+.
+ This conversion, however, is not perfect.
+ In geometrical optics terms, this means that rays that enter parallel in
+ a lens (or any other focusin device) does no converge to a single point
+ after the lens and with the fase arriving at exaclty the same time(picture?).
+ Integrating the lens into the grating, as done in Rowland configuration
+ in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Rowland"
+
+\end_inset
+
+, does not readily eliminate the problem, but its application together with
+ the potencial to fabricate designs with freedom to choose any geometry
+ and dispersion might be the solution.
+\end_layout
+
+\begin_layout Standard
+First we will state formally what conditions need to be satified in the
+ design of a aberration free spectrometer.
+ The non-existance of a mathematical solution, lead us to show two corrections,
+ named one point and two point stigmatic correction, that reduce aberrations.
+\end_layout
+
+\begin_layout Subsection
+Aberration free conditions
+\end_layout
+
+\begin_layout Standard
+One would like to design a perfect spectrometer free of aberration.
+ The ability of electron beam lithography to define with accuracy of nanometers
+ the position and shape of the grating grooves.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+center{
+\backslash
+input{aberration-free.pdf_tex}}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:aberration free"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The problem can be stated as follows: Light coming from a point 
+\begin_inset Formula $I$
+\end_inset
+
+ fan out to a diffraction grating which the i-th groove, of 
+\begin_inset Formula $N$
+\end_inset
+
+ grooves, is located at 
+\begin_inset Formula $G_{i}$
+\end_inset
+
+, at each groove light is reflected, fans out again and propagates to a
+ set of 
+\begin_inset Formula $M$
+\end_inset
+
+ output waveguides which the j-ith waveguide is located at 
+\begin_inset Formula $O_{j}$
+\end_inset
+
+, as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:aberration free"
+
+\end_inset
+
+.
+ To perfectly separate light from different wavelengths, we would like that
+ all light which has wavelength 
+\begin_inset Formula $\lambda_{j}$
+\end_inset
+
+ coming from each groove arrive in phase at the output point 
+\begin_inset Formula $O_{j}$
+\end_inset
+
+.
+ Furthermore, we would like that light coming from each different groove
+ have be in a different cycle.
+ The previeous conditions can be expressed by a system of 
+\begin_inset Formula $N\times M$
+\end_inset
+
+ nonlinear algebraic equations with the prototype
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{equation}
+\overline{IG_{i}}+\overline{G_{i}O_{j}}=\lambda_{j}\left(a_{j}+mi\right)\text{ for }\left(i=1,2,\dots,N\right)\text{ and }\left(j=1,2,\dots,M\right),\label{eq:spectrometer equation}\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $m$
+\end_inset
+
+ is an integer number which defines the diffraction order and 
+\begin_inset Formula $a_{j}$
+\end_inset
+
+ is a constant that states that the absolute path length does not matter,
+ only the path length difference between light coming from different routes
+ do.
+ It is worth emphasizing that the path length evaluation should consider
+ the medium refractive index, from this perspective one can interpret that
+ light is also propagating in a non-euclidean space.
+\end_layout
+
+\begin_layout Standard
+For the case of a flat space in a plane, equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:spectrometer equation"
+
+\end_inset
+
+ can be expanded to
+\begin_inset Formula \begin{equation}
+\sqrt{\left(I_{x}-G_{ix}\right)^{2}+\left(I_{y}-G_{iy}\right)^{2}}+\sqrt{\left(O_{jx}-G_{ix}\right)^{2}+\left(O_{jy}-G_{iy}\right)^{2}}=\lambda_{j}\left(a_{j}+mi\right)\text{ for }\left(i=1,2,\dots,N\right)\text{ and }\left(j=1,2,\dots,M\right),\label{eq:spectrometer equation expanded}\end{equation}
+
+\end_inset
+
+As discussed in sections 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Diffraction-grating"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Grating gaussian beam"
+
+\end_inset
+
+, high resolution implies in the use of a high number of grooves 
+\begin_inset Formula $N$
+\end_inset
+
+  with numbers tipically achieving, thousands to millions.
+ Number of channels 
+\begin_inset Formula $M$
+\end_inset
+
+ is, of course, as a wish of the costumer but numbers around thousands are
+ very typical.
+ These implies that the set of equations 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:spectrometer equation expanded"
+
+\end_inset
+
+ is comprised of 
+\begin_inset Formula $M\times N$
+\end_inset
+
+ equations with and 
+\begin_inset Formula $2N+2C+1$
+\end_inset
+
+ variables 
+\begin_inset Formula \[
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+All equation
+\end_layout
+
+\begin_layout Standard
+show that there is no build the full set of equations
+\end_layout
+
+\begin_layout Standard
+cite the papers that show it is not possible to solve for Euclidean surface
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Marz:1992p28,Beutler:1945p8,Namioka:1959p48,Velzel:1976p67"
+
+\end_inset
+
+, but nothing has been shown for non-Euclidean surfaces.
+ Fabrication of non-Euclidean surfaces have been used to demonstrate cloaking
+ devices
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Gabrielli:2009p1173"
+
+\end_inset
+
+.
+ Although it is not possible to find a solution for all equations, solving
+ for one and two points dramatically improves aberration.
+\end_layout
+
+\begin_layout Subsection
+One point stigmatic correction
+\end_layout
+
+\begin_layout Standard
+In the modality a degree of freedom is left undefined leaving us the possibility
+ to choose the surface in which the diffraction grooves are going to be
+ positioned
+\begin_inset CommandInset citation
+LatexCommand cite
+key "McGreer:1996p15"
+
+\end_inset
+
+.
+ Using the Rowland design as a basis, we show here how to place the grooves
+ on a circle in order to have a wavelength free of aberration.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/bernardo/Dropbox/thesis/graphs/aberrationComp.eps
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Two points stigmatic correction
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Horst:2009p1764,Gidon:1988p1765"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Blazing and Groove size
+\end_layout
+
+\begin_layout Section
+Rayleigh-Huygens model
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Rayleigh-Huygens-model"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Numerical calculation where carried out using a Rayleigh-Huygens method
+ adapted to a bidimensional world
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Brouckaert:2007p82"
+
+\end_inset
+
+.
+ The implementation was done in a Python script program.
+ And the program is available at 
+\begin_inset CommandInset href
+LatexCommand href
+name "http://code.google.com/p/khsimulator/"
+target "http://code.google.com/p/khsimulator/"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+input{KH.pdf_tex}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+According to the Kirchhoff-Huygens diffraction formula, the incident electric
+ field 
+\begin_inset Formula $E_{\text{inc}}$
+\end_inset
+
+ at the center points of the grating facets 
+\begin_inset Formula $\left(P'\right)$
+\end_inset
+
+ at a distance 
+\begin_inset Formula $r_{1}$
+\end_inset
+
+and at an angle 
+\begin_inset Formula $\alpha_{s}$
+\end_inset
+
+ can be calculated as 
+\begin_inset Formula \[
+E_{\text{inc}}=\frac{1}{2}\sqrt{\frac{n_{\text{eff}}}{\lambda}}\int E_{\text{wg}}\left(y\right)\frac{e^{-jkr_{1}}}{\sqrt{r_{1}}}\left(1-\cos\alpha_{s}\right)dy\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $k=2\pi n_{\text{eff}}/\lambda$
+\end_inset
+
+ is the wavenumber within the slab waveguide, and 
+\begin_inset Formula $E_{\text{wg}}$
+\end_inset
+
+ is the electric field profile of the TE-polarized fundamental mode of the
+ input waveguide.
+ Similarly, the diffracted field 
+\begin_inset Formula $E_{\text{out}}$
+\end_inset
+
+ on the collection wavguides is calculated as 
+\begin_inset Formula \[
+E_{\text{out}}\left(P''\right)=\eta\sqrt{\frac{n_{\text{eff}}}{\lambda}}\sum_{\text{Grating}}\int_{-D/2}^{+D/2}E_{\text{inc}}\left(y\right)\frac{e^{-jkr_{2}}}{\sqrt{r_{2}}}\frac{\left(\cos\alpha_{i}-\cos\alpha_{d}\right)}{2}dy'\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\alpha_{i}$
+\end_inset
+
+ and 
+\begin_inset Formula $\alpha_{d}$
+\end_inset
+
+ are the incident and diffracted angles with respect to the normal of each
+ grating facet, and 
+\begin_inset Formula $\eta$
+\end_inset
+
+ is the reflection coefficient of the grating.
+ This formula is simplified if we assume that the magnitude of the incident
+ field 
+\begin_inset Formula $\left|E_{\text{inc}}\right|$
+\end_inset
+
+is constant over each facet and the pahse of this field changes linearly
+ along the length of the facet
+\begin_inset Formula \[
+E_{\text{inc}}\left(y'\right)=E_{\text{inc}}\left(y'=0\right)e^{+iky'\sin\alpha_{i}}.\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This aaproximation is valid if the sie of the facets is small compared with
+ the distance to the input and if thangle of incidence 
+\begin_inset Formula $\alpha_{i}$
+\end_inset
+
+ is small.
+ This is thye case if the blaze point 
+\begin_inset Formula $\left(O\right)$
+\end_inset
+
+ is positioned near the input waveguide 
+\begin_inset Formula $\left(I\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Comparisons of simulationas and analitic solution
+\end_layout
+
+\begin_layout Section
+Simulation of Spectral defects and aberrations using Rayleigh-Huygens model
+\end_layout
+
+\begin_layout Section
+implementation
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:implementation"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Chowdhury:2000p56"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The integration of silicon photonics and electronics in a CMOS compatible
+ platform enables whole monolithic device such as a wavelength division
+ demultiplexer (WDM) integrated with detectors and electronic amplifiers.
+ Most silicon-on-insulator (SOI) WDMs with 1 nm channel spacing typically
+ cover a spectral range of only 10 nm.
+ The small spectral range in typical WDMs is due to the use of arrayed waveguide
+ grating (AWG)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Nitkowski:2008p58,Ellis:2006p27"
+
+\end_inset
+
+ designs where large grating orders are employed to achieve small channel
+ spacing which comes with the cost of free spectral range.
+ It is possible to increase the spectral range by lowering the grating order
+ and adding more waveguides to compensate, but this increases the overall
+ chip size.
+ Furthermore, due to the high index contrast of the silicon photonics platform,
+ the achievable resolution depends on very fine control of the AWG waveguide
+ dimensions.
+ Here we demonstrate WDM using etched diffraction grating (EDG)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kneipp:1999p20,MahadevanJansen:2010p89,Foster:2008p71"
+
+\end_inset
+
+.
+ This design is more fabrication tolerant since light is propagating in
+ a slab where the only dimension that needs to be controlled is the slab
+ thickness.
+ It is also more suitable to work at a low grating order because light diffracts
+ in a single slab opposed to the two star couplers slabs in the AWG.
+ 
+\end_layout
+
+\begin_layout Subsection
+Design
+\end_layout
+
+\begin_layout Standard
+We designed a WDM that uses a Rowland design with one stigmatic point correction.
+ The system was designed so that stigmatic point was located at the central
+ waveguide of the 21 output waveguide array.
+ The central wavelength was chosen to be 1500 nm and the diffraction order
+ was 10.
+ The Rowland circle was chosen to be 750 μm.
+ The designed grating contains 340 grooves.
+ The resulting free spectral range was estimated to be 117 nm, and the groove
+ spacing approximately 4 μm.
+ The input and output waveguide apertures were 1.4 μm.
+ A reference waveguide was placed next to the spectrometer so that the transmiss
+ion efficiency could be estimated.
+\end_layout
+
+\begin_layout Subsection
+Operating wavelength
+\end_layout
+
+\begin_layout Standard
+Due to the readly avaibility of testing equipment operating at 1460-1610
+ nm range we decided to design the system to operate somewhere at this range.
+ Germanium detector have a peak detection at 1500 nm so we decided to design
+ the spectrometer operating range centered at 1500 nm.
+\end_layout
+
+\begin_layout Subsection
+Dispersion
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/bernardo/Dropbox/thesis/graphs/slabDispersion.pdf
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/bernardo/Dropbox/thesis/graphs/slabGroupDispersion.pdf
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Effective index and group index dispersion for a Si slab waveguide surrounded
+ by Silica for different slab thicknesses.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Grating size
+\end_layout
+
+\begin_layout Standard
+The spectrometer was patterned using a 
+\begin_inset CommandInset href
+LatexCommand href
+name "JEOL 9300FS"
+target "http://www.cnfusers.cornell.edu/cnf5_tool.taf?_function=detail&eq_id=33&gtitle=ELECTRON-BEAM%20LITHOGRAPHY&area=ELECTRON-BEAM%20LITHOGRAPHY&cacName=JEOL%209300&labUser=1&_UserReference=2652A565A61BF5B34CC5BA72"
+
+\end_inset
+
+ electron beam lithographer.
+ The system is capable of writing using only beam deflecton on an area (denomina
+ted 
+\emph on
+field size
+\emph default
+) of 1x1 mm.
+ By moving the sample to be written (process called as 
+\emph on
+stitching
+\emph default
+) one is capable of writing a whole 5x5 inches mask.
+ Unfortunatelly due to the extreme precision required, it is difficult to
+ align the boders of neighboring fields perfectly, with the system working
+ its best alignments of 10 nm are possible, though achieving this kind of
+ precision is requires a good amount of trials and experience, alignments
+ of 50 nm are more routinelly achieved.
+ In order to avoid errors in the spectrometer grating during stitching we
+ limited the size of the grating in order of it to fit in a single 1x1 mm
+ field, which meant placing the grating along the diagonal of the field,
+ which, ignoring the grating curvature, gaves us a grating size of 1.4 mm.
+\end_layout
+
+\begin_layout Subsection
+Diffraction order and input, output angles
+\end_layout
+
+\begin_layout Standard
+As stated on section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:resolving power gaussian"
+
+\end_inset
+
+ a higher resolving power can be achieved due to arguments to be described
+ at X we limited our operating range to 150 nm, this would allow us to operate
+ at diffraction order -10 or 10.
+ 
+\end_layout
+
+\begin_layout Standard
+According to the grating equation 
+\end_layout
+
+\begin_layout Subsection
+Number of grooves
+\end_layout
+
+\begin_layout Standard
+The higher the number of grooves the higher resolving power we can get.
+ But since we want to limit the grating size, in this particular device
+ to 1.4 mm.
+ Increasing the number of grooves also means decreaing pitch size and increase
+ of diffraction angle, as shown in graph X.
+ 
+\end_layout
+
+\begin_layout Subsection
+Linear Dipersion
+\end_layout
+
+\begin_layout Standard
+angular dispersion is
+\begin_inset Formula \[
+\theta_{\text{out}}=\arcsin\left(m\frac{\lambda}{a}+\sin\theta_{\text{in}}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+angular dispersion is
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\delta\theta_{\text{out}}=\frac{\partial\theta_{\text{out}}}{\partial\lambda}\delta\lambda=\frac{m\delta\lambda}{a\left[1+\left(m\frac{\lambda}{a}+\sin\theta_{\text{in}}\right)^{2}\right]}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Linear dispersion 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+LD=\frac{R}{2}\left(2\delta\theta_{\text{out}}\right)=\frac{Rm\delta\lambda}{a\left[1+\left(m\frac{\lambda}{a}+\sin\theta_{\text{in}}\right)^{2}\right]}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/bernardo/Dropbox/thesis/figures/linearDispersionSchematics.pdf
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+input and output angle
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\theta_{\text{out}}=\arcsin\left(m\frac{\lambda}{a}+\sin\theta_{\text{in}}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/bernardo/Dropbox/thesis/graphs/outAngleXinAngle.pdf
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Output angle 
+\begin_inset Formula $\theta$
+\end_inset
+
+ as a function of the input angle 
+\begin_inset Formula $\theta_{0}$
+\end_inset
+
+ at 1500 nm with effective index equal 2.7.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+angular dispersion
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\frac{\partial\theta_{\text{out}}}{\partial\lambda}=\frac{m}{a\left[1+\left(m\frac{\lambda}{a}+\sin\theta_{\text{in}}\right)^{2}\right]}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We design the DG spectrometer using the Rowland architecture.
+ To reduce spherical aberration, a non-uniform groove spacing is employed
+\begin_inset CommandInset citation
+LatexCommand cite
+key "McGreer:1996p15"
+
+\end_inset
+
+.
+ Metal heaters are added above the silicon layer 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "SherwoodDroz:2008p57"
+
+\end_inset
+
+ to align the resonator and spectrometer transmission combs using the thermo-opt
+ic effect in silicon.
+ The diffraction grating spectrometer contains 25 channels with spacing
+ of 1 nm.
+ To match the ring resonator FSR to the DG spectrometer channel spacing
+ we use an 83.5 m radius ring with waveguide cross-section of 450 x 250 nm.
+ The FSR changes with wavelength according to 
+\begin_inset Formula $2\lambda/(n_{g}L)$
+\end_inset
+
+, but considering a slight positive group velocity dispersion (
+\begin_inset Formula $\partial n_{g}/\partial\lambda\approx3.6\times10^{-3}\text{nm}^{-1}$
+\end_inset
+
+) this change is extremely small: the total change in FSR across the range
+ of operation (25 nm) is approximately 1% for light polarized in the plane
+ of the device (TE polarization).
+\end_layout
+
+\begin_layout Standard
+Output posistioning
+\end_layout
+
+\begin_layout Subsection
+Output waveguide positioning
+\end_layout
+
+\begin_layout Standard
+For better accuracy on spectrometer channels output wavelengths.
+ Each channel was positioned not accordingly to equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:grating equation"
+
+\end_inset
+
+ but by maximizing the output transmission depending on the output waveguide
+ position, where the transmission was calculated numerically.
+ Deviation from the grating equation result are attributed to the non-uniformity
+ of grating grooves distribuition.
+\end_layout
+
+\begin_layout Subsection
+Fabrication
+\end_layout
+
+\begin_layout Standard
+We fabricated the device using CMOS compatible procedures.
+ First, we start with an SOI wafer with 250 nm silicon and 3 μm buried oxide.
+ An 80 nm layer of SiO2 was deposited using plasma enhanced chemical vapor
+ deposition (PECVD) to be used as a hard mask.
+ A 200 nm layer of PMMA was spun and then the grating and the waveguides
+ were defined using e-beam lithography.
+ The pattern was transferred from PMMA the to the oxide layer using CHF3/O2
+ reactive ion etch.
+ The silicon layer was etched using Cl2 inductively coupled plasmaand then
+ 2.3 μm of SiO2 was deposited using PECVD to clad the device.
+ The wafer was diced and polished for optical testing.
+\end_layout
+
+\begin_layout Subsection
+Testing
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+center{
+\backslash
+input{setup.pdf_tex}}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We measured the performance of our WDM and observed -10 dB crosstalk and
+ 1 nm channel spacing across 21 channels.
+ As shown in Fig.
+ 2, a relatively flat transmission spectrum was obtained.
+ This result was measured by inserting light from a tunable laser and measuring
+ the power from the output waveguides.
+ A fiber polarization controller was used to set the input polarization
+ to TE and a polarizer was placed between the chip output and the detector
+ to filter out any TM polarized light.
+ An insertion loss of -10 dB was estimated by comparing to the transmission
+ through the reference waveguide.
+ This can be attributed to Fresnel reflection between the Si-SiO2 interfaces
+ at the grating groove facet and can be reduced by coating the grating facets
+ with a reflective metal.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+center{
+\backslash
+input{setup1.pdf_tex}}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In conclusion, we demonstrate a one point stigmatic Rowland grating WDM
+ with 21 channels, 1 nm channel spacing and better than -10 dB crosstalk.
+ Since the free spectral range is greater the 100 nm, by adding additional
+ output waveguides it is possible to construct a WDM that covers whole C-band.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/bernardo/Dropbox/thesis/graphs/gen5.eps
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Transmission spectra of 21 channels of Rowland planar diffraction grating
+ spectrometer.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

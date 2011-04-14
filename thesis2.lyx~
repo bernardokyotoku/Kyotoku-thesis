@@ -1,0 +1,2176 @@
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass book
+\begin_preamble
+\usepackage{bm}
+\usepackage{soul}
+\usepackage{color}
+\usepackage{graphics}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\language english
+\inputencoding auto
+\font_roman lmodern
+\font_sans default
+\font_typewriter default
+\font_default_family rmdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref true
+\pdf_author "Bernardo Kyotoku"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 0
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 2cm
+\topmargin 3cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip smallskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Optical Coherence Tomography
+\end_layout
+
+\begin_layout Chapter
+Time Domain OCT
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Fonseca:2009p842"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kyotoku:2006p153"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kyotoku:2007p137"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Theory
+\end_layout
+
+\begin_layout Standard
+In OCT, the kind of interferometry used is the low-coherence type.
+ In this section, we are going to describe how low-coherence interferometry
+ is used to measure the distance of an object with more the one reflecting
+ surface.
+\end_layout
+
+\begin_layout Subsection
+Michelson Interferometer
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Michelson-Interferometer"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+center{
+\backslash
+input{interferometer.pdf_tex}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Michelson interferometer
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Michelson-interferometer"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Consider the interferometer shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Michelson-interferometer"
+
+\end_inset
+
+.
+ To simplify the analisys, ignore the light polarization and dispersion
+ effects.
+ A light source emits a radiation whose electric field shine upon a beamspliter
+ e described by 
+\begin_inset Formula $E_{0}\left(t\right)$
+\end_inset
+
+.
+ This light is devided and a fraction 
+\begin_inset Formula $D$
+\end_inset
+
+ of its power is directed to mirror 
+\begin_inset Formula $S$
+\end_inset
+
+ with reflectivity 
+\begin_inset Formula $R_{s}$
+\end_inset
+
+.
+ The light is reflected and returns to the beam spliter, where a fraction
+ 
+\begin_inset Formula $\left(1-D\right)$
+\end_inset
+
+ of its power goes to the detector.
+ Similarly, in the other interferometer arm, 
+\begin_inset Formula $\left(1-D\right)$
+\end_inset
+
+ of the light emited by the light source is redirected to the mirror 
+\begin_inset Formula $R_{r}$
+\end_inset
+
+, which is reflected and returns to the beamspliter, where a fraction 
+\begin_inset Formula $D$
+\end_inset
+
+ of this light is redirected back to the detector.
+ The electric field at the detector can be decribed by
+\begin_inset Formula \begin{equation}
+E_{s}=\sqrt{K_{0}}E_{0}\left(t-\tau_{a}\right)+\sqrt{K_{r}}E_{0}\left(t-\tau_{r}\right),\label{eq:Simplest Field equation}\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $K_{i}=R_{i}D\left(1-D\right)$
+\end_inset
+
+ is the light power fraction that is shined to the detector and 
+\begin_inset Formula $\tau_{i}$
+\end_inset
+
+ is the time the light takes to go from the beamspliter to the mirror 
+\begin_inset Formula $i$
+\end_inset
+
+ and back.
+\end_layout
+
+\begin_layout Standard
+The relationship between the output light intensity 
+\begin_inset Formula $\left\langle I\right\rangle $
+\end_inset
+
+ and the mean electric field is:
+\begin_inset Formula \begin{equation}
+\left\langle I\right\rangle =\left\langle \frac{\left|E\left(t\right)\right|^{2}}{2\eta_{0}}\right\rangle ,\label{eq:intensity field relation}\end{equation}
+
+\end_inset
+
+ where 
+\begin_inset Formula $\eta_{0}=\sqrt{\frac{\mu_{0}}{\varepsilon_{0}}}$
+\end_inset
+
+ is the free space impedance.
+ Using 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Simplest Field equation"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:intensity field relation"
+
+\end_inset
+
+, we get the intensity at the detector as been
+\begin_inset Formula \begin{equation}
+\left\langle I\right\rangle =\left\langle I_{\text{DC}}\right\rangle +\sqrt{K_{s}K_{r}}\Re\left(\Gamma\left(\tau_{s,a}\right)\right)\label{eq:michelson output intensity equation}\end{equation}
+
+\end_inset
+
+ where 
+\begin_inset Formula $\tau_{r,s}=\tau_{s}-\tau_{r}$
+\end_inset
+
+.
+ We define the autocorrelation function for beam electric field as
+\begin_inset Formula \[
+\Gamma\left(\tau\right)=\frac{E\left(t-\tau\right)E^{*}\left(t\right)}{\eta_{0}}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+and
+\begin_inset Formula \[
+\left\langle I_{\text{DC}}\right\rangle =\sum_{j}K_{j}\left\langle I_{0}\right\rangle ,\]
+
+\end_inset
+
+ where 
+\begin_inset Formula $\left\langle I_{0}\right\rangle =\left\langle \frac{\left|E_{0}\left(t\right)\right|^{2}}{2\eta_{0}}\right\rangle $
+\end_inset
+
+ is the mean light intensity that leaves the source, which in this case
+ is constant.
+ More specifically, it is of interest that the light source should be stationary
+ in the wide sense, which means
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\left\langle E\left(t\right)\right\rangle $
+\end_inset
+
+ is independent of 
+\begin_inset Formula $t$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\left\langle E\left(t_{1}\right)E^{*}\left(t_{2}\right)\right\rangle $
+\end_inset
+
+ depends only on 
+\begin_inset Formula $\tau=t_{2}-t_{1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Optical interferometry with coherent light
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+input{interferometerGraphics.pdf_tex}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Light intensity at the interferometer output for input source of (a) coherent
+ light.
+ (b) light with coherence length 
+\begin_inset Formula $\Delta l_{c}$
+\end_inset
+
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:interferometerGraphics"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If the light is perfectly coherent (i.e.
+ monochromatic), then its electric field can be described as 
+\begin_inset Formula $E\left(t\right)=E_{0}e^{-i2\pi\nu t}$
+\end_inset
+
+ where 
+\begin_inset Formula $\nu$
+\end_inset
+
+ is the optical frequency and 
+\begin_inset Formula $E_{0}$
+\end_inset
+
+ is the field amplitude.
+ Replacing 
+\begin_inset Formula $E\left(t\right)=E_{0}e^{-i2\pi\nu t}$
+\end_inset
+
+ in equation and using, we get
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\left\langle I\right\rangle =\left\langle I_{\text{DC}}\right\rangle +2\left\langle I_{0}\right\rangle \sqrt{K_{s}K_{r}}\cos\left(2\pi\nu\tau_{s,r}\right),\]
+
+\end_inset
+
+or, using 
+\begin_inset Formula $\lambda=c/\nu$
+\end_inset
+
+ and 
+\begin_inset Formula $\Delta l=\frac{c}{2}\left(\tau_{s}-\tau_{r}\right)$
+\end_inset
+
+
+\begin_inset Formula \[
+\left\langle I\right\rangle =\left\langle I_{\text{SD}}\right\rangle +2\left\langle I_{0}\right\rangle \sqrt{K_{s}K_{r}}\cos\left(2\pi\frac{\Delta l}{\lambda/2}\right).\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Equation says that the light intensity in the detector varies peridicaly
+ with the interferometer arm length difference 
+\begin_inset Formula $\Delta l$
+\end_inset
+
+, with period 
+\begin_inset Formula $\lambda/2$
+\end_inset
+
+.
+ In special, in case 
+\begin_inset Formula $K_{s}=K_{r}$
+\end_inset
+
+ we get points of zero intensity, as illustrated in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:interferometerGraphics"
+
+\end_inset
+
+(a).
+\end_layout
+
+\begin_layout Subsection
+Low-coherence interferometry
+\end_layout
+
+\begin_layout Standard
+In practice, the coherence of a light source is always limited.
+ In a real case, overlaped with the rapid intensity oscilation with period
+ 
+\begin_inset Formula $\lambda/2$
+\end_inset
+
+, we will notice a gradual decrease of oscilation amplitude.
+ The full width a half maximum of the oscilation envelope is called 
+\emph on
+coherence length
+\begin_inset Index
+status collapsed
+
+\begin_layout Plain Layout
+coherence length
+\end_layout
+
+\end_inset
+
+
+\emph default
+ 
+\begin_inset Formula $\Delta l_{c}$
+\end_inset
+
+.
+ Which we are going to show that is inversly proportional to the light source
+ bandwidth.
+\end_layout
+
+\begin_layout Standard
+Consider the interferometer in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Michelson-interferometer"
+
+\end_inset
+
+, now iluminated with a low coherence light, whose spectrum lineshape is
+ described by 
+\begin_inset Formula $G\left(\nu\right)$
+\end_inset
+
+.
+ The mean light intensity in the detector can be described by the equation
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:michelson output intensity equation"
+
+\end_inset
+
+.
+ Acording with the 
+\begin_inset CommandInset href
+LatexCommand href
+name "Wiener-Khinchin theorem"
+target "http://en.wikipedia.org/wiki/Wiener%E2%80%93Khinchin_theorem"
+
+\end_inset
+
+, the autocorrelation of the signal and its power density spectrum are related
+ by a fourier transform
+\begin_inset Formula \begin{equation}
+G\left(\nu\right)=\int_{-\infty}^{\infty}\Gamma\left(\tau\right)e^{i2\pi\nu\tau}d\tau\label{eq:spectrum from auto correlation}\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula \begin{equation}
+\Gamma\left(\tau\right)=\int_{-\infty}^{\infty}G\left(\nu\right)e^{-i2\pi\nu\tau}d\nu\label{eq:autocorrelation from spectrum}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If the light source power spectrum is lineshape is gaussian
+\begin_inset Formula \begin{equation}
+G\left(\nu\right)=\frac{\left\langle I_{0}\right\rangle }{\Delta\nu}\sqrt{\frac{4\ln2}{\pi}}e^{-4\ln2\left(\frac{\nu-\nu_{0}}{\Delta\nu}\right)^{2}},\label{eq:gaussian spectrum}\end{equation}
+
+\end_inset
+
+ where 
+\begin_inset Formula $\nu_{0}$
+\end_inset
+
+ is the central optical frequency, 
+\begin_inset Formula $\Delta\nu$
+\end_inset
+
+ is the FWHM of the gaussian.
+ The auto correlation of this spectrum is
+\begin_inset Formula \begin{equation}
+\Gamma\left(\tau\right)=\left\langle I_{0}\right\rangle e^{-i2\pi\nu_{0}\tau}e^{-\ln2\tau^{2}/\Delta\tau_{c}^{2}}\label{eq:gaussian autocorrelation function}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $\Delta\tau_{c}=\frac{2\ln2}{\pi\Delta\nu}$
+\end_inset
+
+ is called the 
+\emph on
+coherence time
+\emph default
+, or alternatively using 
+\begin_inset Formula $\tau=\frac{2\Delta l}{c}$
+\end_inset
+
+
+\begin_inset Formula \begin{equation}
+\Gamma\left(\Delta l\right)=\left\langle I_{0}\right\rangle e^{-i2\pi\frac{\Delta l}{\lambda_{0}/2}}e^{-\ln2\frac{\Delta l^{2}}{\left(\Delta l_{c}/2\right)^{2}}}\label{eq:gaussian autocorrelation function by distance}\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\Delta l_{c}=\frac{2\ln2c}{\pi\Delta\nu}=\frac{2\ln2\lambda_{0}^{2}}{\pi\Delta\lambda}$
+\end_inset
+
+ is defined as 
+\emph on
+coherence length
+\emph default
+.
+ 
+\begin_inset Formula $\lambda_{0}$
+\end_inset
+
+ the central wavelength.
+ Replacing 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:gaussian autocorrelation function by distance"
+
+\end_inset
+
+ on 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:michelson output intensity equation"
+
+\end_inset
+
+ we get
+\begin_inset Formula \begin{equation}
+\left\langle I\right\rangle =\left\langle I_{\text{SD}}\right\rangle +2\left\langle I_{0}\right\rangle \sqrt{K_{s}K_{r}}\cos\left(2\pi\frac{\Delta l}{\lambda_{0}/2}\right)e^{-i2\pi\frac{\Delta l}{\lambda_{0}/2}}e^{-\ln2\frac{\Delta l^{2}}{\left(\Delta l_{c}/2\right)^{2}}}\label{eq:gaussianInterferogram}\end{equation}
+
+\end_inset
+
+Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:gaussianInterferogram"
+
+\end_inset
+
+ justifies the behavior of the light intensity at the interometer output
+ described in the begining of section and ilustrated in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:interferometerGraphics"
+
+\end_inset
+
+ (b).
+ The cossine is resposible for the rapid osciliation and the gaussian modulates
+ the oscilation amplitude, which fall to half at a distance 
+\begin_inset Formula $\Delta l_{c}/2$
+\end_inset
+
+.
+ As said before, the coherence length is inversly proportional to the light
+ spectrum.
+ The specific power spectrum lineshape of the alters the autocorrelation
+ function, but the coherence length decreasing with the increase of the
+ power spectrum width of the light source is not altered.
+\end_layout
+
+\begin_layout Subsection
+Low coherence interferometry with multilayer structures
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "48col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+input{interferometerSample.pdf_tex}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Inteferometer with low coherence light source and microstructured sample.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:interferometer"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "48col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+input{interferogram-TD.pdf_tex}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Intensity at detector as the reference arm is scanned.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:interferometer2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To describe the reconstruction fot he transversal image of a structure,
+ we replace the 
+\begin_inset Formula $s$
+\end_inset
+
+ mirror by a sample with dilectric layers.
+ The input beam is focused onto the sample surface, as show in figure .
+ We can model the light electric field at 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:interferometer"
+
+\end_inset
+
+ the interferometer output a coming from the sample arm as
+\begin_inset Formula \[
+E_{s}\left(t\right)=\sum_{i}K_{i}E_{0}\left(t-\tau_{i}\right),\]
+
+\end_inset
+
+ where 
+\begin_inset Formula $E_{0}\left(t\right)$
+\end_inset
+
+ is the light source field and 
+\begin_inset Formula $K_{i}=R_{i}\left(1-D\right)D$
+\end_inset
+
+, 
+\begin_inset Formula $D$
+\end_inset
+
+ being the beamspliter splitting ratio, 
+\begin_inset Formula $R_{i}$
+\end_inset
+
+ is the reflectivity of the 
+\begin_inset Formula $i$
+\end_inset
+
+-th sample interface and 
+\begin_inset Formula $\tau_{i}$
+\end_inset
+
+ is the roundtrip time from the beamsplitter to the 
+\begin_inset Formula $i$
+\end_inset
+
+-th sample interface.
+ The intensity at the detector will then be
+\begin_inset Formula \[
+\left\langle I\right\rangle =\left\langle \frac{\left|E_{s}\left(t\right)+E_{r}\left(t\right)\right|^{2}}{2\eta_{0}}\right\rangle =\left\langle I\right\rangle +\sum_{i}\sqrt{K_{i}K_{r}}\Re\left[\Gamma\left(\tau_{r,i}\right)\right]\]
+
+\end_inset
+
+where 
+\begin_inset Formula $E_{r}\left(t\right)=K_{r}E\left(t-\tau_{r}\right)$
+\end_inset
+
+ is the light electric field that comes from the reference mirror and 
+\begin_inset Formula $\tau_{r}=2\Delta l/c$
+\end_inset
+
+.
+ For a sample show in figure, the intensity as a function of the delay 
+\begin_inset Formula $\tau_{r}$
+\end_inset
+
+ will be as show in the the black graph in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:interferometer2"
+
+\end_inset
+
+, what we call 
+\emph on
+interferogram
+\emph default
+.
+ In it, we can identify three packets, each corresponding to a light returning
+ from each of the sample interfaces.
+ The interval time between packages is equal to the time light take to go
+ from on interface to the other and return, 
+\begin_inset Formula $\tau_{x}=n_{g}\Delta l_{x}/c$
+\end_inset
+
+, where 
+\begin_inset Formula $n_{g}$
+\end_inset
+
+ is the group index of the material the light is propagating at.
+\end_layout
+
+\begin_layout Standard
+Light is then detected and pass through a envelope detector circuit.
+ This circuit eliminates the oscilition within the packets, leaving the
+ envelope of the signal, as shown in red on the graph 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:interferometer2"
+
+\end_inset
+
+, to which we call 
+\emph on
+tomogram
+\emph default
+.
+ A image is made by translating a the beam transversaly to the beam direction
+ a taking a tomogram after a chosen step size.
+\end_layout
+
+\begin_layout Subsection
+Detector signal
+\end_layout
+
+\begin_layout Standard
+The mean current generated by the photodiode can be described as
+\begin_inset Formula \[
+\left\langle i\right\rangle =\frac{e\eta}{\eta\nu_{0}}\left\langle P\right\rangle ,\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\left\langle P\right\rangle =A\left\langle I\right\rangle $
+\end_inset
+
+ is the mean light power that hits the detector in the area 
+\begin_inset Formula $A$
+\end_inset
+
+, 
+\begin_inset Formula $\eta$
+\end_inset
+
+ is the detector quantum eficiency, 
+\begin_inset Formula $e$
+\end_inset
+
+ is the electron charge and 
+\begin_inset Formula $h$
+\end_inset
+
+ is the Planck constant.
+ If we scan the reference mirror at a velocity 
+\begin_inset Formula $u_{r}$
+\end_inset
+
+ in the low coherence interometer described previously, the current will
+ be
+\begin_inset Formula \[
+\left\langle i\right\rangle =\frac{e\eta}{\eta\nu_{0}}\left[\left\langle P_{\text{DC}}\right\rangle +2\left\langle P_{0}\right\rangle \sqrt{K_{s}K_{r}}\cos\left(2\pi\nu_{r}t\right)e^{-i2\pi\frac{\Delta l}{\lambda_{0}/2}}e^{-\ln2\frac{u_{r}^{2}t^{2}}{\left(\Delta l_{c}/2\right)^{2}}}\right],\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\nu_{r}=\frac{u_{r}}{\lambda_{0}/2}$
+\end_inset
+
+.
+ To remove some noise in the detector current, the signal is filtered using
+ an electronic pass band filter centered at 
+\begin_inset Formula $\nu_{r}$
+\end_inset
+
+ with bandwidth 
+\begin_inset Formula $B$
+\end_inset
+
+,
+\begin_inset Formula \[
+B\approx\frac{u_{r}\Delta\nu}{c}\sqrt{\frac{\pi}{\ln2}}\]
+
+\end_inset
+
+which removes the DC current due to the term 
+\begin_inset Formula $\left\langle P_{DC}\right\rangle $
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The electric peak current of the interference pattern at 
+\begin_inset Formula $\Delta l=0$
+\end_inset
+
+ is
+\begin_inset Formula \[
+\left\langle i\right\rangle =\frac{2e\eta}{h\nu_{0}}\left\langle P_{0}\right\rangle \sqrt{K_{r}K_{s}}.\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Equation X shows that the electric current is proportional to the square
+ root of the light power fraction that returns form the sample 
+\begin_inset Formula $K_{s}$
+\end_inset
+
+ and the reference mirro 
+\begin_inset Formula $K_{s}$
+\end_inset
+
+, which show a heterodyne amplification of the signal coming from the sample.
+\end_layout
+
+\begin_layout Section
+Reflectivity Sensitivity
+\end_layout
+
+\begin_layout Standard
+In a OCT system it is of interest to know what is the smallest interface
+ reflectivity that can be observed.
+ The quantity is refereced as 
+\emph on
+reflectivity sensitiviy
+\emph default
+ or more simply 
+\emph on
+sensitivity
+\emph default
+.
+\end_layout
+
+\begin_layout Subsection
+Effective reflectivity vs interface reflectivity
+\end_layout
+
+\begin_layout Subsection
+Signal to noise ratio
+\end_layout
+
+\begin_layout Standard
+The signal to noise ratio (SNR) is a physical quantity of 
+\begin_inset Formula $i$
+\end_inset
+
+ defined as
+\begin_inset Formula \[
+\text{SNR}=\frac{\left\langle i\right\rangle ^{2}}{\sigma_{i}},\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\left\langle i\right\rangle $
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma_{i}^{2}$
+\end_inset
+
+ are, respectively, the mean and the variance of the current 
+\begin_inset Formula $i$
+\end_inset
+
+.
+ Physically, the definition tell how great is the information 
+\begin_inset Formula $\left\langle i\right\rangle $
+\end_inset
+
+ compared to the mean fluctuations amplitude 
+\begin_inset Formula $\sigma_{i}$
+\end_inset
+
+ due to noise.
+ 
+\end_layout
+
+\begin_layout Subsection
+Noise sources
+\end_layout
+
+\begin_layout Standard
+The noise shown here in the detection band used can be considered white
+ noise with zero mean and non correlated.
+ The outcome of that is that the variance of the noise signals sum is equal
+ to the sum of the variance of each noise signal.
+\begin_inset Formula \[
+\sigma_{i}=\sum_{n}\sigma_{n}^{2}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Shot noise
+\end_layout
+
+\begin_layout Standard
+Noise due to the quantization of light and electric current.
+ The quantity of photons arriving at the detector in a sampling interval
+ 
+\begin_inset Formula $\Delta t$
+\end_inset
+
+ is not constant, even if the power of the light source is.
+ The distribuition of the number of photons hitting the detector as a poissonian
+ lineshape, whose width is equal to the mean number of photons.
+ In addition to that, the photoelectron generation ocurs with a probability
+ 
+\begin_inset Formula $\eta$
+\end_inset
+
+, defined as quantum efficiency.
+ It can be shown, that the photoelectron current has a variance
+\begin_inset Formula \[
+\sigma_{s}^{2}=e\left\langle i\right\rangle B,\]
+
+\end_inset
+
+ where 
+\begin_inset Formula $e$
+\end_inset
+
+ is the electron charge and 
+\begin_inset Formula $B$
+\end_inset
+
+ is the detection bandwith of the circuit.
+\end_layout
+
+\begin_layout Subsubsection
+Relative intensity noise
+\end_layout
+
+\begin_layout Standard
+Relative intensity noise (RIN) are noise that grows linearly with the mea
+ n photo-current power.
+ A few examples include the optical source power fluctuations.
+ The noise spectral density can be model with a white noise over the band
+ of interest.
+ Therefore, the variance of this noise can be described as
+\begin_inset Formula \[
+\sigma_{RIN}^{2}=e\gamma\left\langle i\right\rangle ^{2}B,\]
+
+\end_inset
+
+ where the parameter 
+\begin_inset Formula $\gamma$
+\end_inset
+
+ is experimentally measured.
+ In practice it is possible to remove this noise using a balanced detection
+ system.
+ We therefore will not take this noise into consideration in the final calculati
+on.
+\end_layout
+
+\begin_layout Subsubsection
+Thermal noise
+\end_layout
+
+\begin_layout Standard
+There are two main forms of thermal noise.
+ One during detection, when black body radiation and thermal phonons in
+ the detector causes the excitation of electrons generating a current with
+ mean 
+\begin_inset Formula $\left\langle i\right\rangle =e\beta k\theta$
+\end_inset
+
+ and variance
+\begin_inset Formula \[
+\sigma_{\theta1}^{2}=e\beta k\theta B,\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\beta$
+\end_inset
+
+ is a detector geometry and material constant, 
+\begin_inset Formula $\theta$
+\end_inset
+
+ is the temperature and 
+\begin_inset Formula $k$
+\end_inset
+
+ is the Boltzmann constant.
+ Since its value is of the order of 
+\begin_inset Formula $3\times10^{-15}$
+\end_inset
+
+ A in room temperature, we will not take it into account.
+\end_layout
+
+\begin_layout Standard
+Also called Johnson-Nyquist noise is the electronic noise generated by the
+ thermal agitation of the charge carriers (usually the electrons) inside
+ an electrical conductor at equilibrium, which happens regardless of any
+ applied voltage.
+ It is a zero mean noise with variance equal
+\begin_inset Formula \[
+\sigma_{\theta2}^{2}=4k\theta RB,\]
+
+\end_inset
+
+where 
+\begin_inset Formula $R$
+\end_inset
+
+ is the conductor resistance.
+\end_layout
+
+\begin_layout Subsection
+Sensitivity optimization
+\end_layout
+
+\begin_layout Chapter
+Fourier Domain OCT
+\end_layout
+
+\begin_layout Standard
+In 1995, Fercher et al described a way to determine the strucre 
+\end_layout
+
+\begin_layout Standard
+Em 1995, Fercher et al.
+ [38] descreveram uma forma de determinar a estrutura de um objeto a partir
+ da informação do espectro da luz retroespalhada.
+ Essa foi a primeira demonstração do conceito de tomografia por coerência
+ óptica no domínio de Fourier.
+ Em 2002, Wojtkowski et al.
+ [39] demonstraram a capacidade de obter imagens da retina humana usando
+ uma TCO no domínio Fourier, derrubando o ceticismo corrente em relação
+ à funcionalidade da técnica.
+ Estudos posteriores [17] demonstraram a superioridade da TCO no domínio
+ de Fourier em relação à TCO temporal com relação à sensibilidade, desviando
+ o foco de diversos grupos de que trabalham com TCO para esta modalidade
+ em particular.
+\end_layout
+
+\begin_layout Section
+Overview of fourier domain OCT
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+center{
+\backslash
+input{interferometer.pdf_tex}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Michelson interferometer
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Michelson-interferometer-2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Before showing more rigorous derivation of we will show a more intuitive
+ picturo on how frequency domain OCT reconstruct it image.
+ Let a Michelson interferometer ilustrated on 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Michelson-interferometer-2"
+
+\end_inset
+
+ and described in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Michelson-Interferometer"
+
+\end_inset
+
+.
+ It was show in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Michelson-Interferometer"
+
+\end_inset
+
+ that the light intensity in the interferometer output is described by
+\begin_inset Formula \[
+\left\langle I\right\rangle =\left\langle I_{0}\right\rangle +\frac{\sqrt{K_{r}K_{s}}}{\eta_{0}}\cos\left(2\pi\nu\tau_{r,s}\right).\]
+
+\end_inset
+
+Notice that the equation has a dual behavior relative to optical frequency
+ 
+\begin_inset Formula $\nu$
+\end_inset
+
+ and the time delay 
+\begin_inset Formula $\tau$
+\end_inset
+
+.
+ Usually, it is easiear to vary the interferometer arm length keeping the
+ optical frequency (or wavelength) constant and observe the light intensity
+ at the interferometer output.
+ We will then see interference fringes as graph on figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:freqGraphSimple"
+
+\end_inset
+
+.
+ But if we keep the arms length diference constant and equal 
+\begin_inset Formula $\Delta l=c\tau/2$
+\end_inset
+
+, we can rewrite equation X as
+\begin_inset Formula \[
+\left\langle I\right\rangle =\left\langle I_{0}\right\rangle +\frac{\sqrt{K_{r}K_{s}}}{\eta_{0}}\cos\left(2\pi\frac{2\Delta l}{c}\nu\right).\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Notice that the oscilation period in inversly proportional to 
+\begin_inset Formula $\Delta l$
+\end_inset
+
+.
+ Therefore, if we know the period of the intensity oscilation in optical
+ frequency 
+\begin_inset Formula $\Delta\nu$
+\end_inset
+
+, the we can calculate the diference of optical pathlength between the interfero
+meter arms, 
+\begin_inset Formula $\Delta l=\frac{c}{2\Delta\nu}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+If instead of a mirror we put dielectric sample in place of a sample mirror,
+ as show in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:InterferometerBiLayer"
+
+\end_inset
+
+, instead of getting a simple intensity oscilation, we will get a superposition
+ of several senoids described by the equation below
+\begin_inset Formula \[
+\left\langle I\right\rangle =\left\langle I_{0}\right\rangle \left[1+F_{r,1}\cos\left(2\pi\tau_{r,1}\nu\right)+F_{r,2}\cos\left(2\pi\tau_{r,2}\nu\right)+F_{1,2}\cos\left(2\pi\tau_{1,2}\nu\right)\right].\]
+
+\end_inset
+
+The second and the second term in the braces are related to the interference
+ between the light from the reference mirror and the interfaces 1 and 2.
+ The fourth term is due to the interference of the interfaces 1 and 2 between
+ themselves.
+ As can be seen by figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:graphics interference bi-layer"
+
+\end_inset
+
+, it is difficult to identify the frequencies of each harmonic associated
+ with the interference of light coming from two interfaces.
+ However, we can identify the contribution of each harmonic by taking the
+ fourier transform of the power spectrum as illustrated in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:ft graph interferometer bi-layer"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The presence peak due to the interference between the two interfaces of
+ the sample are called 
+\emph on
+self-interference
+\emph default
+, and as can be seen, it creates reconstruction artifacts that obstruct
+ the reconstructed image.
+ However, note that the distance of the peak is equal to the sample thickness,
+ and is independent of the distance between the interfaces and the reference
+ distance.
+ Therfore, if the distance of the sample surface to the reference is greater
+ than the sample thickness, all peaks after the position 
+\begin_inset Formula $\Delta l_{1,2}$
+\end_inset
+
+ are free of the these artifacts.
+ In the following section we will show other methods to supress these artifacts.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "48col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+input{freqInterferometerGraph.pdf_tex}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Light itensity at the Michelson interferometer aoutput as a function of
+ the source optical frequency.
+ The interferometer arms length difference can be calculated as 
+\begin_inset Formula $\Delta l=\frac{c}{2\Delta\nu}$
+\end_inset
+
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:freqGraphSimple"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "48col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+input{BiLayerInterferometer.pdf_tex}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Michelson interferometer with semi-transparent sample.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:InterferometerBiLayer"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In princple Fourier transform assumes the integration for in a infinite
+ spectral range.
+ In practice this is not possible, this limitation causes the decrease of
+ the precision with which the oscilation frequencies are estimated and therefore
+ decreasing the resolution to which we can observe the interace.
+\end_layout
+
+\begin_layout Standard
+In the show example, the output spectrum in measured by varying the light
+ source wavelength.
+ This type of operation is called swept source.
+ However, it is possible to use a light source with broad spectrum, and
+ distiguish the contribution of each optical frequency using a spectrometer
+ principe using in the spectral radar OCT.
+\end_layout
+
+\begin_layout Section
+Frequency domain OCT
+\end_layout
+
+\begin_layout Standard
+Considere o esquema da figura 3.6.
+ Uma fonte de luz de baixa coerência emite uma radi- ação, cujo campo elétrico
+ na saída da fonte é descrito por E (t).
+ A luz é dividida no acoplador de fibra óptica, onde uma fração D da potência
+ é direcionada para o espelho de referência com refletividade Rr.
+ A luz então retorna ao acoplador onde (1−D), e vai para o espectrômetro.
+ Analogamente, no braço da amostra, (1 − D) da luz emitida pela fonte incidem
+ sobre a amostra, onde uma fração Ri que foi retro-refletida ou retro-espalhada
+ na camada i retorna à fibra e uma porção D dessa se encaminha para o espectrôme
+tro.
+ O campo elétrico na entrada do espec- trômetro é descrito por
+\begin_inset Formula \[
+E\left(t\right)=\sqrt{K_{r}}E_{0}\left(t-\tau\right)+\sum_{i}\sqrt{K_{i}}E_{0}\left(t-\tau_{i}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+onde K j = R j D (1 − D) é a fração da potência da fonte que chega na entrada
+ do espectrômetro e τ j é o tempo necessário para luz percorrer o caminho
+ da saída da fonte até a interface j e em seguida para o espectrômetro.
+\end_layout
+
+\begin_layout Standard
+The autocorrelation function of the output light electric field 
+\begin_inset Formula $\Gamma\left(\tau\right)=\left\langle E\left(t\right)E^{*}\left(t-\tau\right)\right\rangle $
+\end_inset
+
+
+\begin_inset Formula \begin{equation}
+\Gamma\left(\tau\right)=\left[K_{r}+\sum_{i}K_{i}\right]\Gamma_{0}\left(\tau\right)+\sum_{i}K_{r,i}\Gamma_{0}\left(\tau+\Delta\tau_{r,i}\right)+\sum_{i}K_{r,i}\Gamma_{0}\left(\tau-\Delta\tau_{r,i}\right)+\sum_{i\ne j}K_{i,j}\Gamma_{0}\left(\tau-\Delta\tau_{i,j}\right),\label{eq:FDautocorrelation}\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $K_{a,b}=\sqrt{K_{a}K_{b}}$
+\end_inset
+
+, 
+\begin_inset Formula $\Delta\tau_{a,b}=\tau_{a}-\tau_{b}=\frac{2\Delta l_{a,b}}{c}$
+\end_inset
+
+ and 
+\begin_inset Formula $\Gamma_{0}\left(\tau\right)=\left\langle E_{0}\left(t\right)E_{0}^{*}\left(t-\tau\right)\right\rangle $
+\end_inset
+
+.
+ Before describing 
+\begin_inset Formula $\Gamma$
+\end_inset
+
+, is worth recall that 
+\begin_inset Formula $\Gamma_{0}$
+\end_inset
+
+ is complex function and therefore so is 
+\begin_inset Formula $\Gamma$
+\end_inset
+
+.
+ However, we are interested on the 
+\begin_inset Formula $\left|\Gamma\right|$
+\end_inset
+
+.
+ In section we discussed the types of 
+\begin_inset Formula $\left|\Gamma_{0}\right|$
+\end_inset
+
+ and how they are related to the light source power spectral density, for
+ this section it is just worth remembering that it is a peak function centered
+ at argument.
+\end_layout
+
+\begin_layout Standard
+The first term of the equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:FDautocorrelation"
+
+\end_inset
+
+ will give raise to a peak centered at the origin, called the DC term.
+ The second term are constituted of several peaks each centered at its respectiv
+e delays 
+\begin_inset Formula $\Delta\tau_{r,i}$
+\end_inset
+
+ and height proportional to its reflectance.
+ This is the information which we are going to use in the image reconstruction.
+ The third them as repeated information of the second term but inverted
+ relative to the origin, called 
+\emph on
+mirror image
+\emph default
+.
+ The fourht term are self interferences, due to the interference of backscattere
+d light in the sample only.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "48col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+input{graphInterferenceBiLayer.pdf_tex}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Light itensity at the Michelson interferometer aoutput as a function of
+ the source optical frequency.
+ The interferometer arms length difference can be calculated as 
+\begin_inset Formula $\Delta l=\frac{c}{2\Delta\nu}$
+\end_inset
+
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:graphics interference bi-layer"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "48col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+input{graphInterferenceBiLayerFT.pdf_tex}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Michelson interferometer with semi-transparent sample.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:ft graph interferometer bi-layer"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The principle of FD OCT is based on calculating the auto-correlation function
+ of the output light from its power spectrum density.
+ Acording to the Wiener-Khinchin theorem the auto-correlation of a function
+ and its power spectral density are related by a Fourier Transform.
+ Therefore the, power spectral density at the interferometer output is
+\begin_inset Formula \[
+G\left(\nu\right)=G_{0}\left(\nu\right)\left[\left(K_{r}+\sum_{i}K_{i}\right)+2\sum_{i}K_{r,i}\cos\left(2\pi\nu\Delta\tau_{r,i}\right)+2\sum_{i\ne j}K_{i,j}\cos\left(2\pi\nu\Delta\tau_{i,j}\right)\right],\]
+
+\end_inset
+
+ where 
+\begin_inset Formula $G_{0}$
+\end_inset
+
+ is the light source PSD.
+ We see that the interferometer output PSD is composed of interference fringes
+ whose frequencies grows with the delays 
+\begin_inset Formula $\Delta\tau_{a,b}$
+\end_inset
+
+, and is modulated by a envelope equal toe the input light PSD.
+\end_layout
+
+\begin_layout Subsection
+FD OCT image reconstruction
+\end_layout
+
+\begin_layout Standard
+The modulus of the auto-correlation of the inteferometer output light can
+ be calculated from the output PSD.
+ But as stated before we are only interested in the second term of the auto-corr
+elation function.
+\begin_inset Formula \[
+\left|\Gamma_{2}\right|=\sum_{i}K_{r,i}\left|\Gamma_{0}\left(\tau+\Delta\tau_{r,i}\right)\right|,\]
+
+\end_inset
+
+Several methods were developed to extract the this term from the auto-correlatio
+n function.
+ Each method having it own virtues and shortcomings in terms of processing
+ power, additional equipment, sensitivity to sample motion (relevant for
+ in vivo imaging).
+ We describe a selection of the methods below.
+\end_layout
+
+\begin_layout Subsubsection
+DC level removal
+\end_layout
+
+\begin_layout Standard
+This method removes the DC peak of the reconstructed image.
+ The basic principle relies on filtering out any component that does no
+ change as the beam is transversally scanning the sample.
+ This will include besides the DC term, also any back reflection in the
+ fiber optics ends.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+name "Several numerical filtering"
+target "http://en.wikipedia.org/wiki/Digital_filter"
+
+\end_inset
+
+methods are available in ready to use software libraries in several programming
+ languages, including C, Labview, Python, Matlab.
+\end_layout
+
+\begin_layout Subsubsection
+Image in clean area
+\end_layout
+
+\begin_layout Subsubsection
+Autointerference supression double spectrum
+\end_layout
+
+\begin_layout Subsubsection
+Differential Fourier domain method
+\end_layout
+
+\begin_layout Subsubsection
+Heterodyne complex FDOCT
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bachmann:2006p1691"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Quadrature Fourier domain method
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Gotzinger:2005p1712"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Triple spectrum complete reconstruction
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Targowski:2004p1713"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Hibert transform
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Wang:2007p771,Baumann:2007p775"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Spectral resolution effects
+\end_layout
+
+\begin_layout Standard
+Aquisition of a spectrum implies that there is a minimum spectral resolution.
+ The consequence of this constraint is that it limits the mininum interference
+ fringe period that can be measured, and therefore, the observable range.
+ Full analysis make use of 
+\begin_inset CommandInset href
+LatexCommand href
+name "Shannon sampling theorem"
+target "http://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem"
+
+\end_inset
+
+.
+\begin_inset Formula \[
+g\left(\nu_{i}\right)=\int_{-\infty}^{\infty}G\left(\nu\right)R\left(\nu-\nu_{i}\right)d\nu\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The measurement range of the FDOCT device depends on the spectral resolution
+ of the spectrometer.
+ Practically the useful information about the object structure is deciphered
+ by the numerical Fourier transform FFT of the measured signal.
+ The number of sampling points N is given by the number of illuminated CCD
+ pixels.
+ The dependence between the jth har- monic and the optical path difference
+ j is the following
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+l_{j}=\frac{1}{2n}\frac{\lambda_{0}^{2}}{\Delta\lambda}j,\, j=1,2,\ldots,N/2\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where n is the refractive index and is the registered width of the spectrum.
+ According to the Nyquist condition the index of the maximum harmonics is
+ equal to N/2.
+ Therefore the maximum path difference registered by a FDOCT device is
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+l_{\text{max}}=\frac{1}{4\pi}\frac{\lambda_{0}^{2}}{\Delta\lambda}N.\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Processing
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Targowski:2005p1741"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Spectral Radar
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+input{spectralOCT.pdf_tex}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Tipical Michelson type spectral radar OCT setup.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Spectrometer
+\end_layout
+
+\begin_layout Standard
+sensitivity drop-off
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bajraszewski:2008p1743"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Swept Source
+\end_layout
+
+\begin_layout Standard
+This chapter details the design of a swept source optical coherence tomography
+ system.
+\end_layout
+
+\begin_layout Section
+Light Source
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Huber:2006p1731"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Detection and Digitalization
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+name "NI PCI-5122"
+target "http://sine.ni.com/nips/cds/view/p/lang/en/nid/13309"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Signal Processing
+\end_layout
+
+\begin_layout Section
+Probe
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Sun:2010p837"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Yeow:2005p66"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Xie:2003p88"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Signal Processing
+\end_layout
+
+\begin_layout Standard
+Volumetric and video rate optical coherence tomography generate large amount
+ of data that needs to be processed before presented.
+ Video rate imaging requires that the whole a whole image to be processed
+ the frame rate, which is not a trivial task.
+\end_layout
+
+\begin_layout Standard
+Considering that the each line consists of 
+\begin_inset Formula $N_{p}$
+\end_inset
+
+ points (typically in the range of 500 to 2000) and each image has 
+\begin_inset Formula $N_{l}$
+\end_inset
+
+ lines (500 to 5000).
+ Images are generated at a frame rate of 
+\begin_inset Formula $F$
+\end_inset
+
+(Movies rate being 25Hz but as slow as 10 Hz are acceptable).
+ The total number of points that needs to be processed per second 
+\begin_inset Formula $P$
+\end_inset
+
+ is 
+\begin_inset Formula $P=N_{p}N_{l}F$
+\end_inset
+
+.
+ Which, using the numbers given before would be in the range 
+\begin_inset Formula $2.5\times10^{6}$
+\end_inset
+
+ e 
+\begin_inset Formula $2.5\times10^{8}$
+\end_inset
+
+ points per second.
+\end_layout
+
+\begin_layout Standard
+A concern is that part of the processing is a discreet Fourier transform
+ which the fastest algorithm available (fast fourier transform) is does
+ the processing in order 
+\begin_inset Formula $O\mbox{\left(n\log\mbox{n}\right)}$
+\end_inset
+
+, where 
+\begin_inset Formula $n$
+\end_inset
+
+ is the number of points in the array the discreet fourier transform is
+ being perfomed at
+\end_layout
+
+\end_body
+\end_document

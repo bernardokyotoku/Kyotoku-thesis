@@ -1,0 +1,203 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      7838,        193]
+NotebookOptionsPosition[      7256,        171]
+NotebookOutlinePosition[      7667,        187]
+CellTagsIndexPosition[      7624,        184]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"dropPortFunction", "[", 
+    RowBox[{"\[Alpha]_", ",", "t_", ",", "\[Theta]_"}], "]"}], "=", 
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["\[Alpha]", "2"], " ", 
+     RowBox[{"(", 
+      RowBox[{"1", "-", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"\[Alpha]", " ", "t"}], ")"}], "2"]}], ")"}], 
+     RowBox[{"(", 
+      RowBox[{"1", "-", 
+       SuperscriptBox["t", "2"]}], ")"}]}], 
+    RowBox[{"1", "+", 
+     SuperscriptBox[
+      RowBox[{"(", " ", 
+       RowBox[{"t", " ", "\[Alpha]"}], ")"}], "4"], " ", "-", 
+     RowBox[{"2", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"t", " ", "\[Alpha]"}], ")"}], "2"], " ", 
+      RowBox[{"Cos", "[", "\[Theta]", "]"}]}]}]]}], ";"}]], "Input"],
+
+Cell[BoxData["dropPortFunction"], "Input",
+ CellChangeTimes->{{3.4742812286010427`*^9, 3.474281229631198*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"dir", "=", "\"\<Documents//thesis//\>\""}], ";"}]], "Input",
+ CellChangeTimes->{{3.474281692424788*^9, 3.474281711580162*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"dropPortData", "=", 
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\[Lambda]", ",", 
+       RowBox[{
+        RowBox[{"10", 
+         RowBox[{"Log", "[", 
+          RowBox[{"10", ",", 
+           RowBox[{"dropPortFunction", "[", 
+            RowBox[{"0.999", ",", "0.95", ",", 
+             RowBox[{"2", "\[Pi]", 
+              FractionBox["\[Lambda]", "FSR"]}]}], "]"}]}], "]"}]}], "/.", 
+        RowBox[{"FSR", "\[Rule]", "1"}]}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"\[Lambda]", ",", "1497.5", ",", "1502.5", ",", "0.01"}], 
+      "}"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.474281196275154*^9, 3.4742811980324593`*^9}, {
+  3.474281237279602*^9, 3.474281377182353*^9}, {3.474281495155501*^9, 
+  3.474281515688603*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ListPlot", "[", "dropPortData", "]"}]], "Input",
+ CellChangeTimes->{{3.474281379058919*^9, 3.474281386834722*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[
+  {Hue[0.67, 0.6, 0.6], PointBox[CompressedData["
+1:eJxd2HlUlXUex3Er4yhjmamFW2hjtjAuSQo3Ra8rOqYTOhQzuU1qpoDCRQXX
+VEQUITfgGuWSWrk0omILepAnLRG31CLRDFvUzCXHFYvIeT+/555zPwf+8bwO
++njv/d7neZ/ft9WrEwePubdWrVq37qlVy/7T/Lzmdb/S3BsfstNlnViXEBGI
+Lyd+FtGw0GVtifxhWiP8QvamVgc+cllpl6I+fQwvTEz2DNrqsoYu3nPrKRy8
+++PYlRtcVqj9g8vbHXiiYJXLCrQviOcFXM/KWOayuNqWSLyjb/krLea5rE8f
+44q4XVp87dFJLsu+3FDcvfnpjdEjXdZr5sfrTmjUr86Fv7usCPuCuLa31oj6
+oS6rkf0C8a7uO6J3B7msy7y8NDxjeKvvzlWFW3u53GLcs+vqwMmnw628t/jB
+Sw/tvBKzM9xKtC+I6x2tHD4jJ9zqZ79AfHfS8n0l8eFWsP2Gcf/An0+27BVu
+3eZye/CsrMKB4xuHW4cP8WP//ey46alnw6z1fHwncO7ESbcjt4ZZ0+0XiJ/9
+5tKDi1PCrMH2G8auvP4RIRFh1tP2B2j/fn1nzy/VnS0zj7Fed7eYdr2X7Ozs
+zAMX/ufo9QpPZ2ce+MzZlE6ZbTo788B3Plle0ruskzMPXDr7wpqNszo588DT
+Zg7ZM/DxTs48cIM3hiYXFD/nzANfXPbdD/1ees6ZB36z1bnsUedCnXngWc3P
+XH4+LtSZB+56pOm273/p6MwDT17VKiZsWEdnHvbv7yRVnf38WWceeMz1ZUt6
+BD/rzAMv7X2gZ7fxHZx54NGrQ91pfds788A3X/zp9M2sts488KDK6Q8ErQ1x
+5mG/nrq7Q6OTn3bmgYe7reKz1W2ceeCfPyw88Htwa2ceuH+3f09bU9zSmYf9
+fjeej2k8oYkzD9zl5O3qtjvqO/PAvT4rOJF5+Haxmcfr/D6/29bTb39cbOaB
+Wwfnm9+beeAvjjr/3swDz8k6Z65v5oH3d3X+fzMP/MFm5/WZeeDI7s7rN/PA
+mXWc92fmgfM/ct6/mQcO830+Zh64eLzz+Zl54F6+z9fMA6887Xz+Zh74j0pn
+PmYeODDTmZ+ZBw7wzdfMA2+p58zfzAMP830/zDxwhzTn+2PmgS/Mcr5fZh44
+OdH5/pl54Pd9308zD1zm+/6aeeCbp5zvt5kHzvN9/808xjH/f8j9gR/13T9m
+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
+ew==
+    "]]},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->True,
+  PlotRange->Automatic,
+  PlotRangeClipping->True]], "Output",
+ CellChangeTimes->{
+  3.474281387262045*^9, {3.474281499348584*^9, 3.4742815182286453`*^9}}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Export", "[", 
+   RowBox[{
+    RowBox[{"dir", "<>", "\"\<test.dat\>\""}], ",", "dropPortData"}], "]"}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.474281400949534*^9, 3.4742814553290987`*^9}, {
+  3.474281670171938*^9, 3.474281686131122*^9}, {3.4742817323003197`*^9, 
+  3.474281744577361*^9}, {3.474281785905016*^9, 3.474281793391796*^9}}]
+},
+WindowSize->{640, 598},
+WindowMargins->{{Automatic, 166}, {Automatic, 0}},
+FrontEndVersion->"7.0 for Mac OS X x86 (32-bit) (November 10, 2008)",
+StyleDefinitions->FrontEnd`FileName[{"Creative"}, "NaturalColor.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[545, 20, 777, 24, 65, "Input"],
+Cell[1325, 46, 110, 1, 37, "Input"],
+Cell[1438, 49, 161, 3, 37, "Input"],
+Cell[1602, 54, 807, 21, 100, "Input"],
+Cell[CellGroupData[{
+Cell[2434, 79, 138, 2, 37, "Input"],
+Cell[2575, 83, 4290, 75, 248, "Output"]
+}, Open  ]],
+Cell[6880, 161, 372, 8, 37, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
+

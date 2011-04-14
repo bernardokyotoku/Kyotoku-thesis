@@ -1,0 +1,56 @@
+%% Creator: Inkscape inkscape 0.48.0, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'spectrometer.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+
+\begingroup
+  \makeatletter
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}
+    \renewcommand\color[2][]{}%
+  }
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}
+    \renewcommand\transparent[1]{}%
+  }
+  \providecommand\rotatebox[2]{#2}
+  \ifx\svgwidth\undefined
+    \setlength{\unitlength}{226.77165527pt}
+  \else
+    \setlength{\unitlength}{\svgwidth}
+  \fi
+  \global\let\svgwidth\undefined
+  \makeatother
+  \begin{picture}(1,0.74999997)%
+    \put(0,0){\includegraphics[width=\unitlength]{spectrometer.pdf}}%
+    \put(0.54116362,0.33342355){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\begin{array}{c}\text{Diffraction}\\
+\text{grating}\end{array}$}}}%
+    \put(0.55705654,0.20627132){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\begin{array}{c}\text{Vertical horizontal}\\
+\text{translation mount}\end{array}$}}}%
+    \put(0.15798007,0.6598246){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Rotation mount}}}%
+    \put(0.70024612,0.69490083){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Colimation lens}}}%
+    \put(0.02850869,0.05879927){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Linear CCD camera}}}%
+    \put(0.03586869,0.53005775){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Focus lens}}}%
+  \end{picture}%
+\endgroup

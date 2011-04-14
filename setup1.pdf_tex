@@ -1,0 +1,56 @@
+%% Creator: Inkscape inkscape 0.48.0, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'setup1.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+
+\begingroup
+  \makeatletter
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}
+    \renewcommand\color[2][]{}%
+  }
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}
+    \renewcommand\transparent[1]{}%
+  }
+  \providecommand\rotatebox[2]{#2}
+  \ifx\svgwidth\undefined
+    \setlength{\unitlength}{453.54331055pt}
+  \else
+    \setlength{\unitlength}{\svgwidth}
+  \fi
+  \global\let\svgwidth\undefined
+  \makeatother
+  \begin{picture}(1,0.31249998)%
+    \put(0,0){\includegraphics[width=\unitlength]{setup1.pdf}}%
+    \put(0.67307734,0.23158916){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{tunnable Laser}}}%
+    \put(0.16376898,0.22927857){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{detector}}}%
+    \put(0.39954874,0.26205801){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{translation stage}}}%
+    \put(0.3015302,0.03811184){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{polarizer}}}%
+    \put(0.6281477,0.01852088){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{piezo translator}}}%
+    \put(0.7895142,0.08980249){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{polarization}}}%
+    \put(0.79575052,0.06672799){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{controler}}}%
+    \put(0.28222222,0.06879182){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{iris}}}%
+  \end{picture}%
+\endgroup

@@ -1,0 +1,171 @@
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass book
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Itemize
+Tomografia por Coerência Óptica
+\end_layout
+
+\begin_layout Enumerate
+Base de Tomografia por coerência óptica
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Visão intuitiva de porque largura de banda é necessária.
+\end_layout
+
+\begin_layout Enumerate
+OCT no domínio temporal
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Linha de atraso espacial
+\end_layout
+
+\begin_layout Enumerate
+Linha de atraso Fourier
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+OCT no domínio de frequências.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Construção de um espectrômetro para o OCT 800.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Detalhes técnicos
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Construção de sistema de OCT swept source.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Detalhes técnicos
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Aplicações
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+In vitro imaging of remaining dentin and pulp chamber by optical coherence
+ tomography: comparison between 850 and 1280 nm
+\end_layout
+
+\begin_layout Enumerate
+Análize de fraturas em resina composta usando OCT
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Miniaturização Base de Tomografia por coerência óptica
+\end_layout
+
+\begin_layout Enumerate
+Base teórica de fotônica integrada
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Propagação de ondas confinandas em 1 dimensão.
+\end_layout
+
+\begin_layout Enumerate
+Propagação de ondas confinandas em 2 dimensões.
+\end_layout
+
+\begin_layout Enumerate
+Ressoadores em anel.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Base teórica de espectrômetros integrado
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Básico
+\end_layout
+
+\begin_layout Enumerate
+Espectrômetro Czeny-Turner.
+\end_layout
+
+\begin_layout Enumerate
+Espectrômetro Rowland.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Revisão Bibliográfica
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Efeito do tamanho das ranhuras.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Espectrômetro com resolução melhorada com ressoador
+\end_layout
+
+\end_body
+\end_document

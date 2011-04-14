@@ -1,0 +1,74 @@
+%% Creator: Inkscape inkscape 0.48.0, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'fab.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+
+\begingroup
+  \makeatletter
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}
+    \renewcommand\color[2][]{}%
+  }
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}
+    \renewcommand\transparent[1]{}%
+  }
+  \providecommand\rotatebox[2]{#2}
+  \ifx\svgwidth\undefined
+    \setlength{\unitlength}{481.88974609pt}
+  \else
+    \setlength{\unitlength}{\svgwidth}
+  \fi
+  \global\let\svgwidth\undefined
+  \makeatother
+  \begin{picture}(1,1)%
+    \put(0,0){\includegraphics[width=\unitlength]{fab.pdf}}%
+    \put(0.03118209,0.80616489){\color[rgb]{1,1,1}\makebox(0,0)[lb]{\smash{silicon}}}%
+    \put(0.03118209,0.91885833){\color[rgb]{1,1,1}\makebox(0,0)[lb]{\smash{silicon}}}%
+    \put(0.03118209,0.86841372){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{silicon oxide}}}%
+    \put(0.38393712,0.91862512){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{250 nm}}}%
+    \put(0.37759222,0.86645574){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{4000 nm}}}%
+    \put(0.03278821,0.70986674){\color[rgb]{1,1,1}\makebox(0,0)[lb]{\smash{PMMA}}}%
+    \put(0.03214621,0.69215337){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{silicon oxide}}}%
+    \put(0.37054229,0.69215337){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{60 nm}}}%
+    \put(0.37054229,0.71118813){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{60 nm}}}%
+    \put(0.02195586,0.97619254){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(a)}}}%
+    \put(0.02139167,0.73955723){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(b)}}}%
+    \put(0.02195586,0.48858009){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(c)}}}%
+    \put(0.02139167,0.23478304){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(d)}}}%
+    \put(0.64509328,0.97619254){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(e)}}}%
+    \put(0.64620219,0.73955723){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(f)}}}%
+    \put(0.64452909,0.48859954){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(g)}}}%
+    \put(0.64452909,0.23478304){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(h)}}}%
+    \put(0.06043393,0.49376141){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{patterned PMMA}}}%
+    \put(0.35371054,0.4909415){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{pattern device}}}%
+    \put(0.35060215,0.21511407){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{wash with MIBK}}}%
+    \put(0.35249591,0.02537979){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{etch silicon oxide}}}%
+    \put(0.5037063,0.84193128){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{strip PMMA}}}%
+    \put(0.48916415,0.58614033){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{etch silicon}}}%
+    \put(0.43427496,0.3257062){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{deposit silicon oxide}}}%
+    \put(0.34276775,0.76280119){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{deposit silicon oxide}}}%
+    \put(0.35390589,0.73883143){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{spin PMMA}}}%
+  \end{picture}%
+\endgroup

@@ -1,0 +1,232 @@
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass book
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Itemize
+Optical coherence tomography
+\end_layout
+
+\begin_layout Enumerate
+Optical coherence tomography basics
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Necessity of bandwidth
+\end_layout
+
+\begin_layout Enumerate
+Time domain OCT.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Spatial delay line.
+\end_layout
+
+\begin_layout Enumerate
+Fourier delay line.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Frequency domain OCT.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Applications
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+In vitro imaging of remaining dentin and pulp chamber by optical coherence
+ tomography: comparison between 850 and 1280 nm.
+\end_layout
+
+\begin_layout Enumerate
+Composite resine analysis using OCT.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+OCT miniaturization
+\end_layout
+
+\begin_layout Enumerate
+Basics of integrated photonics
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Broad picture of how does it works
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+simple one dimension confinemente and waveguiding.
+\end_layout
+
+\begin_layout Enumerate
+actively, Index of refraction and dispersion
+\end_layout
+
+\begin_layout Enumerate
+fabrication methods
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Why integrated photonics
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Size, stability, scalability, dispersion
+\end_layout
+
+\begin_layout Enumerate
+drawbacks, propagation loss, fabrication precision
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+One dimension confined wave propagation.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Exact calculation
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Two dimension confined wave propagation.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+How to go about exact calculation
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Ring resonators
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Basics of integrated spectrometers
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Básico
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+advantages due to almost complete shape control
+\end_layout
+
+\begin_layout Enumerate
+resolução e número de dentes
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Czeny-Turner spectrometer
+\end_layout
+
+\begin_layout Enumerate
+Rowland Spectrometer
+\end_layout
+
+\begin_layout Enumerate
+Arrayed waveguide grating
+\end_layout
+
+\begin_layout Enumerate
+Aberrations
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Spherical aberrations
+\end_layout
+
+\begin_layout Enumerate
+Impossibility theorem
+\end_layout
+
+\begin_layout Enumerate
+Non-euclidean possibility
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Literature review
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Groove size effect
+\end_layout
+
+\begin_layout Enumerate
+Grazing angle
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Cavity enhanced spectrometer
+\end_layout
+
+\end_body
+\end_document

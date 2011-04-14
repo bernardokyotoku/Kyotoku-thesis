@@ -1,0 +1,275 @@
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Formula $r=\left|\vec{r}\right|$
+\end_inset
+
+, 
+\begin_inset Formula $\vec{r}=x\vec{i}+y\vec{j}$
+\end_inset
+
+
+\begin_inset Formula \[
+\nabla r=\nabla\left|\vec{r}\right|=\nabla\sqrt{x^{2}+y^{2}}=\frac{2x\vec{i}+2y\vec{j}}{2\sqrt{x^{2}+y^{2}}}=\frac{x\vec{i}+y\vec{j}}{\sqrt{x^{2}+y^{2}}}=\vec{\frac{r}{r}}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\nabla\left|\vec{r_{0}}-\vec{r}\right|=\frac{\vec{r_{0}}-\vec{r}}{\left|\vec{r_{0}}-\vec{r}\right|}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\frac{\partial}{\partial n}\left(\left(P-Q\right)\cdot m\right)=n\cdot\nabla\left(\left(P-Q\right)\cdot m\right)=n_{x}\frac{\partial}{\partial x}\left(\left(P_{x}-Q_{x}\right)m_{x}+\left(P_{y}-Q_{y}\right)m_{y}\right)+n_{y}\frac{\partial}{\partial y}\left(\left(P-Q\right)\cdot m\right)=n\cdot m\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\frac{\partial}{\partial n}\left(\frac{1}{s\left(\vec{p}\right)}\right)=\vec{\nabla}\left(\frac{1}{s\left(\vec{p}\right)}\right)\cdot\vec{n}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\]
+
+\end_inset
+
+
+\begin_inset Formula $s\left(\vec{p}\right)=\sqrt{\left(q_{x}-p_{x}\right)^{2}+\left(q_{x}-p_{x}\right)^{2}}$
+\end_inset
+
+, 
+\begin_inset Formula $\bar{s}\left(\vec{p}\right)=\sqrt{\left(p_{x}-q_{x}\right)^{2}+\left(p_{x}-q_{x}\right)^{2}}$
+\end_inset
+
+
+\begin_inset Formula \[
+\vec{\nabla}\left(\frac{1}{s\left(\vec{p}\right)}\right)=\frac{-\nabla s\left(\vec{p}\right)}{s^{2}\left(\vec{p}\right)}=-\frac{\vec{i}+\vec{j}}{s^{3}\left(\vec{p}\right)}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\nabla s\left(\vec{p}\right)=\nabla\sqrt{\left(q_{x}-p_{x}\right)^{2}+\left(q_{y}-p_{y}\right)^{2}}=\nabla\left[\left(q_{x}-p_{x}\right)^{2}+\left(q_{y}-p_{y}\right)^{2}\right]^{1/2}=\frac{-2\left(\left(q_{x}-p_{x}\right)\vec{i}+\left(q_{y}-p_{y}\right)\vec{j}\right)}{2\left[\left(q_{x}-p_{x}\right)^{2}+\left(q_{y}-p_{y}\right)^{2}\right]^{1/2}}=-\frac{\left(q_{x}-p_{x}\right)\vec{i}+\left(q_{y}-p_{y}\right)\vec{j}}{s\left(\vec{p}\right)}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\nabla\bar{s}\left(\vec{p}\right)=\nabla\sqrt{\left(p_{x}-q_{x}\right)^{2}+\left(p_{x}-q_{x}\right)^{2}}=\frac{\vec{i}+\vec{j}}{\bar{s}\left(\vec{p}\right)}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\vec{\nabla}\left(\frac{1}{s}\right)\cdot\vec{n}=-\frac{1}{s^{2}}\vec{\nabla}s\cdot\vec{n}=-\frac{1}{s^{2}}\vec{\nabla}\sqrt{\left(p_{x}-q_{x}\right)^{2}+\left(p_{y}-q_{y}\right)^{2}}\cdot\vec{n}\]
+
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+
+\begin_inset Formula \[
+\vec{\nabla}\sqrt{\left(p_{x}-q_{x}\right)^{2}+\left(p_{y}-q_{y}\right)^{2}}=\frac{p_{x}i+p_{x}j}{s}=\cos\left(s,n\right)\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\vec{\nabla}\left(\frac{1}{s}\right)\cdot\vec{n}=\frac{1}{s^{2}}\cos\left(s,n\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+U\left(P'\right)=\frac{1}{4\pi}\int\left\{ U\frac{\partial}{\partial n}\left(\frac{e^{\text{i}ks}}{s}\right)-\left(\frac{e^{\text{i}ks}}{s}\right)\frac{\partial U}{\partial n}\right\} dS\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $s=\left|Q-P'\right|=\sqrt{\left(Q_{x}-P'_{x}\right)^{2}+\left(Q_{y}+P'_{y}\right)^{2}}$
+\end_inset
+
+
+\begin_inset Formula \[
+\frac{\partial}{\partial n'}U\left(P\right)=\frac{1}{4\pi}\int\left\{ U\frac{\partial}{\partial n'}\frac{\partial}{\partial n}\left(\frac{e^{\text{i}ks}}{s}\right)-\frac{\partial U}{\partial n}\frac{\partial}{\partial n'}\left(\frac{e^{\text{i}ks}}{s}\right)\right\} dS\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\frac{\partial}{\partial n}\left(\frac{e^{\text{i}ks}}{s}\right)=\frac{e^{\text{i}ks}}{s}\left[\text{i}k-\frac{1}{s}\right]\cos\left(n,s\right)\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\frac{\partial}{\partial n'}U\left(P\right)=\frac{1}{4\pi}\int\left\{ U\frac{\partial}{\partial n'}\left\{ \frac{e^{\text{i}ks}}{s}\left[\text{i}k-\frac{1}{s}\right]\cos\left(n,s\right)\right\} -\frac{\partial U}{\partial n}\frac{e^{\text{i}ks}}{s}\left[\text{i}k-\frac{1}{s}\right]\cos\left(n',s\right)\right\} dS\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\]
+
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+
+\begin_inset Formula \[
+\frac{\partial}{\partial n'}\cos\left(n,s\right)=\frac{\partial}{\partial n'}\frac{\left(Q-P'\right)\cdot n}{s}=\frac{\left(Q-P'\right)\cdot n\frac{\partial s}{\partial n'}-s\frac{\partial}{\partial n'}\left(Q-P'\right)\cdot n}{s^{2}}=\frac{-s\cos\left(n,s\right)\cos\left(s,n'\right)+s\cos\left(n,n'\right)}{s^{2}}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\frac{\cos\left(n,n'\right)-\cos\left(n,s\right)\cos\left(s,n'\right)}{s}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\frac{\partial}{\partial n'}\left\{ \frac{e^{\text{i}ks}}{s}\left[\text{i}k-\frac{1}{s}\right]\cos\left(n,s\right)\right\} =\frac{e^{\text{i}ks}}{s^{4}}\left[\cos\left(n,n'\right)-\cos\left(n,s\right)\cos\left(s,n'\right)\right]\cos^{2}\left(n',s\right)\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\frac{\partial}{\partial n'}U\left(P\right)=\frac{ik}{4\pi}\int\frac{e^{\text{i}ks}}{s}\left[\frac{\partial U}{\partial n}-iUk\cos\left(n,s\right)\right]\cos\left(n',s\right)dS\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+U\left(P\right)=\frac{1}{4\pi}\int\frac{e^{\text{i}kc}}{c}\left[\text{i}kU\left(Q\right)\cos\left(n,c\right)-\frac{\partial U}{\partial n}\left(Q\right)\right]dS\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\begin_inset Formula \[
+\frac{\partial U}{\partial m}\left(P\right)=-\frac{1}{4\pi}\int\frac{e^{\text{i}kc}}{c}\left[\text{i}kU\left(Q\right)\cos\left(n,c\right)-\frac{\partial U}{\partial n}\left(Q\right)\right]\text{i}k\cos\left(m,c\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+U\left(T\right)=\frac{\text{i}k}{4\pi}\int\frac{e^{\text{i}kt}}{t}\left[U\left(P\right)\cos\left(m,t\right)+\left(\frac{i}{k}\right)\frac{\partial U}{\partial m}\left(P\right)\right]dS\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+if 
+\begin_inset Formula \[
+\frac{\partial U}{\partial m}\left(P\right)=-\text{i}k\cos\left(m,c\right)U\left(P\right)\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+U\left(T\right)=\frac{\text{i}k}{4\pi}\int\frac{e^{\text{i}kt}}{t}U\left(P\right)\left[\cos\left(m,t\right)+\cos\left(m,c\right)\right]dS\]
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

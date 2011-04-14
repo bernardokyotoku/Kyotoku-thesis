@@ -1,0 +1,60 @@
+%% Creator: Inkscape inkscape 0.48.0, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'output-shadow.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+
+\begingroup
+  \makeatletter
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}
+    \renewcommand\color[2][]{}%
+  }
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}
+    \renewcommand\transparent[1]{}%
+  }
+  \providecommand\rotatebox[2]{#2}
+  \ifx\svgwidth\undefined
+    \setlength{\unitlength}{231.48769531pt}
+  \else
+    \setlength{\unitlength}{\svgwidth}
+  \fi
+  \global\let\svgwidth\undefined
+  \makeatother
+  \begin{picture}(1,0.61542717)%
+    \put(0,0){\includegraphics[width=\unitlength]{output-shadow.pdf}}%
+    \put(0.60972136,0.00985193){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Rowland circle}}}%
+    \put(0.67899823,0.5376131){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$2\theta_{out}$}}}%
+    \put(0.77325502,0.35782682){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\theta_{out}$}}}%
+    \put(0.67498093,0.25657068){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\theta_{out}$}}}%
+    \put(0.013964,0.579505){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{circle perimeter used}}}%
+    \put(0.26531555,0.53761288){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{waveguide}}}%
+    \put(0.39099127,0.0628378){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{waveguide width}}}%
+    \put(0.17804071,0.20073196){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{circle center}}}%
+    \put(0.0418919,0.15011275){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{grating}}}%
+    \put(0.89496607,0.26531549){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x$}}}%
+    \put(0.00523649,0.05061936){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$D$}}}%
+    \put(0.26531544,0.08902035){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$O$}}}%
+  \end{picture}%
+\endgroup

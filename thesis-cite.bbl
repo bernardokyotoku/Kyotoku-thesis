@@ -1,0 +1,1620 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 1.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{Attar:2008p2147}{article}{}
+  \name{author}{5}{%
+    {{Attar}{A.}%
+     {Nuray}{N.}%
+     {}{}%
+     {}{}}%
+    {{Korkmaz}{K.}%
+     {Yonca}{Y.}%
+     {}{}%
+     {}{}}%
+    {{Ozel}{O.}%
+     {Emre}{E.}%
+     {}{}%
+     {}{}}%
+    {{Bicer}{B.}%
+     {Ceren~Ozge}{C.~O.}%
+     {}{}%
+     {}{}}%
+    {{Firatli}{F.}%
+     {Erhan}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {eng}%
+  }
+  \keyw{Dental Leakage, Humans, Lasers: Solid-State, Acid Etching: Dental,
+  Composite Resins, Dental Cavity Preparation, Bisphenol A-Glycidyl
+  Methacrylate, Dental Cements, Phosphoric Acids}
+  \strng{namehash}{AN+1}
+  \strng{fullhash}{ANKYOEBCOFE1}
+  \field{labelyear}{2008}
+  \field{sortinit}{A}
+  \verb{doi}
+  \verb 10.1089/pho.2007.2203
+  \endverb
+  \field{number}{6}
+  \field{pages}{585\bibrangedash 91}
+  \field{title}{Microleakage of class V cavities with different adhesive
+  systems prepared by a diamond instrument and different parameters of Er:YAG
+  laser irradiation}
+  \field{volume}{26}
+  \field{journaltitle}{Photomedicine and laser surgery}
+  \field{year}{2008}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{bajraszewski:2008p1743}{article}{}
+  \name{author}{6}{%
+    {{Bajraszewski}{B.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{Wojtkowski}{W.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{Szkulmowski}{S.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{Szkulmowska}{S.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{Huber}{H.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{Kowalczyk}{K.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BT+1}
+  \strng{fullhash}{BTWMSMSAHRKA1}
+  \field{labelyear}{2008}
+  \field{sortinit}{B}
+  \field{number}{6}
+  \field{pages}{4163\bibrangedash 4176}
+  \field{title}{Improved spectral optical coherence tomography using optical
+  frequency comb}
+  \field{volume}{16}
+  \field{journaltitle}{Optics Express}
+  \field{year}{2008}
+\endentry
+
+\entry{Beutler:1945p8}{article}{}
+  \name{author}{1}{%
+    {{Beutler}{B.}%
+     {HG}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BH1}
+  \strng{fullhash}{BH1}
+  \field{labelyear}{1945}
+  \field{sortinit}{B}
+  \field{pages}{311\bibrangedash 350}
+  \field{title}{The theory of the concave grating}
+  \field{volume}{35}
+  \field{journaltitle}{J. Opt. Soc. Am}
+  \field{year}{1945}
+\endentry
+
+\entry{Braem:1994p2520}{article}{}
+  \name{author}{3}{%
+    {{Braem}{B.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{Lambrechts}{L.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{Vanherle}{V.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {eng}%
+  }
+  \keyw{Materials Testing, Hardness, Composite Resins, Elasticity, Particle
+  Size, Bisphenol A-Glycidyl Methacrylate, Physicochemical Phenomena, Tensile
+  Strength, Humidity, Chemistry: Physical, Humans, Surface Properties, Bite
+  Force}
+  \strng{namehash}{BMLPVG1}
+  \strng{fullhash}{BMLPVG1}
+  \field{labelyear}{1994}
+  \field{sortinit}{B}
+  \field{number}{2}
+  \field{pages}{97\bibrangedash 102}
+  \field{title}{Clinical relevance of laboratory fatigue studies}
+  \field{volume}{22}
+  \field{journaltitle}{J Dent}
+  \field{year}{1994}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Brandenburg:2003p2055}{article}{}
+  \name{author}{3}{%
+    {{Brandenburg}{B.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{Haller}{H.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{Hauger}{H.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BRHBHC1}
+  \strng{fullhash}{BRHBHC1}
+  \field{labelyear}{2003}
+  \field{sortinit}{B}
+  \field{title}{Real-time in vivo imaging of dental tissue by means of optical
+  coherence tomography (OCT)}
+  \field{journaltitle}{Optics Communications}
+  \field{year}{2003}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Braz:2009p2143}{article}{}
+  \name{author}{4}{%
+    {{Braz}{B.}%
+     {Ana K~S}{A.~K.~S.}%
+     {}{}%
+     {}{}}%
+    {{Kyotoku}{K.}%
+     {Bernardo B~C}{B.~B.~C.}%
+     {}{}%
+     {}{}}%
+    {{Braz}{B.}%
+     {Rodivan}{R.}%
+     {}{}%
+     {}{}}%
+    {{Gomes}{G.}%
+     {Anderson S~L}{A.~S.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {eng}%
+  }
+  \keyw{Polymers, Dental Materials, Glass, Tomography: Optical Coherence,
+  Materials Testing, Image Processing: Computer-Assisted, Composite Resins,
+  Temperature, Humans, Fourier Analysis, Ceramics, Surface Properties, Stress:
+  Mechanical}
+  \strng{namehash}{BAKS+1}
+  \strng{fullhash}{BAKSKBBCBRGASL1}
+  \field{labelyear}{2009}
+  \field{sortinit}{B}
+  \verb{doi}
+  \verb 10.1016/j.dental.2008.04.011
+  \endverb
+  \field{number}{1}
+  \field{pages}{74\bibrangedash 9}
+  \field{title}{Evaluation of crack propagation in dental composites by optical
+  coherence tomography}
+  \field{volume}{25}
+  \field{journaltitle}{Dent Mater}
+  \field{year}{2009}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Brouckaert:2007p82}{article}{}
+  \name{author}{5}{%
+    {{Brouckaert}{B.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{Bogaerts}{B.}%
+     {W}{W}%
+     {}{}%
+     {}{}}%
+    {{Dumon}{D.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{Thourhout}{T.}%
+     {D~Van}{D.~V.}%
+     {}{}%
+     {}{}}%
+    {{Baets}{B.}%
+     {Roel~G}{R.~G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BJ+1}
+  \strng{fullhash}{BJBWDPTDVBRG1}
+  \field{labelyear}{2007}
+  \field{sortinit}{B}
+  \field{number}{5}
+  \field{pages}{1269\bibrangedash 1275}
+  \field{title}{Planar concave grating demultiplexer fabricated on a
+  nanophotonic silicon-on-insulator platform}
+  \field{volume}{25}
+  \field{journaltitle}{Journal of Lightwave Technology}
+  \field{year}{2007}
+\endentry
+
+\entry{Brouckaert:2008p108}{article}{}
+  \name{author}{6}{%
+    {{Brouckaert}{B.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{Bogaerts}{B.}%
+     {W}{W}%
+     {}{}%
+     {}{}}%
+    {{Selvaraja}{S.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{Dumon}{D.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{Baets}{B.}%
+     {Roel~G}{R.~G.}%
+     {}{}%
+     {}{}}%
+    {{Thourhout}{T.}%
+     {D~Van}{D.~V.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BJ+1}
+  \strng{fullhash}{BJBWSSDPBRGTDV1}
+  \field{labelyear}{2008}
+  \field{sortinit}{B}
+  \field{number}{4}
+  \field{pages}{309}
+  \field{title}{Planar concave grating demultiplexer with high reflective Bragg
+  reflector facets}
+  \field{volume}{20}
+  \field{journaltitle}{IEEE Photonics Technology Letters}
+  \field{year}{2008}
+\endentry
+
+\entry{Burke:2001p2517}{article}{}
+  \name{author}{4}{%
+    {{Burke}{B.}%
+     {F~J}{F.~J.}%
+     {}{}%
+     {}{}}%
+    {{Wilson}{W.}%
+     {N~H}{N.~H.}%
+     {}{}%
+     {}{}}%
+    {{Cheung}{C.}%
+     {S~W}{S.~W.}%
+     {}{}%
+     {}{}}%
+    {{Mj{\"o}r}{M.}%
+     {I~A}{I.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {eng}%
+  }
+  \keyw{Dental Restoration Failure, Adolescent, Retreatment, Analysis of
+  Variance, Oral Hygiene, Dental Occlusion, Aged, Dental Restoration:
+  Permanent, Male, Adult, Great Britain, Dental Caries, Humans, Child, Sex
+  Factors, Middle Aged, Dental Caries Susceptibility, Female, Aged: 80 and
+  over, Statistics: Nonparametric, Age Factors}
+  \strng{namehash}{BFJ+1}
+  \strng{fullhash}{BFJWNHCSWMIA1}
+  \field{labelyear}{2001}
+  \field{sortinit}{B}
+  \field{number}{5}
+  \field{pages}{317\bibrangedash 24}
+  \field{title}{Influence of patient factors on age of restorations at failure
+  and reasons for their placement and replacement}
+  \field{volume}{29}
+  \field{journaltitle}{J Dent}
+  \field{year}{2001}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Cheben:2007p133}{article}{}
+  \name{author}{10}{%
+    {{Cheben}{C.}%
+     {Pavel}{P.}%
+     {}{}%
+     {}{}}%
+    {{Schmid}{S.}%
+     {JH}{J.}%
+     {}{}%
+     {}{}}%
+    {{Delage}{D.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{Densmore}{D.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{Janz}{J.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{Lamontagne}{L.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{Lapointe}{L.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{Post}{P.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{Waldron}{W.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{Xu}{X.}%
+     {DX}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CP+1}
+  \strng{fullhash}{CPSJDADAJSLBLJPEWPXD1}
+  \field{labelyear}{2007}
+  \field{sortinit}{C}
+  \field{number}{5}
+  \field{pages}{2299\bibrangedash 2306}
+  \field{title}{A high-resolution silicon-on-insulator arrayed waveguide
+  grating microspectrometer with sub-micrometer aperture waveguides}
+  \field{volume}{15}
+  \field{journaltitle}{Optics Express}
+  \field{year}{2007}
+\endentry
+
+\entry{ChooSmith:2008p1834}{article}{}
+  \name{author}{4}{%
+    {{Choo-Smith}{C.-S.}%
+     {Lin-P'ing}{L.-P.}%
+     {}{}%
+     {}{}}%
+    {{Dong}{D.}%
+     {Cecilia C~S}{C.~C.~S.}%
+     {}{}%
+     {}{}}%
+    {{Cleghorn}{C.}%
+     {Blaine}{B.}%
+     {}{}%
+     {}{}}%
+    {{Hewko}{H.}%
+     {Mark}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {eng}%
+  }
+  \keyw{Sensitivity and Specificity, Tomography: Optical Coherence, Dental
+  Caries, Early Diagnosis, Spectrum Analysis: Raman, Humans}
+  \strng{namehash}{CSLP+1}
+  \strng{fullhash}{CSLPDCCSCBHM1}
+  \field{labelyear}{2008}
+  \field{sortinit}{C}
+  \field{number}{10}
+  \field{pages}{913\bibrangedash 8}
+  \field{title}{Shedding new light on early caries detection}
+  \field{volume}{74}
+  \field{journaltitle}{J Can Dent Assoc}
+  \field{year}{2008}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Chowdhury:2000p56}{article}{}
+  \name{author}{2}{%
+    {{Chowdhury}{C.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{Inc}{I.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CDIC1}
+  \strng{fullhash}{CDIC1}
+  \field{labelyear}{2000}
+  \field{sortinit}{C}
+  \field{number}{2}
+  \field{pages}{233\bibrangedash 239}
+  \field{title}{Design of low-loss and polarization-insensitive
+  reflectiongrating-based planar demultiplexers}
+  \field{volume}{6}
+  \field{journaltitle}{IEEE Journal of Selected Topics in Quantum Electronics}
+  \field{year}{2000}
+\endentry
+
+\entry{Cocorullo:1992p1595}{article}{}
+  \name{author}{2}{%
+    {{Cocorullo}{C.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{Rendina}{R.}%
+     {I}{I}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CGRI1}
+  \strng{fullhash}{CGRI1}
+  \field{labelyear}{1992}
+  \field{sortinit}{C}
+  \verb{doi}
+  \verb 10.1049/el:19920051
+  \endverb
+  \field{number}{1}
+  \field{pages}{83\bibrangedash 85}
+  \field{title}{Thermo-optical modulation at 1.5 mu m in silicon etalon}
+  \field{volume}{28}
+  \field{journaltitle}{Electronics letters}
+  \field{year}{1992}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Colston:1998p1677}{article}{}
+  \name{author}{6}{%
+    {{Colston}{C.}%
+     {B~W}{B.~W.}%
+     {}{}%
+     {}{}}%
+    {{Everett}{E.}%
+     {MJ}{M.}%
+     {}{}%
+     {}{}}%
+    {{Silva}{S.}%
+     {LB~Da}{L.~D.}%
+     {}{}%
+     {}{}}%
+    {{Otis}{O.}%
+     {LL}{L.}%
+     {}{}%
+     {}{}}%
+    {{Stroeve}{S.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{Nathel}{N.}%
+     {H}{H}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CBW+1}
+  \strng{fullhash}{CBWEMSLDOLSPNH1}
+  \field{labelyear}{1998}
+  \field{sortinit}{C}
+  \field{number}{16}
+  \field{pages}{3582\bibrangedash 3585}
+  \field{title}{Imaging of hard-and soft-tissue structure in the oral cavity by
+  optical coherence tomography}
+  \field{volume}{37}
+  \field{journaltitle}{Applied Optics}
+  \field{year}{1998}
+\endentry
+
+\entry{Danforth:2003p2286}{article}{}
+  \name{author}{1}{%
+    {{Danforth}{D.}%
+     {Robert~A}{R.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {eng}%
+  }
+  \keyw{Image Processing: Computer-Assisted, Radiography: Dental, Tomography:
+  X-Ray Computed, Humans, Imaging: Three-Dimensional}
+  \strng{namehash}{DRA1}
+  \strng{fullhash}{DRA1}
+  \field{labelyear}{2003}
+  \field{sortinit}{D}
+  \field{number}{11}
+  \field{pages}{814\bibrangedash 5}
+  \field{title}{Cone beam volume tomography: a new digital imaging option for
+  dentistry}
+  \field{volume}{31}
+  \field{journaltitle}{J Calif Dent Assoc}
+  \field{year}{2003}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Drexler:2004p1728}{article}{}
+  \name{author}{1}{%
+    {{Drexler}{D.}%
+     {Wolfgang}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DW1}
+  \strng{fullhash}{DW1}
+  \field{labelyear}{2004}
+  \field{sortinit}{D}
+  \verb{doi}
+  \verb 10.1117/1.1629679
+  \endverb
+  \field{pages}{47}
+  \field{title}{Ultrahigh-resolution optical coherence tomography}
+  \field{volume}{9}
+  \field{journaltitle}{Journal of Biomedical Optics}
+  \field{year}{2004}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Fercher:1995p1683}{article}{}
+  \name{author}{4}{%
+    {{Fercher}{F.}%
+     {AF}{A.}%
+     {}{}%
+     {}{}}%
+    {{Hitzenberger}{H.}%
+     {C.~K}{C.~K}%
+     {}{}%
+     {}{}}%
+    {{Kamp}{K.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{El-Zaiat}{E.-Z.}%
+     {SY}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FA+1}
+  \strng{fullhash}{FAHCKKGEZS1}
+  \field{labelyear}{1995}
+  \field{sortinit}{F}
+  \field{number}{1-2}
+  \field{pages}{43\bibrangedash 48}
+  \field{title}{Measurement of intraocular distances by backscattering spectral
+  interferometry}
+  \field{volume}{117}
+  \field{journaltitle}{Optics Communications}
+  \field{year}{1995}
+\endentry
+
+\entry{Fonseca:2009p1}{article}{}
+  \name{author}{4}{%
+    {{Fons{\^e}ca}{F.}%
+     {Deborah}{D.}%
+     {}{}%
+     {}{}}%
+    {{Kyotoku}{K.}%
+     {Bernardo B~C}{B.~B.~C.}%
+     {}{}%
+     {}{}}%
+    {{Maia}{M.}%
+     {Ana Marly~A}{A.~M.~A.}%
+     {}{}%
+     {}{}}%
+    {{Gomes}{G.}%
+     {ASL}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FD+1}
+  \strng{fullhash}{FDKBBCMAMAGA1}
+  \field{labelyear}{2009}
+  \field{sortinit}{F}
+  \field{pages}{024009}
+  \field{title}{In vitro imaging of remaining dentin and pulp chamber by
+  optical coherence tomography: comparison between 850 and 1280 nm}
+  \field{volume}{14}
+  \field{journaltitle}{Journal of Biomedical Optics}
+  \field{year}{2009}
+\endentry
+
+\entry{Foster:2008p71}{article}{}
+  \name{author}{6}{%
+    {{Foster}{F.}%
+     {MA}{M.}%
+     {}{}%
+     {}{}}%
+    {{Salem}{S.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{Geraghty}{G.}%
+     {DF}{D.}%
+     {}{}%
+     {}{}}%
+    {{Turner-Foster}{T.-F.}%
+     {AC}{A.}%
+     {}{}%
+     {}{}}%
+    {{Lipson}{L.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{Gaeta}{G.}%
+     {AL}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FM+1}
+  \strng{fullhash}{FMSRGDTFALMGA1}
+  \field{labelyear}{2008}
+  \field{sortinit}{F}
+  \field{number}{7218}
+  \field{pages}{81\bibrangedash 84}
+  \field{title}{Silicon-chip-based ultrafast optical oscilloscope}
+  \field{volume}{456}
+  \field{journaltitle}{Nature}
+  \field{year}{2008}
+\endentry
+
+\entry{Freitas:2009p2142}{article}{}
+  \name{author}{5}{%
+    {{Freitas}{F.}%
+     {AZ}{A.}%
+     {}{}%
+     {}{}}%
+    {{Zezell}{Z.}%
+     {Denise}{D.}%
+     {}{}%
+     {}{}}%
+    {{Vieira}{V.}%
+     {ND}{N.}%
+     {}{}%
+     {}{}}%
+    {{Ribeiro}{R.}%
+     {AC}{A.}%
+     {}{}%
+     {}{}}%
+    {{Gomes}{G.}%
+     {ASL}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FA+2}
+  \strng{fullhash}{FAZDVNRAGA1}
+  \field{labelyear}{2009}
+  \field{sortinit}{F}
+  \field{number}{2}
+  \field{pages}{024906}
+  \field{title}{Imaging carious human dental tissue with optical coherence
+  tomography}
+  \field{volume}{99}
+  \field{journaltitle}{Journal of Applied Physics}
+  \field{year}{2009}
+\endentry
+
+\entry{Gabrielli:2009p1173}{article}{}
+  \name{author}{4}{%
+    {{Gabrielli}{G.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{Cardenas}{C.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{Poitras}{P.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{Lipson}{L.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GL+1}
+  \strng{fullhash}{GLCJPCLM1}
+  \field{labelyear}{2009}
+  \field{sortinit}{G}
+  \field{title}{Silicon nanostructure cloak operating at optical frequencies}
+  \field{journaltitle}{Nature Photonics}
+  \field{year}{2009}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Garoushi:2007p2191}{article}{}
+  \name{author}{3}{%
+    {{Garoushi}{G.}%
+     {Sufyan~K}{S.~K.}%
+     {}{}%
+     {}{}}%
+    {{Lassila}{L.}%
+     {Lippo V~J}{L.~V.~J.}%
+     {}{}%
+     {}{}}%
+    {{Vallittu}{V.}%
+     {Pekka~K}{P.~K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {eng}%
+  }
+  \keyw{Statistics: Nonparametric, Dental Restoration: Permanent, Compressive
+  Strength, Maxilla, Drug Combinations, Tooth Crown, Incisor, Composite Resins,
+  Humans, Dental Stress Analysis, Tooth Fractures, Analysis of Variance,
+  Polymethyl Methacrylate}
+  \strng{namehash}{GSKLLVJVPK1}
+  \strng{fullhash}{GSKLLVJVPK1}
+  \field{labelyear}{2007}
+  \field{sortinit}{G}
+  \field{number}{2}
+  \field{pages}{9\bibrangedash 16}
+  \field{title}{Fatigue strength of fragmented incisal edges restored with a
+  fiber reinforced restorative material}
+  \field{volume}{8}
+  \field{journaltitle}{J Contemp Dent Pract}
+  \field{year}{2007}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Gidon:1988p1765}{article}{}
+  \name{author}{3}{%
+    {{Gidon}{G.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{Jadot}{J.}%
+     {JP}{J.}%
+     {}{}%
+     {}{}}%
+    {{Valette}{V.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GPJJVS1}
+  \strng{fullhash}{GPJJVS1}
+  \field{labelyear}{1988}
+  \field{sortinit}{G}
+  \field{title}{Multiplexer-demultiplexer using an elliptical concave grating
+  and produced in integrated optics}
+  \field{journaltitle}{US Patent 4,786,133}
+  \field{year}{1988}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Gotzinger:2005p1712}{article}{}
+  \name{author}{4}{%
+    {{G{\"o}tzinger}{G.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{Pircher}{P.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{Leitgeb}{L.}%
+     {Rainer~A}{R.~A.}%
+     {}{}%
+     {}{}}%
+    {{Hitzenberger}{H.}%
+     {C.~K}{C.~K}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GE+1}
+  \strng{fullhash}{GEPMLRAHCK1}
+  \field{labelyear}{2005}
+  \field{sortinit}{G}
+  \field{number}{2}
+  \field{pages}{583\bibrangedash 594}
+  \field{title}{High speed full range complex spectral domain optical coherence
+  tomography}
+  \field{volume}{13}
+  \field{journaltitle}{Optics Express}
+  \field{year}{2005}
+\endentry
+
+\entry{Hanks:1988p2379}{article}{}
+  \name{author}{4}{%
+    {{Hanks}{H.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{Craig}{C.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{Diehl}{D.}%
+     {ML}{M.}%
+     {}{}%
+     {}{}}%
+    {{Pashley}{P.}%
+     {DH}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HC+1}
+  \strng{fullhash}{HCCRDMPD1}
+  \field{labelyear}{1988}
+  \field{sortinit}{H}
+  \field{title}{Cytotoxicity of dental composites and other materials in a new
+  in vitro device}
+  \field{journaltitle}{Journal of Oral {\ldots}}
+  \field{year}{1988}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Horst:2009p1764}{article}{}
+  \name{author}{4}{%
+    {{Horst}{H.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{Green}{G.}%
+     {WMJ}{W.}%
+     {}{}%
+     {}{}}%
+    {{Offrein}{O.}%
+     {BJ}{B.}%
+     {}{}%
+     {}{}}%
+    {{Vlasov}{V.}%
+     {YA}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HF+1}
+  \strng{fullhash}{HFGWOBVY1}
+  \field{labelyear}{2009}
+  \field{sortinit}{H}
+  \field{number}{23}
+  \field{pages}{1743\bibrangedash 1745}
+  \field{title}{Silicon-on-insulator Echelle grating WDM demultiplexers with
+  two stigmatic points}
+  \field{volume}{21}
+  \field{journaltitle}{Photonics Technology Letters, IEEE}
+  \field{year}{2009}
+\endentry
+
+\entry{Hsu:2002p2439}{article}{}
+  \name{author}{7}{%
+    {{Hsu}{H.}%
+     {I}{I}%
+     {}{}%
+     {}{}}%
+    {{Lu}{L.}%
+     {C.W}{C.}%
+     {}{}%
+     {}{}}%
+    {{Deng}{D.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{Yang}{Y.}%
+     {CC}{C.}%
+     {}{}%
+     {}{}}%
+    {{Chiang}{C.}%
+     {CP}{C.}%
+     {}{}%
+     {}{}}%
+    {{Lin}{L.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{Kiang}{K.}%
+     {YW}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HI+1}
+  \strng{fullhash}{HILCDCYCCCLCKY1}
+  \field{labelyear}{2002}
+  \field{sortinit}{H}
+  \verb{doi}
+  \verb 10.1016/S0030-4018(02)02010-2
+  \endverb
+  \field{pages}{391\bibrangedash 396}
+  \field{title}{Optical coherence tomography using nonlinear optics in fiber
+  for broadband source generation}
+  \field{volume}{212}
+  \field{journaltitle}{Optics communications}
+  \field{year}{2002}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Kauffman:2006p2144}{article}{}
+  \name{author}{6}{%
+    {{Kauffman}{K.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{Carvalho}{C.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{Araujo}{A.}%
+     {RE}{R.}%
+     {}{}%
+     {}{}}%
+    {{Freitas}{F.}%
+     {AZ}{A.}%
+     {}{}%
+     {}{}}%
+    {{Zezell}{Z.}%
+     {Denise}{D.}%
+     {}{}%
+     {}{}}%
+    {{Gomes}{G.}%
+     {ASL}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KC+1}
+  \strng{fullhash}{KCCMARFAZDGA1}
+  \field{labelyear}{2006}
+  \field{sortinit}{K}
+  \field{title}{Characterization of the dental pulp using optical coherence
+  tomography}
+  \field{journaltitle}{Proceedings of {\ldots}}
+  \field{year}{2006}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Kyotoku:2010p786}{article}{}
+  \name{author}{3}{%
+    {{Kyotoku}{K.}%
+     {Bernardo B~C}{B.~B.~C.}%
+     {}{}%
+     {}{}}%
+    {{Chen}{C.}%
+     {Long}{L.}%
+     {}{}%
+     {}{}}%
+    {{Lipson}{L.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KBBCCLLM1}
+  \strng{fullhash}{KBBCCLLM1}
+  \field{labelyear}{2010}
+  \field{sortinit}{K}
+  \field{pages}{102\bibrangedash 107}
+  \field{title}{Sub-nm resolution cavity enhanced microspectrometer}
+  \field{volume}{18}
+  \field{journaltitle}{Opt. Express}
+  \field{year}{2010}
+\endentry
+
+\entry{Kyotoku:2007p788}{article}{}
+  \name{author}{4}{%
+    {{Kyotoku}{K.}%
+     {Bernardo B~C}{B.~B.~C.}%
+     {}{}%
+     {}{}}%
+    {{Braz}{B.}%
+     {Ana K~S}{A.~K.~S.}%
+     {}{}%
+     {}{}}%
+    {{Braz}{B.}%
+     {Rodivan}{R.}%
+     {}{}%
+     {}{}}%
+    {{Gomes}{G.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KBBC+1}
+  \strng{fullhash}{KBBCBAKSBRGA1}
+  \field{labelyear}{2007}
+  \field{sortinit}{K}
+  \field{pages}{64250B}
+  \field{title}{Fiber-reinforced composite analysis using optical coherence
+  tomography after mechanical and thermal cycling}
+  \field{volume}{6425}
+  \field{journaltitle}{Proceedings of SPIE}
+  \field{year}{2007}
+\endentry
+
+\entry{Lassila:2004p2512}{article}{}
+  \name{author}{5}{%
+    {{Lassila}{L.}%
+     {Lippo V~J}{L.~V.~J.}%
+     {}{}%
+     {}{}}%
+    {{Tanner}{T.}%
+     {Johanna}{J.}%
+     {}{}%
+     {}{}}%
+    {{Bell}{B.}%
+     {Anna-Maria~Le}{A.-M.~L.}%
+     {}{}%
+     {}{}}%
+    {{Narva}{N.}%
+     {Katja}{K.}%
+     {}{}%
+     {}{}}%
+    {{Vallittu}{V.}%
+     {Pekka~K}{P.~K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {eng}%
+  }
+  \keyw{Analysis of Variance, Post and Core Technique, Dental Stress Analysis,
+  Carbon, Materials Testing, Dental Prosthesis Design, Elasticity, Composite
+  Resins, Glass, Hot Temperature, Pliability}
+  \strng{namehash}{LLVJ+1}
+  \strng{fullhash}{LLVJTJBAMLNKVPK1}
+  \field{labelyear}{2004}
+  \field{sortinit}{L}
+  \field{number}{1}
+  \field{pages}{29\bibrangedash 36}
+  \field{title}{Flexural properties of fiber reinforced root canal posts}
+  \field{volume}{20}
+  \field{journaltitle}{Dent Mater}
+  \field{year}{2004}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Leitgeb:2003p1678}{article}{}
+  \name{author}{3}{%
+    {{Leitgeb}{L.}%
+     {Rainer~A}{R.~A.}%
+     {}{}%
+     {}{}}%
+    {{Hitzenberger}{H.}%
+     {C.~K}{C.~K}%
+     {}{}%
+     {}{}}%
+    {{Fercher}{F.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LRAHCKFA1}
+  \strng{fullhash}{LRAHCKFA1}
+  \field{labelyear}{2003}
+  \field{sortinit}{L}
+  \field{number}{8}
+  \field{pages}{889\bibrangedash 894}
+  \field{title}{Performance of fourier domain vs. time domain optical coherence
+  tomography}
+  \field{volume}{11}
+  \field{journaltitle}{Optics Express}
+  \field{year}{2003}
+\endentry
+
+\entry{Leitgeb:2003p1779}{article}{}
+  \name{author}{4}{%
+    {{Leitgeb}{L.}%
+     {Rainer~A}{R.~A.}%
+     {}{}%
+     {}{}}%
+    {{Hitzenberger}{H.}%
+     {C.~K}{C.~K}%
+     {}{}%
+     {}{}}%
+    {{Fercher}{F.}%
+     {AF}{A.}%
+     {}{}%
+     {}{}}%
+    {{Bajraszewski}{B.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LRA+1}
+  \strng{fullhash}{LRAHCKFABT1}
+  \field{labelyear}{2003}
+  \field{sortinit}{L}
+  \field{number}{22}
+  \field{pages}{2201\bibrangedash 2203}
+  \field{title}{Phase-shifting algorithm to achieve high-speed long-depth-range
+  probing by frequency-domain optical coherence tomography}
+  \field{volume}{28}
+  \field{journaltitle}{Optics Letters}
+  \field{year}{2003}
+\endentry
+
+\entry{Little:1997p39}{article}{}
+  \name{author}{5}{%
+    {{Little}{L.}%
+     {BE}{B.}%
+     {}{}%
+     {}{}}%
+    {{Chu}{C.}%
+     {ST}{S.}%
+     {}{}%
+     {}{}}%
+    {{Haus}{H.}%
+     {HA}{H.}%
+     {}{}%
+     {}{}}%
+    {{Foresi}{F.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{Laine}{L.}%
+     {JP}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LB+1}
+  \strng{fullhash}{LBCSHHFJLJ1}
+  \field{labelyear}{1997}
+  \field{sortinit}{L}
+  \field{number}{6}
+  \field{pages}{998\bibrangedash 1005}
+  \field{title}{Microring resonator channel dropping filters}
+  \field{volume}{15}
+  \field{journaltitle}{Journal of Lightwave Technology}
+  \field{year}{1997}
+\endentry
+
+\entry{Loughran:2005p2526}{article}{}
+  \name{author}{3}{%
+    {{Loughran}{L.}%
+     {Galyna~M}{G.~M.}%
+     {}{}%
+     {}{}}%
+    {{Versluis}{V.}%
+     {Antheunis}{A.}%
+     {}{}%
+     {}{}}%
+    {{Douglas}{D.}%
+     {William~H}{W.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {eng}%
+  }
+  \keyw{Dental Stress Analysis, Materials Testing, Compliance, Dental
+  Restoration: Permanent, Composite Resins, Silicon Dioxide, Pliability, Dental
+  Restoration Failure, Zirconium}
+  \strng{namehash}{LGMVADWH1}
+  \strng{fullhash}{LGMVADWH1}
+  \field{labelyear}{2005}
+  \field{sortinit}{L}
+  \verb{doi}
+  \verb 10.1016/j.dental.2004.04.005
+  \endverb
+  \field{number}{3}
+  \field{pages}{252\bibrangedash 61}
+  \field{title}{Evaluation of sub-critical fatigue crack propagation in a
+  restorative composite}
+  \field{volume}{21}
+  \field{journaltitle}{Dent Mater}
+  \field{year}{2005}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Marz:1992p28}{article}{}
+  \name{author}{2}{%
+    {{Marz}{M.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{Cremer}{C.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MRCC1}
+  \strng{fullhash}{MRCC1}
+  \field{labelyear}{1992}
+  \field{sortinit}{M}
+  \field{number}{12}
+  \field{pages}{2017\bibrangedash 2022}
+  \field{title}{On the theory of planar spectrographs}
+  \field{volume}{10}
+  \field{journaltitle}{Lightwave Technology, Journal of}
+  \field{year}{1992}
+\endentry
+
+\entry{McGreer:1996p15}{article}{}
+  \name{author}{1}{%
+    {{McGreer}{M.}%
+     {KA}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MK1}
+  \strng{fullhash}{MK1}
+  \field{labelyear}{1996}
+  \field{sortinit}{M}
+  \field{number}{30}
+  \field{pages}{5904\bibrangedash 5910}
+  \field{title}{Theory of concave gratings based on a recursive definition of
+  facet positions}
+  \field{volume}{35}
+  \field{journaltitle}{Applied Optics}
+  \field{year}{1996}
+\endentry
+
+\entry{Mecholsky:1995p2523}{article}{}
+  \name{author}{1}{%
+    {{Mecholsky}{M.}%
+     {J~J}{J.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {eng}%
+  }
+  \keyw{Materials Testing, Microscopy: Electron: Scanning, Elasticity, Dental
+  Materials, Models: Theoretical, Dental Porcelain, Fractals, Stress:
+  Mechanical, Surface Properties, Dental Stress Analysis, Glass, Ceramics}
+  \strng{namehash}{MJJ1}
+  \strng{fullhash}{MJJ1}
+  \field{labelyear}{1995}
+  \field{sortinit}{M}
+  \verb{doi}
+  \verb 10.1016/0109-5641(95)80045-X
+  \endverb
+  \field{number}{2}
+  \field{pages}{113\bibrangedash 6}
+  \field{title}{Fractography: determining the sites of fracture initiation}
+  \field{volume}{11}
+  \field{journaltitle}{Dent Mater}
+  \field{year}{1995}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{DeMelo:2005p2100}{article}{}
+  \name{author}{5}{%
+    {{Melo}{M.}%
+     {L~De}{L.~D.}%
+     {}{}%
+     {}{}}%
+    {{Araujo}{A.}%
+     {R~De}{R.~D.}%
+     {}{}%
+     {}{}}%
+    {{Freitas}{F.}%
+     {AZ}{A.}%
+     {}{}%
+     {}{}}%
+    {{Zezell}{Z.}%
+     {Denise}{D.}%
+     {}{}%
+     {}{}}%
+    {{Vieira}{V.}%
+     {ND}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MLD+1}
+  \strng{fullhash}{MLDARDFAZDVN1}
+  \field{labelyear}{2005}
+  \field{sortinit}{M}
+  \field{title}{Evaluation of enamel dental restoration interface by optical
+  coherence tomography}
+  \field{journaltitle}{Journal of Biomedical {\ldots}}
+  \field{year}{2005}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Mjor:2002p2276}{article}{}
+  \name{author}{1}{%
+    {{Mj{\"o}r}{M.}%
+     {I}{I}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MI1}
+  \strng{fullhash}{MI1}
+  \field{labelyear}{2002}
+  \field{sortinit}{M}
+  \field{title}{Pulp-dentin biology in restorative dentistry}
+  \field{journaltitle}{quintpub.com}
+  \field{year}{2002}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Namioka:1959p48}{article}{}
+  \name{author}{1}{%
+    {{Namioka}{N.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{NT1}
+  \strng{fullhash}{NT1}
+  \field{labelyear}{1959}
+  \field{sortinit}{N}
+  \field{number}{5}
+  \field{pages}{460\bibrangedash 465}
+  \field{title}{Theory of the Concave Grating. II. Application of the Theory to
+  the Off---Plane Eagle Mounting in a Vacuum Spectrograph}
+  \field{volume}{49}
+  \field{journaltitle}{Journal of the Optical Society of America}
+  \field{year}{1959}
+\endentry
+
+\entry{Rantala:2003p2481}{article}{}
+  \name{author}{4}{%
+    {{Rantala}{R.}%
+     {L~I}{L.~I.}%
+     {}{}%
+     {}{}}%
+    {{Lastum{\"a}ki}{L.}%
+     {T~M}{T.~M.}%
+     {}{}%
+     {}{}}%
+    {{Peltom{\"a}ki}{P.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{Vallittu}{V.}%
+     {P~K}{P.~K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {eng}%
+  }
+  \keyw{Absorption, Dental Materials, Water, Glass, Denture Bases, Equipment
+  Failure, Tensile Strength, Denture Design, Humans, Dental Stress Analysis,
+  Polymethyl Methacrylate, Orthodontic Appliances: Removable}
+  \strng{namehash}{RLI+1}
+  \strng{fullhash}{RLILTMPTVPK1}
+  \field{labelyear}{2003}
+  \field{sortinit}{R}
+  \field{number}{5}
+  \field{pages}{501\bibrangedash 6}
+  \field{title}{Fatigue resistance of removable orthodontic appliance
+  reinforced with glass fibre weave}
+  \field{volume}{30}
+  \field{journaltitle}{J Oral Rehabil}
+  \field{year}{2003}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Rollins:1998p1700}{article}{}
+  \name{author}{5}{%
+    {{Rollins}{R.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{Yazdanfar}{Y.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{Kulkarni}{K.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{Ung-Arunyawee}{U.-A.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{Izatt}{I.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RA+1}
+  \strng{fullhash}{RAYSKMUARIJ1}
+  \field{labelyear}{1998}
+  \field{sortinit}{R}
+  \field{number}{6}
+  \field{pages}{219\bibrangedash 229}
+  \field{title}{In vivo video rate optical coherence tomography}
+  \field{volume}{3}
+  \field{journaltitle}{Optics Express}
+  \field{year}{1998}
+\endentry
+
+\entry{Rowland:1883p38}{article}{}
+  \name{author}{1}{%
+    {{Rowland}{R.}%
+     {HA}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RH1}
+  \strng{fullhash}{RH1}
+  \field{labelyear}{1883}
+  \field{sortinit}{R}
+  \field{number}{99}
+  \field{pages}{197\bibrangedash 210}
+  \field{title}{On concave gratings for optical purposes}
+  \field{volume}{16}
+  \field{journaltitle}{Philosophical Magazine Series 5}
+  \field{year}{1883}
+\endentry
+
+\entry{Soderholm:1990p2521}{article}{}
+  \name{author}{2}{%
+    {{S{\"o}derholm}{S.}%
+     {K~J}{K.~J.}%
+     {}{}%
+     {}{}}%
+    {{Roberts}{R.}%
+     {M~J}{M.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {eng}%
+  }
+  \keyw{Water, Materials Testing, Microscopy: Electron, Drug Storage,
+  Desiccation, Composite Resins, Tensile Strength, Electron Probe
+  Microanalysis, Surface Properties}
+  \strng{namehash}{SKJRMJ1}
+  \strng{fullhash}{SKJRMJ1}
+  \field{labelyear}{1990}
+  \field{sortinit}{S}
+  \field{number}{12}
+  \field{pages}{1812\bibrangedash 6}
+  \field{title}{Influence of water exposure on the tensile strength of
+  composites}
+  \field{volume}{69}
+  \field{journaltitle}{J Dent Res}
+  \field{year}{1990}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Takahashi:1990p122}{article}{}
+  \name{author}{4}{%
+    {{Takahashi}{T.}%
+     {H}{H}%
+     {}{}%
+     {}{}}%
+    {{Suzuki}{S.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{Kato}{K.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{Nishi}{N.}%
+     {I}{I}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TH+1}
+  \strng{fullhash}{THSSKKNI1}
+  \field{labelyear}{1990}
+  \field{sortinit}{T}
+  \field{number}{2}
+  \field{pages}{87\bibrangedash 88}
+  \field{title}{Arrayed-waveguide grating for wavelength division
+  multi/demultiplexer with nanometre resolution}
+  \field{volume}{26}
+  \field{journaltitle}{Electronics letters}
+  \field{year}{1990}
+\endentry
+
+\entry{Tropf:1994p49}{article}{}
+  \name{author}{3}{%
+    {{Tropf}{T.}%
+     {WJ}{W.}%
+     {}{}%
+     {}{}}%
+    {{Harris}{H.}%
+     {TJ}{T.}%
+     {}{}%
+     {}{}}%
+    {{Thomas}{T.}%
+     {ME}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TWHTTM1}
+  \strng{fullhash}{TWHTTM1}
+  \field{labelyear}{1994}
+  \field{sortinit}{T}
+  \field{title}{Optical Materials: Visible and Infrared}
+  \field{journaltitle}{Electro--Optics Handbook, McGRAW-HILL, New York}
+  \field{year}{1994}
+\endentry
+
+\entry{Velzel:1976p67}{article}{}
+  \name{author}{1}{%
+    {{Velzel}{V.}%
+     {CHF}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{VC1}
+  \strng{fullhash}{VC1}
+  \field{labelyear}{1976}
+  \field{sortinit}{V}
+  \field{number}{4}
+  \field{pages}{346\bibrangedash 353}
+  \field{title}{A general theory of the aberrations of diffraction gratings and
+  gratinglike optical instruments}
+  \field{volume}{66}
+  \field{journaltitle}{Journal of the Optical Society of America}
+  \field{year}{1976}
+\endentry
+
+\entry{Vorckel:2003p86}{article}{}
+  \name{author}{5}{%
+    {{Vorckel}{V.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{Monster}{M.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{Henschel}{H.}%
+     {W}{W}%
+     {}{}%
+     {}{}}%
+    {{Bolivar}{B.}%
+     {PH}{P.}%
+     {}{}%
+     {}{}}%
+    {{Kurz}{K.}%
+     {H}{H}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{VA+1}
+  \strng{fullhash}{VAMMHWBPKH1}
+  \field{labelyear}{2003}
+  \field{sortinit}{V}
+  \field{number}{7}
+  \field{pages}{921\bibrangedash 923}
+  \field{title}{Asymmetrically coupled silicon-on-insulator microring
+  resonators for compact add-drop multiplexers}
+  \field{volume}{15}
+  \field{journaltitle}{IEEE Photonics Technology Letters}
+  \field{year}{2003}
+\endentry
+
+\entry{White:2000p2224}{article}{}
+  \name{author}{2}{%
+    {{White}{W.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{Pharoah}{P.}%
+     {MJ}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WSPM1}
+  \strng{fullhash}{WSPM1}
+  \field{labelyear}{2000}
+  \field{sortinit}{W}
+  \field{title}{Oral radiology: principles and interpretation}
+  \field{journaltitle}{lavoisier.fr}
+  \field{year}{2000}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

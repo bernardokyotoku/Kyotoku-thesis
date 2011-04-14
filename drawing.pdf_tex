@@ -1,0 +1,60 @@
+%% Creator: Inkscape inkscape 0.48.0, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'drawing.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+
+\begingroup
+  \makeatletter
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}
+    \renewcommand\color[2][]{}%
+  }
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}
+    \renewcommand\transparent[1]{}%
+  }
+  \providecommand\rotatebox[2]{#2}
+  \ifx\svgwidth\undefined
+    \setlength{\unitlength}{362.03867188pt}
+  \else
+    \setlength{\unitlength}{\svgwidth}
+  \fi
+  \global\let\svgwidth\undefined
+  \makeatother
+  \begin{picture}(1,0.43125003)%
+    \put(0,0){\includegraphics[width=\unitlength]{drawing.pdf}}%
+    \put(0.33740299,0.20470849){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\alpha_s$}}}%
+    \put(0.20615291,0.20627082){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$I$}}}%
+    \put(0.21084039,0.28595844){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$y$}}}%
+    \put(0.00547316,0.19064641){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{input}}}%
+    \put(0.38271544,0.01095869){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Rowland circle}}}%
+    \put(0.27490299,0.02345843){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$P''$}}}%
+    \put(0.47543918,0.24037781){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\alpha_i$}}}%
+    \put(0.48820718,0.20470849){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\alpha_d$}}}%
+    \put(0.6608404,0.30314627){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$P'$}}}%
+    \put(0.62334036,0.41095912){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$y'$}}}%
+    \put(0.78271533,0.35627099){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$x'$}}}%
+    \put(0.85302787,0.18752067){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$D$}}}%
+  \end{picture}%
+\endgroup

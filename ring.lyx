@@ -1,0 +1,113 @@
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Formula \[
+E_{4}=\kappa_{b}\kappa_{a}E_{1}\tau^{1/2}e^{i\phi/2}\left[1+t_{a}t_{b}\tau e^{i\phi}+\left(t_{a}t_{b}\tau e^{i\phi}\right)^{2}+\dots+\left(t_{a}t_{b}\tau e^{i\phi}\right)^{n}\right]\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+E_{4}=\kappa_{b}\kappa_{a}E_{1}\tau^{1/2}e^{i\phi/2}\sum_{n=-\infty}^{\infty}\left(t_{a}t_{b}\tau\right)^{n}S\left(n\right)e^{in\phi},\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+E_{4}=\kappa_{b}\kappa_{a}E_{1}\tau^{1/2}e^{i\phi/2}\sum_{n=-\infty}^{\infty}e^{n\ln\left(t_{a}t_{b}\tau\right)}S\left(n\right)e^{in\phi},\]
+
+\end_inset
+
+where 
+\begin_inset Formula $S\left(x\right)$
+\end_inset
+
+ is the Heaviside step function.
+ Using relation 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:fourier series relation}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula \[
+E_{4}=\kappa_{b}\kappa_{a}E_{1}\tau^{1/2}e^{i\phi/2}\sum_{n=-\infty}^{\infty}FT\left[e^{x\ln\left(t_{a}t_{b}\tau\right)}S\left(x\right)\right]\left(\frac{\phi}{2\pi}-m\right),\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+E_{4}=\kappa_{b}\kappa_{a}E_{1}\tau^{1/2}e^{i\phi/2}\sum_{n=-\infty}^{\infty}\frac{1}{-\ln\left(t_{a}t_{b}\tau\right)+i2\pi\left(\frac{\phi}{2\pi}-m\right)},\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\tan\left(h\kappa_{f}\right)=\frac{\kappa_{c}+\kappa_{s}}{\kappa_{f}\left[1-\frac{\kappa_{c}\kappa_{s}}{\kappa_{f}^{2}}\right]}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\tan\left(h\kappa_{f}\right)=\frac{\kappa_{f}\left[\frac{n_{f}^{2}}{n_{c}^{2}}\kappa_{c}+\frac{n_{f}^{2}}{n_{s}^{2}}\kappa_{s}\right]}{\kappa_{f}^{2}-\frac{n_{f}^{4}}{n_{c}^{2}n_{s}^{2}}\kappa_{c}\kappa_{s}}\]
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

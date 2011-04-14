@@ -1,0 +1,181 @@
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Formula \[
+F\left(t,\nu\right)=\int_{-\infty}^{\infty}R\left(\tau\right)S\left(\tau-t\right)d\tau.\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As shown, the filtered signal 
+\begin_inset Formula $FS\left(t\right)$
+\end_inset
+
+ can be modeled as the sum of the signal 
+\begin_inset Formula $S\left(t\right)$
+\end_inset
+
+ taken every time interval 
+\begin_inset Formula $\delta t$
+\end_inset
+
+ multplied by a modulation factor 
+\begin_inset Formula $R$
+\end_inset
+
+ that depend on which iteration of the sum the signal is added, which can
+ be written as 
+\begin_inset Formula \[
+FS\left(t\right)=\sum_{n=-\infty}^{\infty}R\left(n\delta t\right)S\left(t-n\delta t\right),\]
+
+\end_inset
+
+we can introduce the Dirac comb notation
+\begin_inset Formula \[
+FS\left(t\right)=\int_{-\infty}^{\infty}\sum_{n=-\infty}^{\infty}\delta\left(\tau-n\delta t\right)R\left(\tau\right)S\left(t-\tau\right)d\tau,\]
+
+\end_inset
+
+and if we define the discretized response function as 
+\begin_inset Formula \[
+DR\left(t\right)=\sum_{n=-\infty}^{\infty}\delta\left(t-n\delta t\right)R\left(t\right),\]
+
+\end_inset
+
+we note that the filtered signal is simply the convolution of the signal
+ with the descritized response function
+\end_layout
+
+\begin_layout Standard
+then according to the convolution theorem
+\begin_inset Formula \[
+FS\left(t\right)=\int_{-\infty}^{\infty}DR\left(\tau\right)S\left(t-\tau\right)d\tau=FT^{-1}\left[DH\left(\nu\right)G\left(\nu\right)\right].\]
+
+\end_inset
+
+According with the convolution theorem, the spectral characteristics of
+ the filtered signal 
+\begin_inset Formula $FG$
+\end_inset
+
+ will be then
+\begin_inset Formula \[
+GFS\left(\nu\right)=DH\left(\nu\right)G\left(\nu\right),\]
+
+\end_inset
+
+where 
+\begin_inset Formula $DH$
+\end_inset
+
+ is the transfer function of the discretized response function 
+\begin_inset Formula \[
+DH\left(\nu\right)=FT\left[DR\left(t\right)\right],\]
+
+\end_inset
+
+and 
+\begin_inset Formula $G\left(\nu\right)$
+\end_inset
+
+ is the spectrum of the signal
+\begin_inset Formula \[
+G\left(\nu\right)=FT\left[S\left(t\right)\right].\]
+
+\end_inset
+
+The discretized transfer function can be easly evaluated as
+\begin_inset Formula \[
+DH\left(\nu\right)=\sum_{m=-\infty}^{\infty}H\left(\nu-\frac{m}{\delta t}\right)\]
+
+\end_inset
+
+where 
+\begin_inset Formula $H\left(\nu\right)$
+\end_inset
+
+ is simply the transfer function of the response function 
+\begin_inset Formula $R\left(t\right)$
+\end_inset
+
+
+\begin_inset Formula \[
+H\left(\nu\right)=FT\left[R\left(t\right)\right].\]
+
+\end_inset
+
+We see, therefore that the spectrum of the filetered signal is the overlap
+ of the signal spectrum and a comb of the transfer function associated with
+ the response function.
+ We that for every frequency interval 
+\begin_inset Formula $\delta\nu=\delta t^{-1}$
+\end_inset
+
+, denoted FSR, there is a transmission peak, denoted diffraction order.
+\end_layout
+
+\begin_layout Standard
+This particular filtering method, has a feature that we can tune the peak
+ transmission, or resonance, through the tuning of the time interval in
+ which the signal is summed over, as well as the diffraction order 
+\begin_inset Formula $m$
+\end_inset
+
+.
+ And therefore, a simple spectrum analysis device can be conceived by arraying
+ similar devices with tuned 
+\begin_inset Formula $\delta t$
+\end_inset
+
+ and 
+\begin_inset Formula $m$
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document

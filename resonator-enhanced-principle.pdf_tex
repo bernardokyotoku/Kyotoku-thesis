@@ -1,0 +1,62 @@
+%% Creator: Inkscape inkscape 0.48.0, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'resonator-enhanced-principle.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+
+\begingroup
+  \makeatletter
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}
+    \renewcommand\color[2][]{}%
+  }
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}
+    \renewcommand\transparent[1]{}%
+  }
+  \providecommand\rotatebox[2]{#2}
+  \ifx\svgwidth\undefined
+    \setlength{\unitlength}{481.88974609pt}
+  \else
+    \setlength{\unitlength}{\svgwidth}
+  \fi
+  \global\let\svgwidth\undefined
+  \makeatother
+  \begin{picture}(1,0.35294118)%
+    \put(0,0){\includegraphics[width=\unitlength]{resonator-enhanced-principle.pdf}}%
+    \put(0.5656478,0.16692834){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{spectrometer}}}%
+    \put(0.74873834,0.2255231){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{channel 1}}}%
+    \put(0.74873834,0.20161718){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{channel 2}}}%
+    \put(0.74873834,0.17772027){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{channel 3}}}%
+    \put(0.74873834,0.15383218){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{channel 4}}}%
+    \put(0.74873834,0.12993082){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{channel 5}}}%
+    \put(0.74873834,0.10599814){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{channel 6}}}%
+    \put(0.27480165,0.16522081){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{resonator}}}%
+    \put(0.41230762,0.13909862){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{band-pass
+}}}%
+    \put(0.11309808,0.13361423){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{input light}}}%
+    \put(0.12463746,0.19005866){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{light flow}}}%
+    \put(0.43603056,0.19005866){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{light flow}}}%
+    \put(0.41147523,0.11383756){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{output light}}}%
+  \end{picture}%
+\endgroup

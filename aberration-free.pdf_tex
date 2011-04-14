@@ -1,0 +1,60 @@
+%% Creator: Inkscape inkscape 0.48.0, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'aberration-free.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+
+\begingroup
+  \makeatletter
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}
+    \renewcommand\color[2][]{}%
+  }
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}
+    \renewcommand\transparent[1]{}%
+  }
+  \providecommand\rotatebox[2]{#2}
+  \ifx\svgwidth\undefined
+    \setlength{\unitlength}{453.54331055pt}
+  \else
+    \setlength{\unitlength}{\svgwidth}
+  \fi
+  \global\let\svgwidth\undefined
+  \makeatother
+  \begin{picture}(1,0.31249998)%
+    \put(0,0){\includegraphics[width=\unitlength]{aberration-free.pdf}}%
+    \put(0.45140026,0.23916493){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$G_1$}}}%
+    \put(0.31741071,0.13852707){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$G_i$}}}%
+    \put(0.27122861,0.05150559){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$G_N$}}}%
+    \put(0.40759866,0.22933875){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$G_2$}}}%
+    \put(0.68899063,0.19877046){\color[rgb]{1,1,1}\makebox(0,0)[lb]{\smash{$I$}}}%
+    \put(0.56473478,0.26205017){\color[rgb]{1,1,1}\makebox(0,0)[lb]{\smash{input waveguide}}}%
+    \put(0.24122261,0.27750404){\color[rgb]{1,1,1}\makebox(0,0)[lb]{\smash{diffraction grating}}}%
+    \put(0.39411431,0.02030498){\color[rgb]{1,1,1}\makebox(0,0)[lb]{\smash{output waveguides}}}%
+    \put(0.70407147,0.14815412){\color[rgb]{1,1,1}\makebox(0,0)[lb]{\smash{$O_1$}}}%
+    \put(0.65051006,0.01951798){\color[rgb]{1,1,1}\makebox(0,0)[lb]{\smash{$O_M$}}}%
+    \put(0.70666135,0.09135688){\color[rgb]{1,1,1}\makebox(0,0)[lb]{\smash{$O_2$}}}%
+    \put(0.68586017,0.05391466){\color[rgb]{1,1,1}\makebox(0,0)[lb]{\smash{$O_j$}}}%
+  \end{picture}%
+\endgroup

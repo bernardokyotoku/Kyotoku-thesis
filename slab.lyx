@@ -1,0 +1,605 @@
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+We define slabe waveguide as medium comprised of an infinite film (which
+ will be refered as core) of thickness 
+\begin_inset Formula $h$
+\end_inset
+
+ and index of refraction 
+\begin_inset Formula $n_{f}$
+\end_inset
+
+.
+ This film was layed over a substrate with index of refration 
+\begin_inset Formula $n_{s}$
+\end_inset
+
+ and covered with a material with index of refraction 
+\begin_inset Formula $n_{c}$
+\end_inset
+
+.
+ The guiding film (core) have a index of refraction greater than both the
+ substrate and the cover, or more exactly 
+\begin_inset Formula $n_{f}>n_{s}\ge n_{c}$
+\end_inset
+
+.
+ The index of refraction field can be written as
+\begin_inset Formula \begin{equation}
+n\left(z\right)=\begin{cases}
+n_{c}, & z\ge h\\
+n_{f}, & 0<z<h\\
+n_{s}, & z\le0\end{cases}.\label{eq:refractive index}\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Over this field Maxwells equations shown here assuming a harmonic mode with
+ angular frequency 
+\begin_inset Formula $\omega$
+\end_inset
+
+ and magnetic permeability uniform and equal 
+\begin_inset Formula $\mu_{0}$
+\end_inset
+
+.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{subequations}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray}
+\nabla\cdot\epsilon\mathbf{E} & = & 0,\label{eq:maxwell 1}\\
+\nabla\cdot\mathbf{B} & = & 0,\label{eq:maxwell 2}\\
+\nabla\times\mathbf{E} & = & i\omega\mathbf{B,}\label{eq:maxwell 3}\\
+\nabla\times\mathbf{B} & = & i\omega\epsilon\mathbf{E}.\label{eq:maxwell 4}\end{eqnarray}
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+label{eq:maxwell}
+\backslash
+end{subequations}
+\end_layout
+
+\end_inset
+
+From these equation the following wave equations can be derived
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{subequations}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray}
+\nabla^{2}\mathbf{E}+k^{2}\mathbf{E} & = & 0,\label{eq:wave equation E}\\
+\nabla^{2}\mathbf{B}+k^{2}\mathbf{B} & = & 0,\label{eq:wave equation B}\end{eqnarray}
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+label{eq:wave equation}
+\backslash
+end{subequations}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The medium we are dealing with is has a simmetry by translation on the 
+\begin_inset Formula $x$
+\end_inset
+
+ and 
+\begin_inset Formula $y$
+\end_inset
+
+ axis.
+ This allow us to have a solution in the following forms
+\begin_inset Formula \begin{eqnarray}
+\mathbf{E}\left(\mathbf{R}\right) & = & \Psi\left(\mathbf{r}\right)\mathbf{\Phi}\left(z\right)\label{eq:assumption E}\\
+\mathbf{B}\left(\mathbf{R}\right) & = & \Psi\left(\mathbf{r}\right)\mathbf{\Phi}\left(z\right)\label{eq:assumption B}\end{eqnarray}
+
+\end_inset
+
+where 
+\begin_inset Formula $\mathbf{r}=x\hat{i}+y\hat{j}$
+\end_inset
+
+, 
+\begin_inset Formula $\Psi\left(\mathbf{r}\right)$
+\end_inset
+
+ is a scalar field that depends only on 
+\begin_inset Formula $\mathbf{r}$
+\end_inset
+
+, and 
+\begin_inset Formula $\mathbf{\Phi}\left(z\right)$
+\end_inset
+
+ is a vector field that depends only on 
+\begin_inset Formula $z$
+\end_inset
+
+.
+ Either assumption can be used.
+ Naturally the electric and magnetic field are still connected through Maxwell
+ equations 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:maxwell 3"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:maxwell 4"
+
+\end_inset
+
+, properly rewritten below
+\begin_inset Formula \begin{eqnarray*}
+\mathbf{B} & = & \frac{1}{i\omega}\nabla\times\mathbf{E},\\
+\mathbf{E} & = & \frac{\epsilon\mu}{i\omega}\nabla\times\mathbf{B}.\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We can break down the nabla into an in-plane (
+\begin_inset Formula $\nabla_{t}^{2}$
+\end_inset
+
+) and a transversal to the plane (
+\begin_inset Formula $\frac{\partial^{2}}{\partial z^{2}}$
+\end_inset
+
+) component as 
+\begin_inset Formula $\nabla^{2}=\nabla_{t}^{2}+\frac{\partial^{2}}{\partial z^{2}}$
+\end_inset
+
+, and separating variable we get
+\begin_inset Formula \begin{equation}
+\frac{1}{\mathbf{\Phi}\left(z\right)}\frac{\partial^{2}\mathbf{\Phi}\left(z\right)}{\partial z^{2}}+\frac{1}{\Psi\left(\mathbf{r}\right)}\nabla_{t}^{2}\Psi\left(\mathbf{r}\right)-k^{2}n\left(z\right)^{2}=0,\label{eq:wave equation variables separeted}\end{equation}
+
+\end_inset
+
+defining
+\begin_inset Formula \begin{equation}
+\frac{\partial^{2}\mathbf{\Phi}\left(z\right)}{\partial z^{2}}-\kappa\left(z\right)^{2}\mathbf{\Phi}\left(z\right)=0\label{eq:out plane wave equation}\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula \begin{equation}
+\nabla_{t}^{2}\Psi\left(\mathbf{r}\right)-\beta^{2}\Psi\left(\mathbf{r}\right)=0\label{eq:in plane wave equation}\end{equation}
+
+\end_inset
+
+using this definitions on 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:wave equation variables separeted"
+
+\end_inset
+
+, we get
+\begin_inset Formula \[
+\kappa^{2}+\beta^{2}=k^{2}n^{2}\]
+
+\end_inset
+
+From equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:in plane wave equation"
+
+\end_inset
+
+, shows that in the plane the electromagnetic field behaves like a bi-dimensiona
+l wave with wave number 
+\begin_inset Formula $\beta$
+\end_inset
+
+.
+ In the direction orthogonal to the plane we have a one-dimensional wave
+ equation, with potential defined by the index of refraction.
+ For the refractive index considered in out case, the potential is a
+\begin_inset CommandInset href
+LatexCommand href
+name "potential well"
+target "http://en.wikipedia.org/wiki/Finite_potential_well"
+
+\end_inset
+
+ whose detailed solution is described else where.
+ Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:out plane wave equation"
+
+\end_inset
+
+ are actually a three equations, on for component of the electric field,
+ that can be divided in two categories
+\begin_inset Formula \begin{eqnarray}
+\frac{\partial^{2}\Phi_{z}\left(z\right)}{\partial z^{2}}-\kappa\left(z\right)^{2}\Phi_{z}\left(z\right) & = & 0,\label{eq:wave equation zz}\\
+\frac{\partial^{2}\mathbf{\Phi}_{t}\left(z\right)}{\partial z^{2}}-\kappa\left(z\right)^{2}\mathbf{\Phi}_{t}\left(z\right) & = & 0\label{eq:wave equation zt}\end{eqnarray}
+
+\end_inset
+
+linked by the boundary conditions
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{subequations}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray}
+\hat{n}\cdot\left(\epsilon_{a}\mathbf{E}_{a}-\epsilon_{b}\mathbf{E}_{b}\right) & = & 0\label{eq:boundary conditions 1}\\
+\hat{n}\cdot\left(\mathbf{B}_{a}-\mathbf{B}_{b}\right) & = & 0\label{eq:boundary conditions 2}\\
+\hat{n}\times\left(\mathbf{E}_{a}-\mathbf{E}_{b}\right) & = & 0\label{eq:boundary conditions 3}\\
+\hat{n}\times\left(\frac{1}{\mu_{a}}\mathbf{B}_{a}-\frac{1}{\mu_{b}}\mathbf{B}_{b}\right) & = & 0,\label{eq:boundary conditions 4}\end{eqnarray}
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+label{eq:boundary conditions}
+\backslash
+end{subequations}
+\end_layout
+
+\end_inset
+
+where 
+\begin_inset Formula $a$
+\end_inset
+
+ and 
+\begin_inset Formula $b$
+\end_inset
+
+ can be either 
+\begin_inset Formula $s,f$
+\end_inset
+
+ or 
+\begin_inset Formula $c$
+\end_inset
+
+.
+ For 
+\series bold
+
+\begin_inset Formula $\Phi_{z}\left(z\right)$
+\end_inset
+
+,
+\series default
+ these boundary conditions can be shown to be equivalent to
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{subequations}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula \begin{eqnarray}
+n_{j}^{2}\Phi_{jz} & = & n_{k}^{2}\Phi_{kz}\label{eq:boundary Ez}\\
+\frac{\partial\Phi_{jz}}{\partial z} & = & \frac{\partial\Phi_{kz}}{\partial z},\label{eq:boundary dEz}\end{eqnarray}
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+label{eq:boundary E}
+\backslash
+end{subequations}
+\end_layout
+
+\end_inset
+
+where we did not show the equivalent boundary conditions for the tangential
+ components 
+\begin_inset Formula $\mathbf{\Phi}_{t}$
+\end_inset
+
+.
+ Applying the boundary conditions on 
+\begin_inset Formula $\mathbf{\Phi}_{t}$
+\end_inset
+
+ will gives us a solution that is linearly independent to the solution of
+ 
+\begin_inset Formula $\Phi_{z}$
+\end_inset
+
+.
+ Although it is possible to obtain this second solution, it is easier make
+ the assumption 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:assumption B"
+
+\end_inset
+
+ and apply the boundary conditions.
+ Which this time will give rise to
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{subequations}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray}
+\Phi_{jz} & = & \Phi_{kz}\label{eq:boundary Bz}\\
+\frac{\partial\Phi_{jz}}{\partial z} & = & \frac{\partial\Phi_{kz}}{\partial z}.\label{eq:boundary dBz}\end{eqnarray}
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+label{eq:boundary B}
+\backslash
+end{subequations}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The one wave equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:wave equation zz"
+
+\end_inset
+
+, with the potential 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:refractive index"
+
+\end_inset
+
+, connetected by conditions 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:boundary E}
+\end_layout
+
+\end_inset
+
+ is the problem o the wave in a square well.
+ Whose well known solutions allow for unlocalized solutions for any value
+ of 
+\begin_inset Formula $\beta$
+\end_inset
+
+ as long as
+\begin_inset Formula \[
+df\]
+
+\end_inset
+
+and localized solutions for 
+\begin_inset Formula $\beta$
+\end_inset
+
+ that solves the equation
+\begin_inset Formula \[
+df\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In case boundary condition 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+ref{eq:boundary B}
+\end_layout
+
+\end_inset
+
+ is used then 
+\begin_inset Formula $\beta$
+\end_inset
+
+ will be
+\begin_inset Formula \[
+\beta\]
+
+\end_inset
+
+or
+\begin_inset Formula \[
+\beta\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Solution is called TE mode, characterized by the absence of magnetic field
+ in the direction transversal to the plane of propagation, solution X is
+ called TM, charactecterized by the abscence of electric field in the direction
+ transversal to the plane of propagation.
+\end_layout
+
+\begin_layout Standard
+It is worth remembering that the velocity which the phase propagates in
+ plane is 
+\begin_inset Formula $v=\frac{\omega}{\beta}$
+\end_inset
+
+ and group velocity 
+\begin_inset Formula $v_{g}=\frac{d\omega}{d\beta}$
+\end_inset
+
+.
+ From these we define effective index and group index as 
+\begin_inset Formula $n_{\mbox{eff}}=\frac{c}{v}=c\frac{\beta}{\omega}=\frac{\beta}{k}$
+\end_inset
+
+ and 
+\begin_inset Formula $n_{g}=\frac{c}{v_{g}}=c\frac{d\beta}{d\omega}$
+\end_inset
+
+.
+\begin_inset Formula \[
+v=\frac{\beta}{\omega}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99c (TeX Live 2009)
+The top-level auxiliary file: thesis.aux
+The style file: biblatex.bst
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated field_info (elt_size=4) to 12344 items from 5000.
+Database file #1: thesis-blx.bib
+Database file #2: clean-abibliography.bib
+Biblatex version: 1.0
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+You've used 54 entries,
+            6189 wiz_defined-function locations,
+            1503 strings with 20315 characters,
+and the built_in function-call counts, 177041 in all, are:
+= -- 6165
+> -- 5930
+< -- 1363
++ -- 1764
+- -- 2389
+* -- 16164
+:= -- 10953
+add.period$ -- 0
+call.type$ -- 54
+change.case$ -- 621
+chr.to.int$ -- 62
+cite$ -- 106
+duplicate$ -- 20301
+empty$ -- 18688
+format.name$ -- 4428
+if$ -- 39815
+int.to.chr$ -- 0
+int.to.str$ -- 119
+missing$ -- 0
+newline$ -- 1654
+num.names$ -- 2248
+pop$ -- 17353
+preamble$ -- 1
+purify$ -- 835
+quote$ -- 0
+skip$ -- 9974
+stack$ -- 0
+substring$ -- 2245
+swap$ -- 7149
+text.length$ -- 1536
+text.prefix$ -- 132
+top$ -- 1
+type$ -- 2364
+warning$ -- 0
+while$ -- 1028
+width$ -- 0
+write$ -- 1599

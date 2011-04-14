@@ -1,0 +1,44 @@
+\glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
+\begin{theglossary}\glossaryheader
+\glsgroupheading{C}\relax \glsresetentrylist %
+\glossaryentryfield{CBVT}{\glsnamefont{CBVT}}{cone beam volumetric tomography}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{36}}}%
+\glossaryentryfield{coherence length}{\glsnamefont{coherence length}}{}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{14}}}\glsgroupskip
+\glsgroupheading{F}\relax \glsresetentrylist %
+\glossaryentryfield{FDOCT}{\glsnamefont{FDOCT}}{Fourier domain optical coherence tomography}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{21}\delimN 
+		\setentrycounter{page}\glsnumberformat{24}}}%
+\glossaryentryfield{FSR}{\glsnamefont{FSR}}{free spectral range}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{55\delimN 56}}}%
+\glossaryentryfield{FWHM}{\glsnamefont{FWHM}}{full width half maximum}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{14}\delimN 
+		\setentrycounter{page}\glsnumberformat{72}\delimN 
+		\setentrycounter{page}\glsnumberformat{89}}}\glsgroupskip
+\glsgroupheading{O}\relax \glsresetentrylist %
+\glossaryentryfield{OCT}{\glsnamefont{OCT}}{optical coherence tomography}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{9}}}\glsgroupskip
+\glsgroupheading{P}\relax \glsresetentrylist %
+\glossaryentryfield{PSD}{\glsnamefont{PSD}}{power spectrum density}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{14}\delimN 
+		\setentrycounter{page}\glsnumberformat{25}}}\glsgroupskip
+\glsgroupheading{S}\relax \glsresetentrylist %
+\glossaryentryfield{slab waveguide}{\glsnamefont{slab waveguide}}{}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{49}}}%
+\glossaryentryfield{SROCT}{\glsnamefont{SROCT}}{spectral radar optical coherence tomography}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{9}}}\glsgroupskip
+\glsgroupheading{T}\relax \glsresetentrylist %
+\glossaryentryfield{TDOCT}{\glsnamefont{TDOCT}}{time domain optical coherence tomography}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{9}\delimN 
+		\setentrycounter{page}\glsnumberformat{21}\delimN 
+		\setentrycounter{page}\glsnumberformat{23}}}%
+\glossaryentryfield{TE}{\glsnamefont{TE}}{transversal electric}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{53}}}%
+\glossaryentryfield{TM}{\glsnamefont{TM}}{transversal magnetic}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{53}}}\glsgroupskip
+\glsgroupheading{W}\relax \glsresetentrylist %
+\glossaryentryfield{WDM}{\glsnamefont{WDM}}{wavelength division multiplexer}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{67}\delimN 
+		\setentrycounter{page}\glsnumberformat{76}\delimN 
+		\setentrycounter{page}\glsnumberformat{82\delimN 83}}}%
+\end{theglossary}\glossarypostamble

@@ -1,0 +1,57 @@
+%% LyX 1.6.5 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{array}
+\usepackage{amstext}
+\usepackage{esint}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+\makeatother
+
+\usepackage{babel}
+
+\begin{document}
+%
+\begin{table}
+
+
+\centering{}\begin{tabular}{>{\centering}m{0.4\textwidth}ccccc}
+\hline 
+\medskip Reference & Diagonal & Resolution & FSR & Crosstalk & Diagona X Resolution\tabularnewline
+ & (mm)\medskip  & (nm) & (nm) & (dB) & \tabularnewline
+\hline
+\hline 
+Brouckaert & 0.3 & 20 & 150 & -30 & 6\tabularnewline
+Cheben & 11 & 0.2 & 10 & -10 & 2.2\tabularnewline
+Horst & 0.3 & 3.2 & 75 & -19 & 0.9\tabularnewline
+RES & 1.4 & 0.1 & 115 & -8 & 0.14\tabularnewline
+\hline
+\end{tabular}\caption{}
+
+\end{table}
+
+
+%
+\begin{table}
+\noindent \centering{}\begin{tabular}{>{\centering}m{0.4\textwidth}cc>{\centering}m{0.3\textwidth}}
+\hline 
+ & $f\left(x\right)$ & $F\left(x\right)=\int_{-\infty}^{\infty}f\left(x\right)e^{-2\pi ix\xi}dx$ & \medskip Remarks\medskip \tabularnewline
+\hline
+\hline 
+Rectangular $\leftrightarrow$ Sinc & $\text{rect}\left(ax\right)$ & ${\displaystyle \frac{1}{|a|}\cdot\text{sinc}\left(\frac{\xi}{a}\right)}$ & $\text{sinc}\left(x\right)=\frac{\sin\left(\pi x\right)}{\left(\pi x\right)}$\tabularnewline
+Gaussian $\leftrightarrow$ Gaussian & ${\displaystyle e^{-\alpha x^{2}}}$ & ${\displaystyle \sqrt{\frac{\pi}{\alpha}}\cdot e^{-\frac{(\pi\xi)^{2}}{\alpha}}}$ & Gaussian function is its own Fourier tranform. $a>0$\tabularnewline
+Exponential $\leftrightarrow$ Lorentzian & $e^{-a|x|}$ & ${\displaystyle \frac{2a}{a^{2}+4\pi^{2}\xi^{2}}}$ & $a>0$\tabularnewline
+Exponential pulse $\leftrightarrow$  & ${\displaystyle e^{-ax}H(x)}$ & ${\displaystyle \frac{1}{a+2\pi i\xi}}$ & $H\left(x\right)$ is the Heaviside unit step funcion. $\Re\left(a\right)>0$\tabularnewline
+\hline
+\end{tabular}\caption{}
+
+\end{table}
+
+\end{document}

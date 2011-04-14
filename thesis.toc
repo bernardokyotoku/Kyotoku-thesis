@@ -1,0 +1,179 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}
+\defcounter {refsection}{0}
+\select@language {english}
+\defcounter {refsection}{0}
+\contentsline {chapter}{Introduction}{1}{chapter*.5}
+\defcounter {refsection}{0}
+\contentsline {chapter}{\numberline {1}Time Domain OCT}{3}{chapter.1}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {1.1}Theory}{3}{section.1.1}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {1.1.1}Michelson interferometer}{4}{subsection.1.1.1}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {1.1.2}Optical interferometry with coherent light}{5}{subsection.1.1.2}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {1.1.3}Low-coherence interferometry}{6}{subsection.1.1.3}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {1.1.4}Low coherence interferometry with multi-layer structures}{7}{subsection.1.1.4}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {1.1.5}Detector signal}{8}{subsection.1.1.5}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {1.2}Fourier delay line TDOCT}{9}{section.1.2}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {1.3}Implementation}{10}{section.1.3}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {1.4}Fourier delay line alignment}{11}{section.1.4}
+\defcounter {refsection}{0}
+\contentsline {chapter}{\numberline {2}Fourier Domain OCT}{13}{chapter.2}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {2.1}Overview of Fourier domain OCT}{13}{section.2.1}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {2.2}Frequency domain OCT}{15}{section.2.2}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {2.3}Full range complex imaging reconstruction}{17}{section.2.3}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {2.4}First spectral radar implementation}{18}{section.2.4}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {2.5}Second spectral radar implementation}{19}{section.2.5}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {2.5.1}Spectrometer}{20}{subsection.2.5.1}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {2.5.2}Testing}{20}{subsection.2.5.2}
+\defcounter {refsection}{0}
+\contentsline {chapter}{\numberline {3}Applications in Optical Coherence Tomography}{23}{chapter.3}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {3.1}Fiber reinforced composite analyses}{23}{section.3.1}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {3.1.1}Motivation}{23}{subsection.3.1.1}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {3.1.2}Conclusions}{26}{subsection.3.1.2}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {3.2}Imaging of dentin and pulp chamber by OCT}{26}{section.3.2}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {3.2.1}Materials and methods}{28}{subsection.3.2.1}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {3.2.2}Results}{28}{subsection.3.2.2}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {3.2.3}Conclusion}{31}{subsection.3.2.3}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {3.3}Clinical use of OCT to evaluate integrity of dental restorations}{32}{section.3.3}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {3.3.1}Introduction}{32}{subsection.3.3.1}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {3.3.2}Material and methods}{33}{subsection.3.3.2}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {3.3.3}Results}{34}{subsection.3.3.3}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {3.3.4}Discussion}{38}{subsection.3.3.4}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {3.3.5}Conclusion}{41}{subsection.3.3.5}
+\defcounter {refsection}{0}
+\contentsline {chapter}{\numberline {4}Photonic Integrated Circuits}{43}{chapter.4}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {4.1}Broad picture}{43}{section.4.1}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {4.2}Slab waveguide}{44}{section.4.2}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {4.3}Rectangular waveguide}{47}{section.4.3}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {4.4}Ring resonators}{48}{section.4.4}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {4.5}Material optical properties}{50}{section.4.5}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {4.5.1}Material dispersion}{51}{subsection.4.5.1}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {4.5.2}Thermo optic effect}{51}{subsection.4.5.2}
+\defcounter {refsection}{0}
+\contentsline {chapter}{\numberline {5}Diffraction Grating Spectrometers}{53}{chapter.5}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {5.1}Kirchhoff's diffraction theory}{53}{section.5.1}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {5.2}Diffraction grating}{55}{section.5.2}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {5.2.1}Free spectral range}{59}{subsection.5.2.1}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {5.3}Planar devices}{60}{section.5.3}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {5.4}Spectrometer architectures}{61}{section.5.4}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {5.4.1}Czerny-Turner}{61}{subsection.5.4.1}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {5.4.2}Rowland}{63}{subsection.5.4.2}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {5.4.3}Arrayed Waveguide Grating (AWG)}{63}{subsection.5.4.3}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {5.5}Grating illuminated by a gaussian beam}{64}{section.5.5}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {5.6}Aberrations}{66}{section.5.6}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {5.6.1}Aberration free conditions}{67}{subsection.5.6.1}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {5.6.2}One point stigmatic correction}{68}{subsection.5.6.2}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {5.7}Fresnel-Kirchhoff model}{68}{section.5.7}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {5.8}Numerical simulation of spectral defects and aberrations using Fresnel-Kirchhoff model}{70}{section.5.8}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {5.9}Implementation}{71}{section.5.9}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {5.9.1}Design}{71}{subsection.5.9.1}
+\defcounter {refsection}{0}
+\contentsline {subsubsection}{Wavelength}{71}{section*.6}
+\defcounter {refsection}{0}
+\contentsline {subsubsection}{Grating size}{71}{section*.7}
+\defcounter {refsection}{0}
+\contentsline {subsubsection}{Input and output waveguides angle}{72}{section*.8}
+\defcounter {refsection}{0}
+\contentsline {subsubsection}{Number of grooves}{72}{section*.9}
+\defcounter {refsection}{0}
+\contentsline {subsubsection}{Number of output waveguides}{73}{section*.10}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {5.9.2}Effective index dispersion}{73}{subsection.5.9.2}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {5.9.3}Fabrication}{74}{subsection.5.9.3}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {5.9.4}Testing setup}{75}{subsection.5.9.4}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {5.9.5}Results}{76}{subsection.5.9.5}
+\defcounter {refsection}{0}
+\contentsline {subsection}{\numberline {5.9.6}Conclusion}{77}{subsection.5.9.6}
+\defcounter {refsection}{0}
+\contentsline {chapter}{\numberline {6}Ring Enhanced Spectrometer}{79}{chapter.6}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {6.1}Device theory}{79}{section.6.1}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {6.2}Design}{80}{section.6.2}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {6.3}Fabrication}{80}{section.6.3}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {6.4}Testing setup}{82}{section.6.4}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {6.5}Increasing channel density}{84}{section.6.5}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {6.6}Application of time serialization}{86}{section.6.6}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {6.7}Results}{87}{section.6.7}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {6.8}Device comparison}{88}{section.6.8}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {6.9}About the DG spectrometer channels spacing and resonator FSR mismatch}{88}{section.6.9}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {6.10}Conclusion}{89}{section.6.10}
+\defcounter {refsection}{0}
+\contentsline {chapter}{Bibliography}{94}{chapter*.11}
+\defcounter {refsection}{0}
+\contentsline {chapter}{\numberline {A}Huygens-Fresnel Diffraction}{95}{appendix.A}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {A.1}Numerical calculation}{95}{section.A.1}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {A.2}Small aperture approximation}{96}{section.A.2}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {A.3}Numerical program validation}{96}{section.A.3}
+\defcounter {refsection}{0}
+\contentsline {chapter}{\numberline {B}Fourier transform}{99}{appendix.B}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {B.1}Relation}{99}{section.B.1}
+\defcounter {refsection}{0}
+\contentsline {section}{\numberline {B.2}Common Fourier transforms}{100}{section.B.2}
+\defcounter {refsection}{0}
+\contentsline {chapter}{Glossary}{101}{section*.12}

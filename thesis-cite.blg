@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99c (TeX Live 2009)
+The top-level auxiliary file: thesis-cite.aux
+The style file: biblatex.bst
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated field_info (elt_size=4) to 12072 items from 5000.
+Database file #1: thesis-cite-blx.bib
+Database file #2: abibliography.bib
+Warning--I didn't find a database entry for "Marcatili:1969p2589"
+Biblatex version: 1.0
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+You've used 51 entries,
+            6189 wiz_defined-function locations,
+            1491 strings with 20080 characters,
+and the built_in function-call counts, 167521 in all, are:
+= -- 5844
+> -- 5629
+< -- 1291
++ -- 1681
+- -- 2274
+* -- 15308
+:= -- 10393
+add.period$ -- 0
+call.type$ -- 51
+change.case$ -- 589
+chr.to.int$ -- 59
+cite$ -- 100
+duplicate$ -- 19170
+empty$ -- 17648
+format.name$ -- 4191
+if$ -- 37689
+int.to.chr$ -- 0
+int.to.str$ -- 114
+missing$ -- 0
+newline$ -- 1559
+num.names$ -- 2128
+pop$ -- 16377
+preamble$ -- 1
+purify$ -- 792
+quote$ -- 0
+skip$ -- 9426
+stack$ -- 0
+substring$ -- 2160
+swap$ -- 6745
+text.length$ -- 1459
+text.prefix$ -- 129
+top$ -- 1
+type$ -- 2232
+warning$ -- 0
+while$ -- 974
+width$ -- 0
+write$ -- 1507
+(There was 1 warning)

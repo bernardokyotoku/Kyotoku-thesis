@@ -1,0 +1,11 @@
+\documentclass{book}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{csquotes}
+\usepackage[style=verbose]{biblatex}      
+\bibliography{abibliography}            
+\defbibheading{bibempty}{}     
+\begin{document}
+my text my text \autocite{ref}
+\printbibliography[heading=bibempty] % if you want a bibiography at the end as well
+\end{document}

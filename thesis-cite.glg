@@ -1,0 +1,7 @@
+This is makeindex, version 2.15 [TeX Live 2009] (kpathsea + Thai support).
+Scanning style file ./thesis-cite.ist...........................done (27 attributes redefined, 0 ignored).
+Scanning input file thesis-cite.glo....done (33 entries accepted, 0 rejected).
+Sorting entries....done (180 comparisons).
+Generating output file thesis-cite.gls....done (44 lines written, 0 warnings).
+Output written in thesis-cite.gls.
+Transcript written in thesis-cite.glg.

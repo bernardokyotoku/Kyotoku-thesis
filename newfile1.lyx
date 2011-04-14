@@ -1,0 +1,1325 @@
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Optics on chip
+\end_layout
+
+\begin_layout Standard
+It is unecessary to emphasize the importance of electronics integrated circuits
+ to the current world.
+ But it is worth to investigate if it is possible to create the same structure
+ in different fields.
+ In this investigation one can notice the two crucial feature of the success.
+ The use of massivelly parallel device patterning enabled by photolitography
+ and the search to decrease device size to its physical limits.
+\end_layout
+
+\begin_layout Standard
+Three ramification using the microfabrication process have come of age in
+ the last decade: Microfluidics, micro-mechanical devices (MEMs) and integrated
+ optics.
+ Microfluidics enables the possibility of massive chemical analysis which
+ revolutionized genetic research, enabling operation such as DNA sequencing
+ to be performed at a fraction of time that was done before[citation].
+ Micromechanical devices [weinstein thesis].
+ Integrated optics which has the potential of large bandwidth data transfer
+ and spectroscopic analysis, and possibly quantum processing.
+\end_layout
+
+\begin_layout Standard
+we chose integrated optics ....
+\end_layout
+
+\begin_layout Section
+Broad picture
+\end_layout
+
+\begin_layout Standard
+The basic feature ones needs
+\end_layout
+
+\begin_layout Standard
+The platform in which optic on chip works consists in the use of a high
+ index of refraction material surrounded by a material with lower index
+ of refraction to guide light in the higher refrative index material using
+ the total internal reflection.
+ We call a slab waveguide when a higher refractive index medium is cladded
+ by a lower index medium in only dimension.
+ Light that is guided in the higher index material can be treated a two
+ dimensional wave.
+ In this regime, knowledge of free space optics can be applied to design
+ devices.
+ Components like, lenses, mirrors, concave mirrors, prisms, gratings can
+ be readliy visualized[citations][pictures].
+\end_layout
+
+\begin_layout Standard
+Another component is wire waveguide, where a high index of refraction material
+ is surrounded by lower index material in two dimension.
+ This structure transport light like electrons on copper wire.
+ This structure is widely used as fiber optics, where system built on fiber
+ optics can implemented on chip waveguides.
+\end_layout
+
+\begin_layout Standard
+In chapter we are going to dicuss the physical principles necessary to design
+ components in integrated optics.
+\end_layout
+
+\begin_layout Section
+Slab waveguide
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename /Users/bernardo/Documents/thesis/figures/slab.pdf
+	display false
+	scale 80
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We define a slab waveguide as a system comprised of an infinite film (which
+ will be also referred as core) of thicknes 
+\begin_inset Formula $h$
+\end_inset
+
+ and index of refraction 
+\begin_inset Formula $n_{f}$
+\end_inset
+
+ over a substrate with index of refraction 
+\begin_inset Formula $n_{s}$
+\end_inset
+
+and cladded by a material whose index of refraction is 
+\begin_inset Formula $n_{c}$
+\end_inset
+
+.
+ As stated earlyer the index of refraction in the guiding film needs to
+ be greater than its surroundings, this condition is stated in the relation:
+\begin_inset Formula \begin{equation}
+n_{f}>n_{s}\geqslant n_{c}\label{refractiveIndexInequality}\end{equation}
+
+\end_inset
+
+where we left the inequality 
+\begin_inset Formula $n_{s}\geqslant n_{c}$
+\end_inset
+
+ for sake of generallity and we take the higher index of refraction index
+ to be the substrate.
+\end_layout
+
+\begin_layout Standard
+The Maxwell equation in frequency domain for given system is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray}
+\nabla\cdot\epsilon_{0}\epsilon\left(z\right)\mathbf{E}\left(\mathbf{r},\omega\right) & = & 0\label{1}\\
+\nabla\times\mathbf{E\left(\mathbf{r},\omega\right)} & = & i\omega\mu_{0}\mathbf{H}\left(\mathbf{r},\omega\right)\label{eq:3}\\
+\nabla\cdot\mu_{0}\mathbf{H\left(\mathbf{r},\omega\right)} & = & 0\label{eq:5}\\
+\nabla\times\mathbf{H}\left(\mathbf{r},\omega\right) & = & -i\omega\epsilon_{0}\epsilon\left(z\right)\mathbf{E}\left(\mathbf{r},\omega\right)\label{eq:5-1}\end{eqnarray}
+
+\end_inset
+
+where the net charge charge and current density was considered zero, and
+ the permeability of the materials was considered to be 
+\begin_inset Formula $\mu_{0}$
+\end_inset
+
+.
+ The relative dielectric constant in accordance with begining of the section
+ is:
+\begin_inset Formula \begin{equation}
+\epsilon\left(z\right)=\begin{cases}
+n_{c}^{2}, & \text{if }z\ge h\\
+n_{f}^{2}, & \text{if }0<z<h\\
+n_{s}^{2}, & \text{if }z\le0\end{cases}\label{dielectricFunction}\end{equation}
+
+\end_inset
+
+Substituing the relative dielectric constant on the Maxwell's equation we
+ get three sets of Maxwell's equation with a constant dielectric constant:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray}
+\nabla\cdot\mathbf{E}_{j}\left(\mathbf{r},\omega\right) & = & 0\label{1}\\
+\nabla\times\mathbf{E}_{j}\left(\mathbf{r},\omega\right) & = & i\omega\mu_{0}\mathbf{H}_{j}\left(\mathbf{r},\omega\right)\label{eq:3}\\
+\nabla\cdot\mu_{0}\mathbf{H}_{j}\left(\mathbf{r},\omega\right) & = & 0\label{eq:5}\\
+\nabla\times\mathbf{H}_{j}\left(\mathbf{r},\omega\right) & = & -i\omega n_{j}^{2}\epsilon_{0}\mathbf{E}_{j}\left(\mathbf{r},\omega\right)\label{eq:5-1}\end{eqnarray}
+
+\end_inset
+
+where 
+\begin_inset Formula $j$
+\end_inset
+
+ can be either 
+\begin_inset Formula $c$
+\end_inset
+
+, 
+\begin_inset Formula $f$
+\end_inset
+
+ or 
+\begin_inset Formula $s$
+\end_inset
+
+ depending on 
+\begin_inset Formula $z$
+\end_inset
+
+ as in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "dielectricFunction"
+
+\end_inset
+
+.
+ We can use the above equation to derive the non-coupled wave equation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \begin{eqnarray*}
+\nabla^{2}\mathbf{E}_{j}\left(\mathbf{r},\omega\right)-k^{2}n_{j}^{2}\mathbf{E}_{j}\left(\mathbf{r},\omega\right) & = & 0\\
+\nabla^{2}\mathbf{B}_{j}\left(\mathbf{r},\omega\right)-k^{2}n_{j}^{2}\mathbf{B}_{j}\left(\mathbf{r},\omega\right) & = & 0\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Formula \[
+\begin{array}{c}
+\nabla^{2}\mathbf{E}_{j}\left(\mathbf{r},\omega\right)-k^{2}n_{j}^{2}\mathbf{E}_{j}\left(\mathbf{r},\omega\right)=0\\
+\nabla^{2}\mathbf{B}_{j}\left(\mathbf{r},\omega\right)-k^{2}n_{j}^{2}\mathbf{B}_{j}\left(\mathbf{r},\omega\right)=0\end{array},\text{ for }j=c,f,s\]
+
+\end_inset
+
+where 
+\begin_inset Formula $k=\frac{\omega}{\sqrt{\epsilon_{0}\mu_{0}}}$
+\end_inset
+
+.
+ The Ansatz to the equation is a plane wave.
+ 
+\end_layout
+
+\begin_layout Standard
+Using the plane wave as the ansatz
+\end_layout
+
+\begin_layout Standard
+Where standard plane wave ansatz can be used
+\begin_inset Formula \[
+\psi_{j}=A_{j}\exp\left[\mathbf{\bm{\beta}}\cdot\mathbf{R}+\kappa_{j}z\right]\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\bm{\beta}=\beta_{x}\hat{x}+\beta_{y}\hat{y}$
+\end_inset
+
+, 
+\begin_inset Formula $\mathbf{R}=x\hat{x}+y\hat{y}$
+\end_inset
+
+ and
+\begin_inset Formula \[
+\beta^{2}+\kappa_{j}^{2}=n_{j}^{2}k^{2}\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\beta=\mbox{\ensuremath{\left|\bm{\beta}\right|}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Boundary conditions couples a set of Maxwell equations, and therefore its
+ solutions, from one region to its neighboring region as follows:
+\begin_inset Formula \begin{eqnarray*}
+\hat{z}\cdot\left(n_{k}^{2}\mathbf{E}_{k}-n_{j}^{2}\mathbf{E}_{j}\right) & = & 0,\\
+\hat{z}\cdot\left(\mathbf{B}_{k}-\mathbf{B}_{j}\right) & = & 0,\\
+\hat{z}\times\left(\mathbf{E}_{k}-\mathbf{E}_{j}\right) & = & 0,\\
+\hat{z}\times\left(\mathbf{H}_{k}-\mathbf{H}_{j}\right) & = & 0,\end{eqnarray*}
+
+\end_inset
+
+where 
+\begin_inset Formula $k,j$
+\end_inset
+
+ are either 
+\begin_inset Formula $c,f$
+\end_inset
+
+ or 
+\begin_inset Formula $f,s$
+\end_inset
+
+ and 
+\begin_inset Formula $\hat{z}$
+\end_inset
+
+ is the unitary vector normal to the interface between different materials.
+ Applying the boundary conditions, two sets solutions arise.
+ Each set is characterised by the abscence of the transversal component
+ of either electric or magnetic field.
+ The solution which has no normal component of the magnetic field is called
+ TM and the solutions which the normal component of the electric field are
+ absent are called TE.
+\end_layout
+
+\begin_layout Standard
+, the conditions arises
+\begin_inset Formula \[
+\tan hd_{f}=\frac{d_{f}\left(d_{c}+d_{s}\right)}{h^{2}-d_{c}d_{s}}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+d_{j}^{2}=\beta^{2}-k^{2}n_{j}^{2}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Dispersion in Silicon
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Section
+Rectangular waveguide
+\end_layout
+
+\begin_layout Subsection
+fem
+\end_layout
+
+\begin_layout Standard
+TE-TM
+\end_layout
+
+\begin_layout Section
+Bending radius
+\end_layout
+
+\begin_layout Section
+Ring resonators
+\end_layout
+
+\begin_layout Standard
+simple - add-drop - eficiency
+\end_layout
+
+\begin_layout Section
+Coupling light to the chip
+\end_layout
+
+\begin_layout Section
+Active components
+\end_layout
+
+\begin_layout Subsection
+Thermo optic effect
+\end_layout
+
+\begin_layout Subsection
+Eletrooptic effect
+\end_layout
+
+\begin_layout Subsection
+Plasma dispersion
+\end_layout
+
+\begin_layout Section
+Light sources
+\end_layout
+
+\begin_layout Section
+Detectors
+\end_layout
+
+\begin_layout Section
+Fabrication Tecniques
+\end_layout
+
+\begin_layout Chapter
+Spectrometers
+\end_layout
+
+\begin_layout Section
+Introduction to spectrometer
+\end_layout
+
+\begin_layout Subsection
+Grating equation
+\end_layout
+
+\begin_layout Subsection
+Resolving power
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Resolving-power"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Cramming more in less
+\end_layout
+
+\begin_layout Standard
+As shown in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Resolving-power"
+
+\end_inset
+
+ the necessary grating size required for achieve a given spectral resolution
+ grows with the reciprocal of its size.
+ However this estimation does not include the area needed to transport the
+ light to and from the grating.
+ Indeed, the one stigmantic point correction sugest that the area used plays
+ a key role in the process of spatialy discrimination of spectrum.
+\end_layout
+
+\begin_layout Standard
+K space to position space.
+\end_layout
+
+\begin_layout Standard
+Equation X shows how frequency domain is mapped into K space.
+ however an additional device is needed in order to transform from K space
+ to position space.
+ But a further inspection of the frequency to K domain transformation shows
+ that there is no reason why the transformation cannot be done to position
+ space directly.
+\end_layout
+
+\begin_layout Section
+Spectrometer designs
+\end_layout
+
+\begin_layout Standard
+from angle to point
+\end_layout
+
+\begin_layout Subsection
+Czerny-Turner
+\end_layout
+
+\begin_layout Standard
+Due to its modularity this architecture is probably the best to introduce
+ spectrometers.
+ It is composed of two slits, two concave mirrors and a diffraction grating.
+ As shown in figure X, the light to be analysed is shined through the entrance
+ slit.
+ Due to diffraction, the light fan out as it propagates to the colimating
+ concave mirror where light is colimated and reflected in the direction
+ of the diffraction grating.
+ The diffraction grating then, deviates light from each different wavelength
+ (optical frequencies) into different angles following the equation X.
+ A focusing concave mirror focus the light coming from the diffraction grating
+ and deflect it to the detector slit.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Czerny-Turner architecture
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Because each optical component does only a few functions designing the device
+\end_layout
+
+\begin_layout Standard
+The function of the entrance slit is to filter spacial optical modes that
+ are inputed into the system.
+ For best filtering the slit has to transmit only a single spacial mode.
+ This is achieved by making the slit width of the order of the light wavelenght.
+ Decreasing slit width will increase the beam spread angle, for a choosen
+ final beam width this will allow the collimating concave mirror to placed
+ nearer to the slit decreasing the device size.
+ However, decrease the slit width will also decrease the fraction of transmitted
+ light decreasing device sensitivity.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Different effects of slit width
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As decribed by its name the colimating concave mirror colimates the light
+ coming from the entrance mirror and redirect it to the diffraction grating.
+ In order to colimate the input light, the curvature radius should be equal
+ twice the distance from the entrance slit to the center of the colimating
+ concave mirror.
+ The mirror diameter must be bigger than the beam width at the when it arrives
+ at it to avoid losing light power.
+\end_layout
+
+\begin_layout Standard
+The diffraction grating deviates light from each different wavelength into
+ different angles, as described by equation X.
+ Details on how the light is diffracted are explained in section X.
+ Roughly, the number of ilumated grooves, which is equal to the beam diameter
+ devided by the groove pitch, will determine the resolving power of the
+ spectrometer, as shown in equation X.
+\end_layout
+
+\begin_layout Standard
+To quantify the amount of light deviated to each different direction, we
+ use a focusing concave mirror, which will map light with diferent direction
+ and focus them each into a distinct point in a plane.
+ Alterantively we can say that light in diferent k in the k space into diferent
+ points in the coordinate space.
+ Clearly, the size of the focusing mirror must be such that it collects
+ most of the light coming from the diffraction grating.
+ This means that it must be bigger than the beam size plus account for the
+ spread of different wavelengths.
+\end_layout
+
+\begin_layout Standard
+A detector is placed at a point in the focus plant to measure the light
+ power.
+ Optimum detector size is of the order of the entrance slit width, limited
+ also by the resolving power of the diffraction grating.
+ Placing a exit slit in the focus plane followed by a detector, can be used
+ as an alternative for the slit size detector.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Detector array and slit and detector options
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Size analise
+\end_layout
+
+\begin_layout Subsection
+Rowland
+\end_layout
+
+\begin_layout Standard
+In year, Rowland found a way to incorporate the colimating and focusing
+ elements into the diffraction grating.
+ This layout not only decreased the final device size, but also eliminated
+ two two elements where power could be lost therefore increasing the spectromete
+r sensitivity.
+\end_layout
+
+\begin_layout Standard
+The design consists in the use of a concave diffraction grating of radius
+ 2R.
+ The entrance and exit slits positions are located in a circle of radius
+ R tangent to the diffraction grating sphere.
+ Or more precisely tangent to one of the equator of the diffraction grating
+ sphere.
+ For optimum area usage, the equator should be perpendicuar to the diffraction
+ grating grooves and passing through the grating center.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Rowland design.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+AWG
+\end_layout
+
+\begin_layout Standard
+The resolving power of a diffraction grating is proportional to the number
+ of grooves and diffraction order, as shown in equation X.
+ Diffraction grating based on ruled surfaces can not achieve diffraction
+ order greater than 20.
+ This limitation can be overcomed by replacing the grating grooves by waveguides.
+ The 
+\end_layout
+
+\begin_layout Section
+Size
+\end_layout
+
+\begin_layout Section
+Aberrations
+\end_layout
+
+\begin_layout Subsection
+One point stigmatic correction
+\end_layout
+
+\begin_layout Subsection
+Two points stigmatic correction
+\end_layout
+
+\begin_layout Section
+Blazing and Groove size
+\end_layout
+
+\begin_layout Section
+Rayleigh-Huygens model
+\end_layout
+
+\begin_layout Chapter
+Ring enhanced spectrometer
+\end_layout
+
+\begin_layout Standard
+How can we use resonators to make spectrometer.
+ An array of resonators can be used.
+ But fabrication limits prevent its use without requiring individually tunning
+ each resonator.
+ Grating spectrometers uses a lot of space.
+ Is there a middle way.
+ Yes! we can use small free spectral range resonators and a grating spectrometer.
+ The device described in this chapter was published on optics express and
+ presented on the Conference of Lasers and Electro-Optics 2010 (CLEO) as
+ a invited paper and received and honorable mention in the Maiman Student
+ Paper Competition.
+\end_layout
+
+\begin_layout Section
+Device Theory
+\end_layout
+
+\begin_layout Standard
+The principle of operation consists of using a resonator to pre-filter the
+ light to be analized by a diffraction grating spectrometer as shown in
+ figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Fig:resonator-enhanced-principle"
+
+\end_inset
+
+.
+ The resonator transmits only the resonant wavelengths.
+ A diffraction grating spectrometer is then used to route light from different
+ resonances into distinct output channels.
+ The net effect is that the final resonator and diffraction grating spectrometer
+ linewidth will be equal to the resonator linewidth.
+ On silicon ring resonatores cladded with silicon dioxide, linewidth as
+ narrow as 30 pm are rountinely achieved[ref].
+ Therefore, enabling the possibility of creating 30 pm resolution spectrometers.
+\end_layout
+
+\begin_layout Standard
+To achieve this, the resonator and the spectrometer must be designed so
+ that the channel spacing of the diffraction grating spetrometer matches
+ the ring resonator FSR.
+\end_layout
+
+\begin_layout Standard
+The spectrometer must be designed so that each output channel only allows
+ to transmit a single resonance.
+ Therefore the spectrometer channel spacing must be equal to the resonator
+ FSR.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename /Users/bernardo/Documents/thesis/figures/resonator-enhanced-principle.pdf
+	rotateOrigin center
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Fig:resonator-enhanced-principle"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The spectral resolution of the composed resonator and spectrometer can be
+ estimated as follows.
+\end_layout
+
+\begin_layout Standard
+The transmission spectrum of the composed resonator and spectrometer is
+ the product of the resonator and spectrometer transmission spectrum, as
+ shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Fig:combination-spectrum-demo"
+
+\end_inset
+
+.a.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename /Users/bernardo/Documents/thesis/figures/fig-2a.pdf
+	width 45text%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /Users/bernardo/Documents/thesis/figures/fig-2b.pdf
+	width 45text%
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Fig:combination-spectrum-demo"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In the described configuration 
+\end_layout
+
+\begin_layout Subsection
+Crosstalk
+\end_layout
+
+\begin_layout Standard
+power crosstalk
+\end_layout
+
+\begin_layout Standard
+considering 
+\begin_inset Formula $x_{ij}$
+\end_inset
+
+the power crosstalk between channel 
+\begin_inset Formula $i$
+\end_inset
+
+ and 
+\begin_inset Formula $j$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+x_{ij}=\intop H_{i}\left(\nu\right)H_{j}\left(\nu\right)d\nu\]
+
+\end_inset
+
+where 
+\begin_inset Formula $H_{i}(\nu)$
+\end_inset
+
+ is the transmission spectrum of the 
+\begin_inset Formula $i$
+\end_inset
+
+-th channel.
+\end_layout
+
+\begin_layout Standard
+For a single ring resonator coupled to a diffraction grating spectrometer.
+ Considering that the transmission spectrum from channel 
+\begin_inset Formula $i$
+\end_inset
+
+ of the DG spectrometer is
+\begin_inset Formula \[
+HS_{i}\mbox{\left(\nu\right)}=\exp\left(-2\ln2\left(\frac{\nu-\nu_{i}}{\Delta\nu}\right)^{2}\right)\]
+
+\end_inset
+
+and the trasmission spectrum of the ring resotor is Ref the
+\begin_inset Formula \[
+x_{ij}=\int HS_{i}\left(\nu\right)HS_{j}\left(\nu\right)HR\left(\nu\right)d\nu\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+e^{-2\ln2\mbox{\left(\frac{2\nu-\nu_{i}-\nu_{j}}{\Delta\nu}\right)}}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+e^{-2\ln2\mbox{\ensuremath{\left[\left(\frac{\nu-\nu_{i}}{\Delta\nu}\right)^{2}+\left(\frac{\nu-\nu_{j}}{\Delta\nu}\right)^{2}\right]}}}\frac{\left(1-t_{a}^{2}\right)\left(1-t_{b}^{2}\right)\tau}{1+t_{a}^{2}t_{b}^{2}\tau^{2}-2t_{a}t_{b}\cos\phi}\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+e^{-2\ln2\mbox{\ensuremath{\left[\left(\frac{\nu^{2}-2\nu_{i}\nu+\nu_{i}^{2}}{\Delta\nu}\right)^{2}+\left(\frac{\nu^{2}-2\nu_{j}\nu+\nu_{j}^{2}}{\Delta\nu}\right)^{2}\right]}}}\frac{\left(1-t_{a}^{2}\right)\left(1-t_{b}^{2}\right)\tau}{1+t_{a}^{2}t_{b}^{2}\tau^{2}-2t_{a}t_{b}\cos\phi}\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\phi=k_{0}n_{eff}L_{eff}=\frac{2\pi n_{eff}L_{eff}}{c}\nu$
+\end_inset
+
+.
+ Since the DG spectrometer channel spacing and the ring resonator FSR are
+ equal
+\begin_inset Formula \[
+\frac{2\pi n_{eff}L_{eff}}{c}=\delta\nu\]
+
+\end_inset
+
+taking channel 
+\begin_inset Formula $i$
+\end_inset
+
+ peak transmission frequency as reference 
+\begin_inset Formula \[
+e^{-2\ln2\mbox{\ensuremath{\left(\frac{2\overline{\nu}+n\delta\nu}{\Delta\nu}\right)}}}\frac{\left(1-t^{2}\right)^{2}\tau}{1+t^{2}t^{2}\tau^{2}-2t^{2}\cos\overline{\nu}\delta\nu}\]
+
+\end_inset
+
+where we have considered that a peak transmission of a ring resonator matches
+ the peak transmission of channel 
+\begin_inset Formula $i$
+\end_inset
+
+, therefore 
+\begin_inset Formula $\nu_{i}\delta\nu=n2\pi$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Design
+\end_layout
+
+\begin_layout Standard
+We design the DG spectrometer using the Rowland architecture.
+ To reduce spherical aberration, a non-uniform groove spacing is employed
+ [20].
+ Metal heaters are added above the silicon layer [21] to align the resonator
+ and spectrometer transmission combs using the thermo-optic effect in silicon.
+ The diffraction grating spectrometer contains 25 channels with spacing
+ of 1 nm.
+ To match the ring resonator FSR to the DG spectrometer channel spacing
+ we use an 83.5 m radius ring with waveguide cross-section of 450 x 250 nm.
+ The FSR changes with wavelength according to 
+\begin_inset Formula $2\lambda/(n_{g}L)$
+\end_inset
+
+, but considering a slight positive group velocity dispersion (
+\begin_inset Formula $\partial n_{g}/\partial\lambda\approx3.6\times10^{-3}\text{nm}^{-1}$
+\end_inset
+
+) this change is extremely small: the total change in FSR across the range
+ of operation (25 nm) is approximately 1% for light polarized in the plane
+ of the device (TE polarization).
+\end_layout
+
+\begin_layout Section
+Fabrication
+\end_layout
+
+\begin_layout Standard
+The fabrication was done in the Cornell Nanoscale Facility (CNF), http://www.cnf.c
+ornell.edu.
+ A research microfabrication laboratory, funded in part by the National
+ Science Foundation (NSF) and by its users.
+ The research facility counts with state of the art electron beam lithography
+ writer.
+\end_layout
+
+\begin_layout Standard
+We fabricate the device using a CMOS compatible process.
+ We start with a silicon-on- insulator (SOI), manufactured by Soitec (http://www.
+soitec.com) wafer with a 250 nm top silicon layer and a 3 
+\begin_inset Formula $\mu$
+\end_inset
+
+m buried oxide layer.
+ A 60 nm layer of SiO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ is deposited using high-temperature low-pressure chemical vapor deposition
+ (HTO) to be used as a hard mask.
+ The grating, ring and waveguides are defined by e-beam lithography on a
+ PMMA resist mask.
+ The pattern is transferred to the oxide layer using a CHF
+\begin_inset Formula $_{3}$
+\end_inset
+
+/O
+\begin_inset Formula $_{2}$
+\end_inset
+
+ reactive ion etch (RIE).
+ The silicon layer is etched using chlorine RIE.
+ A layer of 160 nm of SiO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ is deposited using HTO to conformally fill the 100 nm gaps in the waveguide
+ to ring coupling, then 1 
+\begin_inset Formula $\mu$
+\end_inset
+
+m of SiO
+\begin_inset Formula $_{2}$
+\end_inset
+
+ is deposited using plasma enhanced chemical vapor deposition to clad the
+ device.
+ We define the heaters using photolithography (using SPR955CM and LOR5A
+ resists) and then deposit a NiCr film.
+ After liftoff, t plahe wafer is diced and polished for optical testing.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/bernardo/Documents/thesis/figures/fab-1.pdf
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Testing
+\end_layout
+
+\begin_layout Standard
+We measure the device transmission spectrum by coupling laser light from
+ a tunable laser into the input waveguide using a lensed fiber and measuring
+ the transmitted power as a function of wavelength.
+ The input light is TE polarized and the output light is collected using
+ a microscope objective and filtered for the TE polarization before detection.
+ We achieve a channel FWHM of 0.05 nm across 10 different channels of the
+ composed ring and EDG spectrometer, which represents a decrease in the
+ channel width by 10 times compared with the DG spectrometer alone.
+ This channel width corresponds to a quality factor of Q = 
+\begin_inset Formula $\lambda/\Delta\lambda$
+\end_inset
+
+= 30000.
+\end_layout
+
+\begin_layout Standard
+Figure 3(b) shows the device transmission.
+ The transmission is normalized to the ring through port power level to
+ eliminate coupling losses.
+ The device insertion loss varies between -18 and -23 dB, where -10 dB is
+ due to the Fresnel reflection of the diffraction grating and can be eliminated
+ by coating it with a metal or using Bragg reflectors [9].
+ Other losses are attributed to stitching in the waveguide definition during
+ e-beam lithography.
+ A small mismatch between the resonator FSR (0.97 nm) and the DG spectrometer
+ channel spacing (1 nm) cause a misalignment between the resonance and the
+ DG spectrometer channel that builds up from one channel to the next in
+ a Vernier effect.
+ The outcome is a misalignment between the 11th spectrometer channel and
+ the 11th ring resonance.
+ Therefore only 10 of the 25 channels on the DG spectrometer are used.
+ This issue can be eliminated by more detailed characterization of fabrication.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename /Users/bernardo/Documents/thesis/figures/fig-3b.pdf
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Increasing Channel Density
+\end_layout
+
+\begin_layout Standard
+change of refractive index with temperature
+\end_layout
+
+\begin_layout Standard
+- ring tunning
+\end_layout
+
+\begin_layout Standard
+-spectrometer tunning
+\end_layout
+
+\begin_layout Standard
+Serializing devices either spatially or in time can increase the spectrometer
+ channel density.
+ The space serialization approach consists of using multiple combined ring-DG
+ spectrometers, so that the input of a spectrometer is connected to the
+ through port of the previous device, as shown in Fig.
+ 4(a).
+ The peak wavelength of each spectrometer is shifted relative to the others.
+ The number of devices needed in order to achieve the a spectral density
+ where the channels are separated by 
+\begin_inset Formula $\Delta\lambda_{FWHM}$
+\end_inset
+
+, is equal to the DG spectrometer channel width divided by 
+\begin_inset Formula $\Delta\lambda_{FWHM}$
+\end_inset
+
+.
+ In spite of the area increase, this approach is still more compact than
+ using a traditional diffraction grating spectrometer since in this proposed
+ approach the area increases linearly with resolution as opposed to quadratic
+ in traditional DGs.
+\end_layout
+
+\begin_layout Standard
+In time serialization, Fig.
+ 4(b), only a single combined spectrometer is used and the output spectrum
+ is measured several times.
+ In each measurement the device transmission spectrum is shifted.
+ Notice that this approach also requires active tuning of the ring and the
+ EDG spectrometer.
+ By applying the time serialization technique we were able to reduce the
+ channel spacing from 0.97 nm to 0.097 nm, and were able to measure 100 channels
+ using the device.
+\end_layout
+
+\begin_layout Standard
+A zoom in on the series of channels is depicted in Fig.
+ 6 (a).
+ Figure 6 (b) shows a density plot where each horizontal line corresponds
+ to the transmission spectrum of each channel.
+ Notice that the overlap of the residual transmission from the DG spectrometer
+ with the neighboring resonances can be seen in the side diagonal lines,
+ and their transmissions are at least 10 dB lower than the peak (main diagonal
+ line).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename /Users/bernardo/Documents/thesis/figures/fig-5.pdf
+	scale 60
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Cross talk from neighbohring channels
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename /Users/bernardo/Documents/thesis/figures/fig-6b.pdf
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+dfsdfasd
+\end_layout
+
+\begin_layout Section
+Effect of transmission spectrum lineshape
+\end_layout
+
+\begin_layout Standard
+convolution relation
+\end_layout
+
+\end_body
+\end_document

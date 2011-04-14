@@ -1,0 +1,133 @@
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+From Green's identity
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\frac{\partial U}{\partial m}\left(P\right)=\frac{\partial}{\partial m}\frac{1}{4\pi}\int\frac{e^{\text{i}kc}}{c}\left[\text{i}kU\left(Q\right)\cos\left(n,c\right)-\frac{\partial U}{\partial n}\left(Q\right)\right]dS\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\frac{\partial U}{\partial m}\left(P\right)=\frac{1}{4\pi}\int\left[\text{i}kU\left(Q\right)\cos\left(n,c\right)-\frac{\partial U}{\partial n}\left(Q\right)\right]\frac{\partial}{\partial m}\frac{e^{\text{i}kc}}{c}+\frac{e^{\text{i}kc}}{c}\left[\text{i}kU\left(Q\right)\frac{\partial}{\partial m}\cos\left(n,c\right)-\frac{\partial}{\partial m}\frac{\partial U}{\partial n}\left(Q\right)\right]dS\]
+
+\end_inset
+
+
+\begin_inset Formula $c=Q-P$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+
+\begin_inset Formula \[
+\frac{\partial}{\partial m}\cos\left(n,c\right)=\frac{\partial}{\partial m}\frac{\left(Q-P\right)\cdot n}{c}=\frac{\left(Q-P\right)\cdot n\frac{\partial s}{\partial m}-c\frac{\partial}{\partial m}\left(Q-P\right)\cdot n}{c^{2}}=\frac{-c\cos\left(n,c\right)\cos\left(c,m\right)+c\cos\left(n,m\right)}{c^{2}}=\frac{\cos\left(n,m\right)-\cos\left(n,c\right)\cos\left(c,m\right)}{c}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\frac{\partial}{\partial n}\left(\frac{e^{\text{i}kc}}{c}\right)=\frac{e^{\text{i}kc}}{c}\left[\text{i}k-\frac{1}{c}\right]\cos\left(n,c\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\frac{\partial U}{\partial m}\left(P\right)=\frac{1}{4\pi}\int\left[\text{i}kU\left(Q\right)\cos\left(n,c\right)-\frac{\partial U}{\partial n}\left(Q\right)\right]\frac{e^{\text{i}kc}}{c}\left[\text{i}k-\frac{1}{c}\right]\cos\left(m,c\right)\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\frac{\partial U}{\partial m}\left(P\right)=\frac{1}{4\pi}\int\left[\text{i}kU\left(Q\right)\cos\left(n,c\right)-\frac{\partial U}{\partial n}\left(Q\right)\right]\frac{e^{\text{i}kc}}{c}\text{i}k\cos\left(m,c\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\sqrt{\frac{2}{\pi kr}}\cos\left[kr-\frac{\pi}{4}\right]\]
+
+\end_inset
+
+
+\begin_inset Formula \[
+\sqrt{\frac{2}{\pi kr}}\cos\left[kr-\frac{\pi}{4}\right]\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\frac{kr-\omega t}{k}=k(r-ct)\]
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

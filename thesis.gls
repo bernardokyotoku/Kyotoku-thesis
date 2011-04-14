@@ -1,0 +1,59 @@
+\glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
+\begin{theglossary}\glossaryheader
+\glsgroupheading{C}\relax \glsresetentrylist %
+\glossaryentryfield{CBVT}{\glsnamefont{CBVT}}{cone beam volumetric tomography}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{26}}}%
+\glossaryentryfield{coherence length}{\glsnamefont{coherence length}}{}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{6}}}\glsgroupskip
+\glsgroupheading{F}\relax \glsresetentrylist %
+\glossaryentryfield{FDL}{\glsnamefont{FDL}}{Fourier delay line}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{11}}}%
+\glossaryentryfield{FDOCT}{\glsnamefont{FDOCT}}{Fourier domain optical coherence tomography}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{13}\delimN 
+		\setentrycounter{page}\glsnumberformat{16}}}%
+\glossaryentryfield{FRC}{\glsnamefont{FRC}}{fiber reinforced composite}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{22}}}%
+\glossaryentryfield{FSR}{\glsnamefont{FSR}}{free spectral range}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{48\delimN 49}}}%
+\glossaryentryfield{FWHM}{\glsnamefont{FWHM}}{full width half maximum}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{6}\delimN 
+		\setentrycounter{page}\glsnumberformat{64}\delimN 
+		\setentrycounter{page}\glsnumberformat{81}}}\glsgroupskip
+\glsgroupheading{G}\relax \glsresetentrylist %
+\glossaryentryfield{GVD}{\glsnamefont{GVD}}{group velocity dispersion}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{12}}}\glsgroupskip
+\glsgroupheading{O}\relax \glsresetentrylist %
+\glossaryentryfield{OCT}{\glsnamefont{OCT}}{optical coherence tomography}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{1}\delimN 
+		\setentrycounter{page}\glsnumberformat{21}}}\glsgroupskip
+\glsgroupheading{P}\relax \glsresetentrylist %
+\glossaryentryfield{PIC}{\glsnamefont{PIC}}{photonic integrated circuit}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{42}}}%
+\glossaryentryfield{PSD}{\glsnamefont{PSD}}{power spectrum density}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{6}\delimN 
+		\setentrycounter{page}\glsnumberformat{17}}}\glsgroupskip
+\glsgroupheading{R}\relax \glsresetentrylist %
+\glossaryentryfield{RES}{\glsnamefont{RES}}{ring enhanced spectrometer}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{86}}}\glsgroupskip
+\glsgroupheading{S}\relax \glsresetentrylist %
+\glossaryentryfield{slab waveguide}{\glsnamefont{slab waveguide}}{}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{41}}}%
+\glossaryentryfield{SROCT}{\glsnamefont{SROCT}}{spectral radar optical coherence tomography}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{1}\delimN 
+		\setentrycounter{page}\glsnumberformat{18}}}\glsgroupskip
+\glsgroupheading{T}\relax \glsresetentrylist %
+\glossaryentryfield{TDOCT}{\glsnamefont{TDOCT}}{time domain optical coherence tomography}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{1}\delimN 
+		\setentrycounter{page}\glsnumberformat{9}\delimN 
+		\setentrycounter{page}\glsnumberformat{13}\delimN 
+		\setentrycounter{page}\glsnumberformat{15}}}%
+\glossaryentryfield{TE}{\glsnamefont{TE}}{transversal electric}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{45}}}%
+\glossaryentryfield{TM}{\glsnamefont{TM}}{transversal magnetic}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{45}}}\glsgroupskip
+\glsgroupheading{W}\relax \glsresetentrylist %
+\glossaryentryfield{WDM}{\glsnamefont{WDM}}{wavelength division multiplexer}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter{page}\glsnumberformat{59}\delimN 
+		\setentrycounter{page}\glsnumberformat{68}\delimN 
+		\setentrycounter{page}\glsnumberformat{74\delimN 75}}}%
+\end{theglossary}\glossarypostamble

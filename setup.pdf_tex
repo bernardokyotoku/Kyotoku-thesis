@@ -1,0 +1,55 @@
+%% Creator: Inkscape inkscape 0.48.0, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'setup.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+
+\begingroup
+  \makeatletter
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}
+    \renewcommand\color[2][]{}%
+  }
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}
+    \renewcommand\transparent[1]{}%
+  }
+  \providecommand\rotatebox[2]{#2}
+  \ifx\svgwidth\undefined
+    \setlength{\unitlength}{431.83911133pt}
+  \else
+    \setlength{\unitlength}{\svgwidth}
+  \fi
+  \global\let\svgwidth\undefined
+  \makeatother
+  \begin{picture}(1,0.66944454)%
+    \put(0,0){\includegraphics[width=\unitlength]{setup.pdf}}%
+    \put(0.4533238,0.09636259){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Peltier}}}%
+    \put(0.67988421,0.36427025){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Spectrometer chip}}}}%
+    \put(0.60686745,0.06912698){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Input fiber optics}}}%
+    \put(0.08279656,0.37519376){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Polarizer}}}%
+    \put(0.04175395,0.27257415){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Colimating output lens}}}%
+    \put(0.22905029,0.62219074){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Microscope}}}%
+    \put(0.6861959,0.62925665){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{piezo translator}}}%
+  \end{picture}%
+\endgroup
